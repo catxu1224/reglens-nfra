@@ -1,0 +1,13 @@
+node_modules/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+work/
+data/*
+!data/china-provinces.json
+/*.csv
+/*.xlsx
+/*.py
+seeds/*.tmp

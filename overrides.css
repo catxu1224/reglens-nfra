@@ -1,0 +1,64 @@
+.brand{display:flex;align-items:center;gap:9px;padding:0;margin:0 0 36px;background:transparent;border-radius:0;white-space:nowrap}
+.sidebar{background:#000}
+.side-note{background:#000;border:1px solid #2c2c2c}
+.brand-icon{width:44px;height:44px;flex:none;display:grid;place-items:center;background:#c9e994;border-radius:11px}
+.brand-icon svg{width:33px;height:33px;fill:none;stroke:#20533a;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round}
+.brand-icon svg circle{fill:#20533a;stroke:none}
+.brand-word{font:600 23px 'Manrope','Noto Sans SC',sans-serif;letter-spacing:-.5px;color:#fff}
+.brand-dot{color:#a8dc47}
+.china-map{height:390px;position:relative;background:#fff;border:1px solid #e4ebe5;border-radius:12px;overflow:hidden}
+.map-key{color:#53645b}.map-key span:first-child i{background:#c5d34b}.map-key span:nth-child(2) i{background:#f5c52a}.map-key span:nth-child(3) i{background:#ed5934}.map-key span:nth-child(4) i{background:#bdc8c2;border-color:#80918a}
+.china-map svg{display:block;width:100%;height:100%;padding:12px 10px 28px;object-fit:contain;transform:translateX(-48px)}
+.map-panel{min-height:480px}
+.map-row{grid-template-columns:minmax(0,1.55fr) minmax(0,1fr)}
+@media(max-width:1050px){.map-row{grid-template-columns:1fr}}
+@media(max-width:700px){.brand{margin-bottom:12px}.brand-icon{width:40px;height:40px}.brand-icon svg{width:30px;height:30px}.brand-word{font-size:21px}.china-map{height:320px}.map-panel{min-height:400px}}
+@media(max-width:700px){.china-map svg{transform:translateX(-36px)}}
+.chart-panel{position:relative;min-width:0}
+.trend-controls{display:flex;gap:3px;padding:3px;background:#edf3ed;border-radius:8px;flex:none}
+.trend-controls button{border:0;background:transparent;color:#61766a;border-radius:6px;min-width:31px;padding:5px 7px;font:600 11px 'Noto Sans SC';cursor:pointer}
+.trend-controls button.active{background:#176b4d;color:white;box-shadow:0 1px 5px #17332a22}
+.trend-legend{display:flex;justify-content:flex-end;gap:16px;margin:-5px 0 7px;color:#718077;font-size:10px}
+.trend-legend span{display:flex;align-items:center;gap:5px}.trend-bar-key{display:inline-block;width:9px;height:9px;background:#176b4d;border-radius:2px}.trend-line-key{display:inline-block;width:12px;border-top:2px solid #e7a840}
+.trend-scroll{width:100%;height:263px;overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;scrollbar-color:#b7c8bb #eef3ef}
+.trend-scroll::-webkit-scrollbar{height:8px}.trend-scroll::-webkit-scrollbar-track{background:#eef3ef;border-radius:10px}.trend-scroll::-webkit-scrollbar-thumb{background:#b7c8bb;border-radius:10px}
+.trend-axis{font:10px 'DM Mono','Noto Sans SC',sans-serif;fill:#839288}.trend-hit{cursor:crosshair}.trend-hit:hover{fill:#dcefe555}
+.trend-tooltip{position:absolute;right:18px;top:90px;z-index:3;pointer-events:none;display:grid;gap:4px;padding:10px 12px;background:#17332a;color:#eaf4ed;border-radius:8px;font-size:11px;box-shadow:0 8px 20px #17332a33}.trend-tooltip[hidden]{display:none}.trend-tooltip strong{color:#cfe46d}.trend-empty{color:#849087;font-size:12px;text-align:center;padding:70px 0}
+.kpi-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.map-row{display:block;margin-bottom:18px}.map-row .map-panel{width:100%}
+.audience-pie{display:flex;align-items:center;justify-content:center;gap:18px;min-height:258px}.audience-pie svg{width:min(52%,230px);height:auto;flex:none}.audience-legend{flex:1;min-width:140px;display:grid;gap:10px}.audience-legend div{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid #edf1ee;padding-bottom:7px;font-size:12px}.audience-legend span{display:flex;align-items:center;gap:7px;color:#5c6e62}.audience-legend i{display:inline-block;width:10px;height:10px;border-radius:50%}.audience-legend strong{font:700 15px 'Manrope','Noto Sans SC';white-space:nowrap}.audience-legend small{font:11px 'Noto Sans SC';color:#8a988e}
+.bottom-rankings{margin-top:18px;align-items:start}.bottom-rankings .panel{min-width:0}.bottom-rankings .rank-row{grid-template-columns:32px minmax(0,1fr) 55px}.bottom-rankings .theme-row{grid-template-columns:minmax(90px,1.2fr) minmax(40px,1fr) 38px}.bottom-rankings .theme-row>span:first-child{white-space:normal;line-height:1.4}.expand-btn{border:0;background:#e7f2e9;color:#176b4d;border-radius:7px;padding:7px 10px;font:600 11px 'Noto Sans SC';cursor:pointer;white-space:nowrap}.expand-btn:hover{background:#d3e9d8}.expand-btn[hidden]{display:none}
+#overviewInsights{margin-bottom:18px}
+.quarter-group{padding:0 0 5px 10px}.quarter-option{background:#fafcf9;color:#365b48;font-size:11px}.quarter-group .month-grid{padding-left:16px}
+.sector-switch{display:flex;gap:3px;padding:3px;margin-left:auto;background:#dce8dc;border:1px solid #cddccc;border-radius:8px;flex:none}
+.sector-switch button{border:0;border-radius:6px;background:transparent;color:#496354;padding:7px 12px;font:600 12px 'Noto Sans SC';cursor:pointer}
+.sector-switch button.active{background:#176b4d;color:#fff;box-shadow:0 1px 5px #17332a22}
+.sector-switch button:not(.active):hover{background:#edf5eb}
+#globalFilters .reset-btn{margin-left:0}
+@media(max-width:700px){.sector-switch{margin-left:0}}
+.bubble-chart{height:410px;overflow-x:auto;overflow-y:hidden}
+@media(max-width:1050px){.kpi-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.kpi-grid{grid-template-columns:1fr}}
+[hidden]{display:none!important}
+.regulator-tabs{display:flex;gap:4px;padding:4px;margin-top:8px;background:#e9f0e9;border:1px solid #dfe9df;border-radius:10px;flex:none}
+.regulator-tabs button{border:0;border-radius:7px;background:transparent;padding:9px 15px;color:#617467;font:700 12px 'Manrope','Noto Sans SC';letter-spacing:.3px;cursor:pointer}
+.regulator-tabs button.active{background:#176b4d;color:white;box-shadow:0 2px 8px #1d604022}
+.regulator-tabs button:not(.active):hover{background:#dce9de}
+.regulator-placeholder{min-height:420px;background:white;border:1px solid var(--line);border-radius:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.regulator-placeholder h2{margin:2px 0 14px;font-size:25px}.regulator-placeholder>p:last-child{color:#8d9b92;font-size:15px}
+@media(max-width:700px){.regulator-tabs{width:max-content}.regulator-tabs button{padding:8px 12px}}
+.map-row{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:18px;align-items:stretch}
+.map-row .panel{min-width:0}.risk-cloud-panel{display:flex;flex-direction:column;min-height:480px}
+.risk-cloud{flex:1;min-height:330px;display:flex;flex-wrap:wrap;align-content:center;align-items:center;justify-content:center;gap:5px 10px;padding:10px 5px 14px;overflow:hidden}
+.cloud-word{border:0;background:none;padding:2px 3px;color:var(--word-color);font:700 var(--word-size) 'Noto Sans SC',sans-serif;line-height:1.12;white-space:nowrap;cursor:pointer;transform:rotate(var(--word-tilt));transition:transform .15s,color .15s}
+.cloud-word:hover,.cloud-word:focus-visible{color:#17332a;transform:rotate(0) scale(1.08);outline:none;text-decoration:underline;text-underline-offset:4px}
+.cloud-hint{margin:0;color:#93a098;text-align:center;font-size:10px}.cloud-empty{color:#93a098;font-size:12px;text-align:center}
+@media(max-width:1050px){.map-row{grid-template-columns:1fr}.risk-cloud-panel{min-height:340px}.risk-cloud{min-height:220px}}
+.audience-counts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}
+.audience-counts>div{display:flex;flex-direction:column;gap:2px;min-width:0}
+.audience-counts strong{font:700 25px 'Manrope','Noto Sans SC';letter-spacing:-.5px;color:#17332a}
+.audience-counts span{font-size:11px;color:#6b7b72}
+.audience-kpi .kpi-foot{margin-top:5px}
+.trend-cloud-row .risk-cloud-panel{min-height:355px}
+.trend-cloud-row .risk-cloud{min-height:235px;overflow-y:auto;align-content:safe center}
+.map-row .bubble-panel{min-width:0;margin-bottom:0}

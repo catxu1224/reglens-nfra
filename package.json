@@ -1,0 +1,26 @@
+{
+  "name": "reglens-nfra",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server/index.mjs",
+    "db:migrate": "node scripts/migrate.mjs",
+    "db:seed": "node scripts/seed.mjs",
+    "seed:build": "node scripts/build-seed.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "compression": "^1.8.2",
+    "csv-parse": "^7.0.3",
+    "csv-stringify": "^6.9.0",
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.16"
+  }
+}

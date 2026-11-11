@@ -1,0 +1,3 @@
+const regulatorButtons=[...document.querySelectorAll('.regulator-tabs button')];
+function selectRegulator(name){regulatorButtons.forEach(button=>{const active=button.dataset.regulator===name;button.classList.toggle('active',active);button.setAttribute('aria-selected',String(active))});document.getElementById('nfraWorkspace').hidden=name!=='nfra';document.getElementById('pbocPlaceholder').hidden=name!=='pboc';document.getElementById('safePlaceholder').hidden=name!=='safe';document.querySelector('.sidebar nav').hidden=name!=='nfra';if(name==='nfra'){drawTrend(filtered);renderMap(filtered)}}
+regulatorButtons.forEach(button=>button.addEventListener('click',()=>selectRegulator(button.dataset.regulator)));
