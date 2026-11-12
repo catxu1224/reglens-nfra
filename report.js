@@ -74,12 +74,17 @@ function renderReport(model, ai = null, aiError = '') {
   $('#reportStatus').textContent = ai ? `已生成 · ${comma(model.count)} 条记录 · ${model.period}` : aiError || `模型正在分析 ${comma(model.count)} 条记录…`;
 }
 
-let aiConfig = { model: 'gpt-4.1', apiKey: '' };
+const defaultModels = { deepseek: 'deepseek-flash', qwen: 'qwen-plus' };
+const providerNames = { deepseek: 'DeepSeek', qwen: '千问' };
+let aiConfig = { provider: 'deepseek', region: 'beijing', model: defaultModels.deepseek, apiKey: '' };
 let generating = false;
 function openAiSettings(autoGenerate = false) {
+  $('#aiProvider').value = aiConfig.provider;
+  $('#aiRegion').value = aiConfig.region;
   $('#aiModel').value = aiConfig.model;
   $('#aiKey').value = '';
   $('#aiKey').required = !aiConfig.apiKey;
+  $('#aiRegionGroup').hidden = aiConfig.provider !== 'qwen';
   $('#aiSettings').dataset.autoGenerate = String(autoGenerate);
   $('#aiSettings').showModal();
   $('#aiKey').focus();
@@ -98,12 +103,12 @@ async function generateReport() {
   window.showView('report');
   window.scrollTo({ top: 0, behavior: 'smooth' });
   try {
-    const response = await fetch('/api/report-insights', { method: 'POST', cache: 'no-store', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ model: aiConfig.model, apiKey: aiConfig.apiKey, report: aiInput(model) }) });
+    const response = await fetch('/api/report-insights', { method: 'POST', cache: 'no-store', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ provider: aiConfig.provider, region: aiConfig.region, model: aiConfig.model, apiKey: aiConfig.apiKey, report: aiInput(model) }) });
     const payload = await response.json();
     if (!response.ok || !payload.analysis) throw new Error(payload.error || `HTTP ${response.status}`);
     renderReport(model, payload.analysis);
   } catch (error) {
-    const reason = error.message === 'openai_401' ? 'API Key 无效或无权调用该模型。' : error.message === 'openai_429' ? '模型服务限流或额度不足。' : `模型生成失败（${error.message}）。请检查模型名称、Key 和网络后重试。`;
+    const reason = /^(deepseek|qwen)_401$/.test(error.message) ? 'API Key 无效、地域不匹配或无权调用该模型。' : /^(deepseek|qwen)_429$/.test(error.message) ? '模型服务限流或额度不足。' : `模型生成失败（${error.message}）。请检查服务商、模型名称、Key 和网络后重试。`;
     renderReport(model, null, reason);
   } finally {
     generating = false;
@@ -116,14 +121,22 @@ $('#generateReport').addEventListener('click', generateReport);
 $('#regenerateReport').addEventListener('click', generateReport);
 $('#reportPrint').addEventListener('click', () => window.print());
 $('#openAiSettings').addEventListener('click', () => openAiSettings());
+$('#aiProvider').addEventListener('change', () => {
+  const provider = $('#aiProvider').value;
+  $('#aiModel').value = defaultModels[provider];
+  $('#aiRegionGroup').hidden = provider !== 'qwen';
+  $('#aiKey').value = '';
+  $('#aiKey').required = provider !== aiConfig.provider || !aiConfig.apiKey;
+});
 $('#closeAiSettings').addEventListener('click', () => $('#aiSettings').close());
 $('#cancelAiSettings').addEventListener('click', () => $('#aiSettings').close());
 $('#aiSettingsForm').addEventListener('submit', event => {
   event.preventDefault();
-  aiConfig = { model: $('#aiModel').value.trim(), apiKey: $('#aiKey').value.trim() || aiConfig.apiKey };
+  const provider = $('#aiProvider').value;
+  aiConfig = { provider, region: $('#aiRegion').value, model: $('#aiModel').value.trim(), apiKey: $('#aiKey').value.trim() || (provider === aiConfig.provider ? aiConfig.apiKey : '') };
   $('#aiKey').value = '';
   $('#aiSettings').close();
-  $('#aiSettingsStatus').textContent = `已配置 ${aiConfig.model} · Key 仅在当前页面会话有效`;
+  $('#aiSettingsStatus').textContent = `已配置 ${providerNames[provider]} · ${aiConfig.model} · Key 仅在当前页面会话有效`;
   if ($('#aiSettings').dataset.autoGenerate === 'true') generateReport();
 });
 document.addEventListener('penalties:loaded', () => { $('#generateReport').disabled = false; });

@@ -61,8 +61,8 @@ export function createApp(pool) {
       res.json({ analysis });
     } catch (error) {
       const reason = String(error.message || 'unknown');
-      const invalid = ['invalid_model', 'invalid_api_key', 'invalid_report', 'empty_report'].includes(reason);
-      res.status(invalid ? 400 : 502).json({ error: reason.startsWith('openai_') ? reason : invalid ? reason : 'model_request_failed' });
+      const invalid = ['invalid_provider', 'invalid_region', 'invalid_model', 'invalid_api_key', 'invalid_report', 'empty_report'].includes(reason);
+      res.status(invalid ? 400 : 502).json({ error: /^(deepseek|qwen)_\d+$/.test(reason) ? reason : invalid ? reason : 'model_request_failed' });
     }
   });
 

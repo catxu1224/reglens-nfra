@@ -46,8 +46,10 @@ Zeabur 官方说明：[GitHub 集成](https://zeabur.com/docs/en-US/deploy/metho
 
 ### 智能报告
 
-在筛选栏选择年、季、月及其他条件，点击“模型设置”填写 OpenAI 模型名称和个人 API Key，再点击“智能报告生成”。报告按当前筛选的 NFRA 记录生成地区、处罚对象、机构类型、合规风险点图表，展示金额最高的十条处罚记录、法规引用与模型分析。点击“保存为 PDF”，在浏览器打印对话框选择 PDF。每次重新生成都会调用模型，可能产生 API 费用。
+在筛选栏选择年、季、月及其他条件，点击“模型设置”选择 DeepSeek 或千问（阿里云百炼），填写模型名称和对应 API Key，再点击“智能报告生成”。DeepSeek 默认 `deepseek-flash`；千问默认 `qwen-plus`，并可选择 API Key 所属的北京、新加坡或美国地域。报告按当前筛选的 NFRA 记录生成地区、处罚对象、机构类型、合规风险点图表，展示金额最高的十条处罚记录、法规引用与模型分析。点击“保存为 PDF”，在浏览器打印对话框选择 PDF。每次重新生成都会调用模型，可能产生 API 费用。
 
-API Key 仅保存在当前页面内存，刷新后需重新填写；每次生成经本站 `/api/report-insights` 转发给 OpenAI Responses API，服务端不保存 Key。发送给模型的是汇总统计、法规依据摘录及匿名化处罚事实，图表数字和十大处罚记录在浏览器本地计算。法规适用观察需通过原处罚书和现行法规核对。当前仅支持 OpenAI 模型；模型名称由用户填写，建议选择支持结构化输出的模型。
+API Key 仅保存在当前页面内存，刷新后需重新填写；每次生成经本站 `/api/report-insights` 转发给所选服务商的 Chat Completions API，服务端不保存 Key。发送给模型的是汇总统计、法规依据摘录及匿名化处罚事实，图表数字和十大处罚记录在浏览器本地计算。法规适用观察需通过原处罚书和现行法规核对。服务端只允许 DeepSeek 和阿里云百炼的固定 API 地址，不接受任意自定义服务端点。地域须与千问 API Key 一致。
+
+接口依据：[DeepSeek Chat Completions](https://api-docs.deepseek.com/api/create-chat-completion/)、[阿里云百炼 OpenAI 兼容接口与地域](https://help.aliyun.com/zh/model-studio/base-url)、[千问结构化输出](https://help.aliyun.com/zh/model-studio/qwen-structured-output)。
 
 本机可执行 `npm test` 检查统计与接口逻辑，执行 `npm run test:browser` 用模拟模型响应检查筛选、报告页面及打印样式；浏览器检查需要本机安装 Chrome。

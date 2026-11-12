@@ -11,10 +11,11 @@ try {
   let calls = 0;
   await page.route('**/api/report-insights', async route => {
     const body = route.request().postDataJSON();
-    assert.equal(body.model, 'gpt-4.1');
+    assert.equal(body.provider, calls === 0 ? 'deepseek' : 'qwen');
+    assert.equal(body.model, calls === 0 ? 'deepseek-flash' : 'qwen-plus');
     assert.equal(body.apiKey, 'test-key-123');
     assert.equal(body.report.period, '2026年10月');
-    if (++calls === 2) return route.fulfill({ status: 502, contentType: 'application/json', body: JSON.stringify({ error: 'openai_401' }) });
+    if (++calls === 3) return route.fulfill({ status: 502, contentType: 'application/json', body: JSON.stringify({ error: 'qwen_401' }) });
     await route.fulfill({ contentType: 'application/json', body: JSON.stringify({ analysis: { summary: '本期信贷管理处罚较多。', recommendations: ['核对授信流程。'], legalNotes: [] } }) });
   });
   await page.goto(base);
@@ -36,8 +37,16 @@ try {
   assert.equal(await page.locator('#reportView').evaluate(element => getComputedStyle(element).display), 'block');
   assert.equal(await page.locator('.sidebar').evaluate(element => getComputedStyle(element).display), 'none');
   await page.emulateMedia({ media: 'screen' });
+  await page.locator('#openAiSettings').click();
+  await page.locator('#aiProvider').selectOption('qwen');
+  assert.equal(await page.locator('#aiRegionGroup').isVisible(), true);
+  await page.locator('#aiRegion').selectOption('singapore');
+  await page.locator('#aiKey').fill('test-key-123');
+  await page.locator('#aiSettingsForm button[type="submit"]').click();
   await page.locator('#regenerateReport').click();
-  await page.locator('#reportStatus').getByText('API Key 无效或无权调用该模型。').waitFor();
+  await page.getByText('本期信贷管理处罚较多。').waitFor();
+  await page.locator('#regenerateReport').click();
+  await page.locator('#reportStatus').getByText('API Key 无效、地域不匹配或无权调用该模型。').waitFor();
   assert.equal(await page.locator('#reportPrint').isEnabled(), false);
   console.log('Report browser smoke test passed.');
 } finally {
