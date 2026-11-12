@@ -29,6 +29,10 @@
 .audience-pie{display:flex;align-items:center;justify-content:center;gap:18px;min-height:258px}.audience-pie svg{width:min(52%,230px);height:auto;flex:none}.audience-legend{flex:1;min-width:140px;display:grid;gap:10px}.audience-legend div{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid #edf1ee;padding-bottom:7px;font-size:12px}.audience-legend span{display:flex;align-items:center;gap:7px;color:#5c6e62}.audience-legend i{display:inline-block;width:10px;height:10px;border-radius:50%}.audience-legend strong{font:700 15px 'Manrope','Noto Sans SC';white-space:nowrap}.audience-legend small{font:11px 'Noto Sans SC';color:#8a988e}
 .bottom-rankings{margin-top:18px;align-items:start}.bottom-rankings .panel{min-width:0}.bottom-rankings .rank-row{grid-template-columns:32px minmax(0,1fr) 55px}.bottom-rankings .theme-row{grid-template-columns:minmax(90px,1.2fr) minmax(40px,1fr) 38px}.bottom-rankings .theme-row>span:first-child{white-space:normal;line-height:1.4}.expand-btn{border:0;background:#e7f2e9;color:#176b4d;border-radius:7px;padding:7px 10px;font:600 11px 'Noto Sans SC';cursor:pointer;white-space:nowrap}.expand-btn:hover{background:#d3e9d8}.expand-btn[hidden]{display:none}
 #overviewInsights{margin-bottom:18px}
+.report-entry-actions{display:flex;justify-content:flex-end;align-items:center;gap:10px;margin:0 0 14px}
+#reportView.active-view{margin-bottom:18px}
+@media(max-width:700px){.report-entry-actions{justify-content:flex-start;flex-wrap:wrap}}
+@media print{#reportActions{display:none!important}}
 .quarter-group{padding:0 0 5px 10px}.quarter-option{background:#fafcf9;color:#365b48;font-size:11px}.quarter-group .month-grid{padding-left:16px}
 .sector-switch{display:flex;gap:3px;padding:3px;margin-left:auto;background:#dce8dc;border:1px solid #cddccc;border-radius:8px;flex:none}
 .sector-switch button{border:0;border-radius:6px;background:transparent;color:#496354;padding:7px 12px;font:600 12px 'Noto Sans SC';cursor:pointer}
