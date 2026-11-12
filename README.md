@@ -11,12 +11,11 @@ npm ci
 npm start
 ```
 
-打开 <http://localhost:4173>。若要连接 PostgreSQL，在启动前设置 `DATABASE_URL` 并导入种子：
+打开 <http://localhost:4173>。若要连接 PostgreSQL，在启动前设置 `DATABASE_URL`：
 
 ```powershell
 $env:DATABASE_URL = 'postgresql://user:password@localhost:5432/reglens'
 npm run db:migrate
-npm run db:seed
 npm start
 ```
 
@@ -26,17 +25,31 @@ npm start
 
 - `migrations/001_create_nfra_penalties.sql` 建立 `nfra_penalties` 表及常用查询索引。`source_key` 是逐行唯一键，允许同一处罚书 URL 对应多个当事人。
 - `seeds/nfra_penalties.csv` 从 `data/nfra_penalties_3yearsv3.csv` 生成，含 22,054 条记录和原有 20 个业务字段，并增加 `source_key`、`seed_row_number`。日期范围为 2024-01-02 至 2026-11-04。源 CSV 不提交到仓库，种子文件会提交。
-- `npm run db:seed -- --check` 只验证种子文件；`npm run db:seed` 将其分批写入数据库。重复导入通过 `source_key` 合并，仅更新内容发生变化的记录，不删除库中其他记录。
+- `seeds/nfra_penalties_incremental.csv` 保存官网 2026-11-05 起的增量记录；首次补录至 2026-11-12，27 篇公告对应 121 条机构或个人记录。与历史快照合计 22,175 条。
+- `npm run db:seed -- --check` 验证两份种子文件；`npm run db:seed` 分批导入。增量记录以官网公告 ID、表格序号和处罚对象类型生成稳定键；更新时按键覆盖，并清理已从增量种子撤回的记录。`nfra_seed_imports` 记录版本校验和，未变化时跳过导入。
 - 如果本地源 CSV 更新，执行 `npm run seed:build` 可重新生成种子文件。唯一键由业务字段内容及同内容记录的出现序号生成；重新分类或修正原文会得到新键，需要在增量采集流程中使用更稳定的来源记录 ID 处理更正。
 
-当前种子文件是一次性快照；现有本地采集任务维护另一份 CSV，不会自动同步 PostgreSQL。
+## 官网增量更新
+
+`.github/workflows/nfra-update.yml` 每天北京时间 09:00 运行，也支持在 GitHub Actions 中手动触发。同一时间只允许一个更新任务。程序读取总局目录 4113、派出机构目录 4293，以及仍持续发布公告的旧派出机构目录 4115；按公告 ID 去重，逐篇复查正文。平日回扫最近 30 天，每月 1 日回扫自 2026-11-05 起的增量历史。
+
+本地手动更新：
+
+```powershell
+python -m venv .venv
+.venv\Scripts\python -m pip install -r requirements-nfra.txt
+.venv\Scripts\python scripts/nfra_incremental.py
+npm run db:seed -- --check
+```
+
+官网请求失败、正文无法解析或出现重复键时，程序报错且不写入增量种子。GitHub Actions 会显示失败，避免把缺口当作完整数据；若 GitHub 的出口地址被官网限制，需要在可访问官网的环境手动运行和核验。分类沿用存量采集规则，并以公告原文拆分机构与个人处罚；未有明确依据的处罚金额保留空值。
 
 ## Zeabur 部署
 
 1. 在 Zeabur 新建项目，添加 PostgreSQL 服务，并从 GitHub 仓库 `catxu1224/reglens-nfra` 添加应用服务。仓库根目录的 `Dockerfile` 会安装依赖并启动 Node 服务。
 2. 在应用服务变量中设置 `DATABASE_URL`。可引用同项目 PostgreSQL 服务暴露的连接串，例如 `${POSTGRES_CONNECTION_STRING}`，具体变量名以该服务的连接信息为准。Zeabur 会提供 `PORT`，应用会监听该端口。连接数据库前，页面仍可使用种子快照。
-3. 首次导入数据时，临时设置 `SEED_ON_START=1` 并重新部署。启动时会执行迁移和种子导入；验证 `/api/health`、`/api/penalties` 和页面条数后，移除该变量，避免每次重启重复扫描种子文件。也可以在具有数据库连接的环境运行 `npm run db:seed`。
-4. 后续更新数据时，重新生成种子文件并运行导入脚本。生产数据库应按 Zeabur 的 PostgreSQL 备份配置定期备份。
+3. 配置 `DATABASE_URL` 后，服务启动时自动执行迁移和两份种子文件的增量导入；仅在种子校验和变化时写库。验证 `/api/health`、`/api/penalties` 和页面条数。若需关闭启动导入，可设 `SEED_ON_START=0`。
+4. GitHub 定时更新提交新种子后，若 Zeabur 已启用仓库自动部署，新版启动时会同步 PostgreSQL。生产数据库应按 Zeabur 的 PostgreSQL 备份配置定期备份。
 
 Zeabur 官方说明：[GitHub 集成](https://zeabur.com/docs/en-US/deploy/methods/github-integration)、[环境变量](https://zeabur.com/docs/en-US/deploy/config/environment-variables)、[PostgreSQL 连接示例](https://zeabur.com/en-US/templates/B20CX0)。
 

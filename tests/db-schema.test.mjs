@@ -9,6 +9,7 @@ test('PostgreSQL schema accepts a penalty and serves the frontend field names', 
   try {
     const migration = await readFile(new URL('../migrations/001_create_nfra_penalties.sql', import.meta.url), 'utf8');
     await db.exec(migration);
+    await db.exec(await readFile(new URL('../migrations/002_track_seed_import.sql', import.meta.url), 'utf8'));
     await db.query(`
       INSERT INTO nfra_penalties
         (source_key, source_row_number, content_hash, company, person, institution_type,
@@ -21,6 +22,8 @@ test('PostgreSQL schema accepts a penalty and serves the frontend field names', 
     assert.equal(result.rows[0]['被处罚个人'], '张某');
     assert.equal(result.rows[0]['机构大类'], '银行');
     assert.equal(result.rows[0]['发布时间'], '2024-01-02');
+    const origin = await db.query('SELECT seed_origin FROM nfra_penalties WHERE source_key = $1', ['a'.repeat(64)]);
+    assert.equal(origin.rows[0].seed_origin, 'snapshot');
     await assert.rejects(
       db.query(`INSERT INTO nfra_penalties (source_key, source_row_number, content_hash, institution_sector, published_date) VALUES ($1, 2, $2, '错误类别', '2024-01-02')`, ['c'.repeat(64), 'd'.repeat(64)]),
     );

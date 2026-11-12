@@ -6,7 +6,7 @@ import { promisify } from 'node:util';
 const pool = createPool();
 if (pool) {
   await migrate(pool);
-  if (process.env.SEED_ON_START === '1') {
+  if (process.env.SEED_ON_START !== '0') {
     const { stdout } = await promisify(execFile)(process.execPath, ['scripts/seed.mjs']);
     console.log(stdout.trim());
   }

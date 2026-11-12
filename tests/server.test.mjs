@@ -50,7 +50,8 @@ test('API serves the seed snapshot when the database is not configured', async (
     assert.equal(response.status, 200);
     const payload = await response.json();
     assert.equal(payload.source, 'seed');
-    assert.equal(payload.count, 22054);
+    assert.equal(payload.count, 22175);
+    assert.equal(payload.rows.some(row => row['发布时间'] === '2026-11-12'), true);
     assert.equal(payload.rows[0]['机构大类'] !== undefined, true);
     const health = await fetch(`http://127.0.0.1:${server.address().port}/api/health`);
     assert.equal((await health.json()).status, 'seed_only');

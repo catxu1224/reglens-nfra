@@ -45,8 +45,11 @@ export function createApp(pool) {
   const app = express();
   let seedRowsPromise;
   const seedRows = () => {
-    seedRowsPromise ||= readFile(new URL('../seeds/nfra_penalties.csv', import.meta.url), 'utf8')
-      .then(text => parse(text, { bom: true, columns: true, skip_empty_lines: true }))
+    seedRowsPromise ||= Promise.all([
+      readFile(new URL('../seeds/nfra_penalties.csv', import.meta.url), 'utf8'),
+      readFile(new URL('../seeds/nfra_penalties_incremental.csv', import.meta.url), 'utf8'),
+    ])
+      .then(files => files.flatMap(text => parse(text, { bom: true, columns: true, skip_empty_lines: true })))
       .then(rows => rows.map(({ seed_row_number, ...row }) => row));
     return seedRowsPromise;
   };
