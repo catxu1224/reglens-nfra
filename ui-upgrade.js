@@ -92,3 +92,10 @@ renderMap=function(rows){renderMapBase(rows);const colors={'#f5c52a':'#c5d34b','
 document.addEventListener('click',e=>{if(!e.target.closest('.multi-filter'))document.querySelectorAll('.multi-filter.open').forEach(x=>{x.classList.remove('open');x.querySelector('.multi-trigger').setAttribute('aria-expanded','false')})});
 document.querySelectorAll('.sector-switch button').forEach(button=>button.addEventListener('click',()=>{const next=button.dataset.sector;if(next===activeSector)return;activeSector=next;filterState.institutionFilter.clear();syncSectorButtons();buildFilter('institutionFilter',sectorInstitutionOptions());apply()}));
 document.getElementById('resetBtn').addEventListener('click',()=>{Object.values(filterState).forEach(s=>s.clear());activeSector='bank';syncSectorButtons();refreshFilters();document.getElementById('detailSearch').value='';apply()});
+window.getReglensReportState=()=>({
+  rows:filtered.map(r=>({company:r.company,person:r.person,audience:r.audience,institutionType:r.institutionType,region:r.region,risk:r.risk,riskTokens:tokens(r.risk),amount:r.amount,published:r.published,decisionNo:r.decisionNo,violation:r.violation,decision:r.decision,legal:r.legal,url:r.url})),
+  selectedMonths:[...filterState.periodFilter],
+  sector:{bank:'银行',insurance:'保险',other:'其他'}[activeSector],
+  filters:{institution:[...filterState.institutionFilter],region:[...filterState.regionFilter],type:[...filterState.penaltyTypeFilter]},
+  generatedAt:new Date().toISOString()
+});

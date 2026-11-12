@@ -13,7 +13,7 @@ COPY migrations/ migrations/
 COPY seeds/ seeds/
 COPY data/china-provinces.json data/china-provinces.json
 COPY assets/reglens-logo.png assets/reglens-logo.png
-COPY index.html app.js ui-upgrade.js trend-upgrade.js home-upgrade.js regulator-tabs.js risk-cloud.js styles.css overrides.css ./
+COPY index.html app.js ui-upgrade.js trend-upgrade.js home-upgrade.js regulator-tabs.js risk-cloud.js report.js report-core.mjs report.css styles.css overrides.css ./
 
 EXPOSE 8080
 CMD ["npm", "start"]

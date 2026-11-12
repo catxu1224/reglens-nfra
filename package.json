@@ -11,7 +11,8 @@
     "db:migrate": "node scripts/migrate.mjs",
     "db:seed": "node scripts/seed.mjs",
     "seed:build": "node scripts/build-seed.mjs",
-    "test": "node --test"
+    "test": "node --test",
+    "test:browser": "node scripts/smoke-report.mjs"
   },
   "dependencies": {
     "compression": "^1.8.2",
@@ -21,6 +22,7 @@
     "pg": "^8.23.1"
   },
   "devDependencies": {
-    "@electric-sql/pglite": "^0.5.16"
+    "@electric-sql/pglite": "^0.5.16",
+    "playwright-core": "^1.65.0"
   }
 }

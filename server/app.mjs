@@ -3,11 +3,13 @@ import express from 'express';
 import { readFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { parse } from 'csv-parse/sync';
+import { generateAiReport } from './report-ai.mjs';
 
 const root = new URL('../', import.meta.url);
 const publicFiles = [
   'index.html', 'app.js', 'ui-upgrade.js', 'trend-upgrade.js',
   'home-upgrade.js', 'regulator-tabs.js', 'risk-cloud.js',
+  'report.js', 'report-core.mjs', 'report.css',
   'styles.css', 'overrides.css', 'data/china-provinces.json',
   'assets/reglens-logo.png',
 ];
@@ -50,6 +52,19 @@ export function createApp(pool) {
   };
   app.disable('x-powered-by');
   app.use(compression());
+  app.use(express.json({ limit: '60kb' }));
+
+  app.post('/api/report-insights', async (req, res) => {
+    res.set('Cache-Control', 'no-store');
+    try {
+      const analysis = await generateAiReport(req.body || {});
+      res.json({ analysis });
+    } catch (error) {
+      const reason = String(error.message || 'unknown');
+      const invalid = ['invalid_model', 'invalid_api_key', 'invalid_report', 'empty_report'].includes(reason);
+      res.status(invalid ? 400 : 502).json({ error: reason.startsWith('openai_') ? reason : invalid ? reason : 'model_request_failed' });
+    }
+  });
 
   app.get('/api/health', async (_req, res) => {
     if (!pool) {

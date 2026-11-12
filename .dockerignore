@@ -6,6 +6,7 @@
 !server/**
 !scripts/
 !scripts/**
+scripts/smoke-report.mjs
 !migrations/
 !migrations/**
 !seeds/
@@ -21,5 +22,8 @@
 !home-upgrade.js
 !regulator-tabs.js
 !risk-cloud.js
+!report.js
+!report-core.mjs
+!report.css
 !styles.css
 !overrides.css

@@ -6,6 +6,7 @@
   <title>RegLens · 金融业监管处罚分析</title>
   <link rel="stylesheet" href="styles.css?v=3" />
   <link rel="stylesheet" href="overrides.css?v=20" />
+  <link rel="stylesheet" href="report.css?v=1" />
 </head>
 <body>
   <div class="app-shell">
@@ -17,6 +18,7 @@
         <button class="nav-item" data-view="themes"><span>◎</span>风险分析</button>
         <button class="nav-item" data-view="cases"><span>◌</span>典型案例</button>
         <button class="nav-item" data-view="quality"><span>▦</span>数据质量</button>
+        <button class="nav-item" data-view="report"><span>▧</span>智能报告</button>
       </nav>
       <div class="side-note"><span class="status-dot"></span><div><b>数据源已接入</b><small>NFRA · 2024 至今</small></div></div>
       <div class="sidebar-footer">数据源 <span id="sourceLabel">正在连接</span> · NFRA<br><span id="asOfLabel">正在读取</span></div>
@@ -25,7 +27,7 @@
       <header class="topbar"><div><p class="eyebrow">REGULATORY INTELLIGENCE</p><h1>金融业监管处罚分析</h1><p class="subtitle">从处罚公告到机构、地区与风险点，统一口径追踪监管信号。</p></div><div class="regulator-tabs" role="tablist" aria-label="监管机构"><button type="button" role="tab" data-regulator="nfra" aria-selected="true" class="active">NFRA</button><button type="button" role="tab" data-regulator="pboc" aria-selected="false">PBOC</button><button type="button" role="tab" data-regulator="safe" aria-selected="false">SAFE</button></div></header>
       <div id="nfraWorkspace" class="regulator-workspace">
       <article id="overviewInsights" class="panel insight-panel"><div class="panel-heading"><div><h2>本期洞察</h2><p>基于当前筛选范围自动生成</p></div><span class="insight-icon">✦</span></div><div id="insights" class="insights"></div></article>
-      <section class="control-bar" id="globalFilters"><div class="filter-group"><label>年 / 季 / 月</label><div id="periodFilter" class="multi-filter"></div></div><div class="filter-group"><label>机构类型</label><div id="institutionFilter" class="multi-filter"></div></div><div class="filter-group"><label>地区</label><div id="regionFilter" class="multi-filter"></div></div><div class="filter-group"><label>处罚类型</label><div id="penaltyTypeFilter" class="multi-filter"></div></div><div class="sector-switch" role="group" aria-label="机构类别"><button type="button" data-sector="bank" class="active" aria-pressed="true">银行</button><button type="button" data-sector="insurance" aria-pressed="false">保险</button><button type="button" data-sector="other" aria-pressed="false">其他</button></div><button id="resetBtn" class="reset-btn">重置筛选 ↺</button></section>
+      <section class="control-bar" id="globalFilters"><div class="filter-group"><label>年 / 季 / 月</label><div id="periodFilter" class="multi-filter"></div></div><div class="filter-group"><label>机构类型</label><div id="institutionFilter" class="multi-filter"></div></div><div class="filter-group"><label>地区</label><div id="regionFilter" class="multi-filter"></div></div><div class="filter-group"><label>处罚类型</label><div id="penaltyTypeFilter" class="multi-filter"></div></div><div class="sector-switch" role="group" aria-label="机构类别"><button type="button" data-sector="bank" class="active" aria-pressed="true">银行</button><button type="button" data-sector="insurance" aria-pressed="false">保险</button><button type="button" data-sector="other" aria-pressed="false">其他</button></div><button id="resetBtn" class="reset-btn">重置筛选 ↺</button><button id="openAiSettings" class="ghost-btn" type="button">模型设置</button><button id="generateReport" class="report-generate-btn" type="button" disabled>✦ 智能报告生成</button></section>
       <section id="overviewView" class="view active-view">
         <div class="kpi-grid"><article class="kpi-card accent"><div class="kpi-label">处罚条目</div><div class="kpi-value" id="kpiRecords">—</div><div class="kpi-foot">按当前筛选范围</div></article><article class="kpi-card"><div class="kpi-label">罚款总额</div><div class="kpi-value" id="kpiAmount">—</div><div class="kpi-foot">读取处罚金额字段</div></article><article class="kpi-card"><div class="kpi-label">单均罚款</div><div class="kpi-value" id="kpiAverage">—</div><div class="kpi-foot">按可解析金额计算</div></article><article class="kpi-card audience-kpi"><div class="kpi-label">机构 / 个人罚单数</div><div class="audience-counts"><div><strong id="institutionCount">—</strong><span>机构</span></div><div><strong id="personCount">—</strong><span>个人</span></div></div><div class="kpi-foot" id="audienceUnknown"></div></article></div>
         <div class="grid-two trend-cloud-row"><article class="panel chart-panel"><div class="panel-heading"><div><h2>处罚趋势</h2><p>2024 年 1 月至今 · 滚轮向下细看，向上粗看</p></div><div class="trend-controls" role="group" aria-label="趋势时间粒度"><button type="button" data-grain="year">年</button><button type="button" data-grain="quarter">季</button><button type="button" data-grain="month" class="active">月</button></div></div><div class="trend-legend"><span><i class="trend-bar-key"></i>处罚条目</span><span><i class="trend-line-key"></i>处罚金额</span></div><div class="trend-scroll" id="trendScroll"><div id="trendChart" role="img" aria-label="处罚趋势图"></div></div><div class="trend-tooltip" id="trendTooltip" hidden></div></article><article class="panel risk-cloud-panel"><div class="panel-heading"><div><h2>合规风险点词云</h2><p>当前筛选范围内频次最高的 20 项</p></div></div><div id="riskCloud" class="risk-cloud" aria-label="合规风险点词云"></div><p class="cloud-hint">点击词语查看对应处罚明细</p></article></div>
@@ -36,12 +38,14 @@
       <section id="themesView" class="view"><div class="page-intro"><p class="eyebrow">RISK MONITORING</p><h2>风险分析</h2><p>从风险点、处罚案由和处罚类型观察监管关注变化。</p></div><div id="themeCards" class="theme-card-grid"></div></section>
       <section id="casesView" class="view"><div class="page-intro"><p class="eyebrow">CASE LIBRARY</p><h2>典型案例</h2><p>按罚款金额和风险组合快速定位重点案例。</p></div><div id="caseGrid" class="case-grid"></div></section>
       <section id="qualityView" class="view"><div class="page-intro"><p class="eyebrow">DATA QUALITY</p><h2>数据质量</h2><p>覆盖、分类完整度、金额解析和来源字段状态。</p></div><div id="qualityGrid" class="quality-grid"></div></section>
+      <section id="reportView" class="view"><div class="report-toolbar"><div><p class="eyebrow">AUTOMATED ANALYSIS</p><h2>监管处罚分析报告</h2><p id="reportStatus">选择年、季或月，再点击“智能报告生成”。</p><p id="aiSettingsStatus">每次生成会使用您配置的 OpenAI 模型与 API Key</p></div><div class="report-toolbar-actions"><button id="regenerateReport" type="button" class="ghost-btn">按当前筛选重新生成</button><button id="reportPrint" type="button" class="report-generate-btn" disabled title="在打印对话框选择保存为 PDF">保存为 PDF</button></div></div><div id="reportBody" class="report-paper"><div class="report-placeholder"><span>✦</span><h3>报告尚未生成</h3><p>选择时间和机构范围，配置模型后点击“智能报告生成”。</p></div></div></section>
       </div>
       <section id="pbocPlaceholder" class="regulator-placeholder" hidden><p class="eyebrow">PBOC</p><h2>中国人民银行</h2><p>待数据接入...</p></section>
       <section id="safePlaceholder" class="regulator-placeholder" hidden><p class="eyebrow">SAFE</p><h2>国家外汇管理局</h2><p>待数据接入...</p></section>
     </main>
   </div>
   <div id="drawer" class="drawer"><div class="drawer-backdrop"></div><aside class="drawer-panel"><button id="closeDrawer" class="close-btn">×</button><div id="drawerContent"></div></aside></div>
+  <dialog id="aiSettings" class="ai-settings"><form id="aiSettingsForm"><div class="ai-settings-head"><div><p class="eyebrow">REPORT MODEL</p><h2>模型设置</h2></div><button id="closeAiSettings" type="button" class="ai-settings-close" aria-label="关闭">×</button></div><label for="aiModel">OpenAI 模型名称</label><input id="aiModel" type="text" value="gpt-4.1" required maxlength="80" autocomplete="off" placeholder="例如 gpt-4.1"/><label for="aiKey">API Key</label><input id="aiKey" type="password" minlength="8" maxlength="300" autocomplete="off" placeholder="请输入 OpenAI API Key"/><p>模型用于生成文字分析与法规适用观察；图表和统计由原始记录计算。Key 仅保存在当前页面内存中，刷新后需重新填写。本次请求会把汇总数据和法规摘录发送给 OpenAI。</p><div class="ai-settings-actions"><button id="cancelAiSettings" type="button" class="ghost-btn">取消</button><button type="submit" class="report-generate-btn">保存设置</button></div></form></dialog>
   <input id="csvInput" type="file" hidden /><button id="exportBtn" type="button" hidden></button>
   <script src="app.js?v=12"></script>
   <script src="ui-upgrade.js?v=15"></script>
@@ -49,5 +53,6 @@
   <script src="home-upgrade.js?v=3"></script>
   <script src="regulator-tabs.js?v=1"></script>
   <script src="risk-cloud.js?v=2"></script>
+  <script type="module" src="report.js?v=1"></script>
 </body>
 </html>
