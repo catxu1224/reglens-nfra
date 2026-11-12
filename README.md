@@ -44,14 +44,14 @@ npm run db:seed -- --check
 
 官网请求失败、正文无法解析或出现重复键时，程序报错且不写入增量种子。GitHub Actions 会显示失败，避免把缺口当作完整数据；若 GitHub 的出口地址被官网限制，需要在可访问官网的环境手动运行和核验。分类沿用存量采集规则，并以公告原文拆分机构与个人处罚；未有明确依据的处罚金额保留空值。
 
-## Zeabur 部署
+## Railway 部署
 
-1. 在 Zeabur 新建项目，添加 PostgreSQL 服务，并从 GitHub 仓库 `catxu1224/reglens-nfra` 添加应用服务。仓库根目录的 `Dockerfile` 会安装依赖并启动 Node 服务。
-2. 在应用服务变量中设置 `DATABASE_URL`。可引用同项目 PostgreSQL 服务暴露的连接串，例如 `${POSTGRES_CONNECTION_STRING}`，具体变量名以该服务的连接信息为准。Zeabur 会提供 `PORT`，应用会监听该端口。连接数据库前，页面仍可使用种子快照。
-3. 配置 `DATABASE_URL` 后，服务启动时自动执行迁移和两份种子文件的增量导入；仅在种子校验和变化时写库。验证 `/api/health`、`/api/penalties` 和页面条数。若需关闭启动导入，可设 `SEED_ON_START=0`。
-4. GitHub 定时更新提交新种子后，若 Zeabur 已启用仓库自动部署，新版启动时会同步 PostgreSQL。生产数据库应按 Zeabur 的 PostgreSQL 备份配置定期备份。
+1. 从 GitHub 仓库 `catxu1224/reglens-nfra` 拉取最新 `main` 部署应用；根目录 `Dockerfile` 会安装 Node 依赖并运行 `npm start`。
+2. 在同一 Railway 项目中添加 PostgreSQL 服务。在应用服务的 Variables 中设置 `DATABASE_URL=${{Postgres.DATABASE_URL}}`；若数据库服务名称不是 `Postgres`，将引用中的名称改为实际服务名。确认 `SEED_ON_START` 未设置为 `0`，也可显式设为 `1`。不要把生产连接串提交到 GitHub。
+3. 部署启动时先执行 `migrations/001_create_nfra_penalties.sql`、`002_track_seed_import.sql`，再导入历史和增量两份种子文件。第一次导入约 22,175 条；后续部署只在种子校验和变化时写库。用 `/api/health` 确认数据库连接状态为 `ok`，再用 `/api/penalties` 确认 `source` 为 `postgresql` 且 `count` 至少为 22,175。
+4. GitHub 定时任务提交新的增量种子后，重新部署最新提交即可同步生产库；若应用已开启 GitHub 自动部署，部署会自动发生。数据库里的非种子记录不会被增量导入删除。
 
-Zeabur 官方说明：[GitHub 集成](https://zeabur.com/docs/en-US/deploy/methods/github-integration)、[环境变量](https://zeabur.com/docs/en-US/deploy/config/environment-variables)、[PostgreSQL 连接示例](https://zeabur.com/en-US/templates/B20CX0)。
+Railway 变量与 PostgreSQL 连接方式见[官方 PostgreSQL 文档](https://docs.railway.com/databases/postgresql)和[变量引用说明](https://docs.railway.com/variables/reference)。
 
 ## 页面功能
 
