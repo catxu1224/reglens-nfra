@@ -59,19 +59,8 @@
 .audience-counts strong{font:700 25px 'Manrope','Noto Sans SC';letter-spacing:-.5px;color:#17332a}
 .audience-counts span{font-size:11px;color:#6b7b72}
 .audience-kpi .kpi-foot{margin-top:5px}
-.trend-cloud-row .risk-cloud-panel{min-height:355px}
-.trend-cloud-row .risk-cloud{min-height:235px;overflow-y:auto;align-content:safe center}
-.map-row .institution-panel{min-width:0;min-height:480px;display:flex;flex-direction:column}
-.institution-pie{flex:1;display:flex;align-items:center;justify-content:center;min-height:310px}
-.institution-pie-layout{width:100%;display:grid;grid-template-columns:minmax(150px,1fr) minmax(0,1fr);gap:12px;align-items:center}
-.institution-pie svg{display:block;width:100%;max-width:240px;height:auto;margin:auto;filter:drop-shadow(0 9px 12px rgba(24,45,35,.09))}
-.institution-pie svg path,.institution-pie svg circle{stroke:#fff;stroke-width:1.5;transition:opacity .15s}
-.institution-pie svg path:hover,.institution-pie svg circle:hover{opacity:.8}
-.institution-pie-legend{max-height:365px;overflow-y:auto;min-width:0;scrollbar-width:thin}
-.institution-pie-item{display:grid;grid-template-columns:9px minmax(0,1fr) auto;gap:2px 7px;align-items:center;padding:6px 2px;border-bottom:1px solid #edf1ee;font-size:11px}
-.institution-pie-item i{width:9px;height:9px;border-radius:50%}
-.institution-pie-item span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#465b4d}
-.institution-pie-item strong{font:600 11px 'Manrope','Noto Sans SC';color:#183b2b}
-.institution-pie-item small{grid-column:2/4;justify-self:end;color:#8a988e;font:10px 'Noto Sans SC'}
-.bottom-rankings .bubble-panel{min-width:0;margin-bottom:0}
-@media(max-width:650px){.institution-pie-layout{grid-template-columns:1fr}.institution-pie svg{max-width:225px}.institution-pie-legend{max-height:250px}}
+.trend-full-panel,.bubble-full-panel{min-width:0;margin-bottom:18px}
+.bubble-full-panel .bubble-chart{height:410px}
+.bottom-rankings{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);margin-top:0;align-items:stretch}
+.bottom-rankings .theme-bars{margin-top:5px}
+@media(max-width:1050px){.bottom-rankings{grid-template-columns:1fr}}
