@@ -1,5 +1,7 @@
 import assert from 'node:assert/strict';
 import { once } from 'node:events';
+import { readFile } from 'node:fs/promises';
+import { parse } from 'csv-parse/sync';
 import { test } from 'node:test';
 import { createApp, PENALTIES_QUERY } from '../server/app.mjs';
 
@@ -50,7 +52,12 @@ test('API serves the seed snapshot when the database is not configured', async (
     assert.equal(response.status, 200);
     const payload = await response.json();
     assert.equal(payload.source, 'seed');
-    assert.equal(payload.count, 22175);
+    const seedRows = (await Promise.all(['nfra_penalties.csv', 'nfra_penalties_incremental.csv'].map(async name =>
+      parse(await readFile(new URL(`../seeds/${name}`, import.meta.url), 'utf8'),
+        { bom: true, columns: true, skip_empty_lines: true })
+    ))).flat();
+    assert.equal(payload.count, seedRows.length);
+    assert.equal(payload.rows.length, seedRows.length);
     assert.equal(payload.rows.some(row => row['发布时间'] === '2026-11-12'), true);
     assert.equal(payload.rows[0]['机构大类'] !== undefined, true);
     const health = await fetch(`http://127.0.0.1:${server.address().port}/api/health`);
