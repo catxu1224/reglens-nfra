@@ -42,6 +42,8 @@ python -m venv .venv
 npm run db:seed -- --check
 ```
 
+正文无可解析处罚表格时，程序自动下载 DOCX、DOC、PDF 附件并使用同一套字段映射和分类流程；同名不同格式按 DOCX、DOC、PDF 顺序回退，避免重复计数。旧版 DOC 需要安装 LibreOffice Writer（`soffice` 在 PATH 中，或设置 `SOFFICE_PATH`）；GitHub Actions 已自动安装。扫描型 PDF 暂不支持 OCR，解析失败仍会阻止写入，避免漏单。
+
 官网请求失败、正文无法解析或出现重复键时，程序报错且不写入增量种子。GitHub Actions 会显示失败，避免把缺口当作完整数据；若 GitHub 的出口地址被官网限制，需要在可访问官网的环境手动运行和核验。分类沿用存量采集规则，并以公告原文拆分机构与个人处罚；未有明确依据的处罚金额保留空值。
 
 ## Railway 部署

@@ -2,7 +2,8 @@ from pathlib import Path
 import threading
 import requests, json, re, time, random
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
+from nfra_attachments import tables as attachment_tables
 
 base="https://www.nfra.gov.cn"
 api_bases=[base,"https://big5.nfra.gov.cn"]
@@ -87,21 +88,13 @@ def grid(table):
                 for b in range(min(width,100)): spans[i+a,j+b]=value
             j+=width
         yield [spans.get((i,k),"") for k in range(max((col for row,col in spans if row==i),default=-1)+1)]
-def parse(docid, entry, refresh):
-    item,r=entry
-    path=cache/(docid+".json")
-    if refresh or not path.exists():
-        d=get("/cbircweb/DocInfo/SelectByDocId",docId=docid)
-        tmp=path.with_suffix(".tmp")
-        tmp.write_text(json.dumps(d,ensure_ascii=False),encoding="utf-8")
-        tmp.replace(path)
-    else: d=json.loads(path.read_text(encoding="utf-8"))
-    soup=BeautifulSoup(d.get("docClob") or "","lxml")
+def table_rows(tables):
     rows=[]
-    for table in soup.find_all("table"):
+    for cells_list in tables:
         cols=None
         vertical={}
-        for cells in grid(table):
+        for cells in cells_list:
+            cells=[(c or "").replace("\n", "").replace("\r", "").strip() for c in cells]
             labels=[label(c) if len(c)<35 else None for c in cells]
             if "party_name" in labels and ("penalty_text" in labels or "violation_text" in labels):
                 cols=labels
@@ -113,12 +106,49 @@ def parse(docid, entry, refresh):
             elif labels and labels[0] and len(cells)>1:
                 vertical[labels[0]]=cells[-1]
         if vertical.get("party_name") and vertical.get("penalty_text"): rows.append(vertical)
+    return rows
+
+def parse(docid, entry, refresh):
+    item,r=entry
+    path=cache/(docid+".json")
+    if refresh or not path.exists():
+        d=get("/cbircweb/DocInfo/SelectByDocId",docId=docid)
+        tmp=path.with_suffix(".tmp")
+        tmp.write_text(json.dumps(d,ensure_ascii=False),encoding="utf-8")
+        tmp.replace(path)
+    else: d=json.loads(path.read_text(encoding="utf-8"))
+    soup=BeautifulSoup(d.get("docClob") or "","lxml")
+    rows=table_rows(grid(table) for table in soup.find_all("table"))
     links=set()
     for a in soup.select("a[href]"):
         href=a["href"]
         if re.search(r"\.(pdf|docx?|xlsx?|zip)(\?|$)",href,re.I): links.add(urljoin(base,href))
     for k in ("docFileUrl","pdfFileUrl"):
-        if r.get(k): links.add(urljoin(base,r[k]))
+        for metadata in (r,d):
+            if metadata.get(k): links.add(urljoin(base,metadata[k]))
+    errors=[]
+    if not rows:
+        groups={}
+        for link in sorted(links):
+            parsed=urlparse(link)
+            suffix=Path(parsed.path).suffix.lower()
+            groups.setdefault(Path(parsed.path).stem,[]).append((suffix,link))
+        for variants in groups.values():
+            extracted=[]
+            for suffix,link in sorted(variants,key=lambda v: {'.docx':0,'.doc':1,'.pdf':2}.get(v[0],9)):
+                try:
+                    response=http.get(link,timeout=30)
+                    response.raise_for_status()
+                    extracted=table_rows(attachment_tables(response.content,suffix))
+                    if not extracted:
+                        raise ValueError('No penalty table (scanned documents may require OCR)')
+                    break
+                except Exception as error:
+                    errors.append(f'{link}: {error}')
+            if not extracted:
+                return [],{"doc_id":docid,"attachments":sorted(links),"errors":errors}
+            rows.extend(extracted)
+        print(f'{docid}: attachment fallback, {len(rows)} rows',flush=True)
     if not rows: return [],{"doc_id":docid,"title":r.get("docSubtitle"),"attachments":sorted(links)}
     common=dict(doc_id=docid,notice_title=BeautifulSoup(r.get("docSubtitle") or d.get("docTitle") or "","lxml").get_text(" ",strip=True),
                 published_date=r["publishDate"][:10],publishing_source=d.get("docSource") or "",
