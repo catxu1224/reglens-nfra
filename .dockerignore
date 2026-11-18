@@ -11,6 +11,7 @@ scripts/smoke-report.mjs
 !migrations/**
 !seeds/
 !seeds/nfra_penalties.csv
+!seeds/nfra_penalties_incremental.csv
 !data/
 !data/china-provinces.json
 !assets/
