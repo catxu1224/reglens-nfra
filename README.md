@@ -25,7 +25,7 @@ npm start
 
 - `migrations/001_create_nfra_penalties.sql` 建立 `nfra_penalties` 表及常用查询索引。`source_key` 是逐行唯一键，允许同一处罚书 URL 对应多个当事人。
 - `seeds/nfra_penalties.csv` 从 `data/nfra_penalties_3yearsv3.csv` 生成，含 22,054 条记录和原有 20 个业务字段，并增加 `source_key`、`seed_row_number`。日期范围为 2024-01-02 至 2026-11-04。源 CSV 不提交到仓库，种子文件会提交。
-- `seeds/nfra_penalties_incremental.csv` 保存官网 2026-11-05 起的增量记录；首次补录至 2026-11-12，27 篇公告对应 121 条机构或个人记录。与历史快照合计 22,175 条。
+- `seeds/nfra_penalties_incremental.csv` 保存官网 2026-11-05 起的增量记录；已补录至 2026-11-17，共 200 条机构或个人记录（2026-11-05 至 11-12 共 121 条，11-13 至 11-17 共 79 条）。与历史快照合计 22,254 条。
 - `npm run db:seed -- --check` 验证两份种子文件；`npm run db:seed` 分批导入。增量记录以官网公告 ID、表格序号和处罚对象类型生成稳定键；更新时按键覆盖，并清理已从增量种子撤回的记录。`nfra_seed_imports` 记录版本校验和，未变化时跳过导入。
 - 如果本地源 CSV 更新，执行 `npm run seed:build` 可重新生成种子文件。唯一键由业务字段内容及同内容记录的出现序号生成；重新分类或修正原文会得到新键，需要在增量采集流程中使用更稳定的来源记录 ID 处理更正。
 
@@ -50,7 +50,7 @@ npm run db:seed -- --check
 
 1. 从 GitHub 仓库 `catxu1224/reglens-nfra` 拉取最新 `main` 部署应用；根目录 `Dockerfile` 会安装 Node 依赖并运行 `npm start`。
 2. 在同一 Railway 项目中添加 PostgreSQL 服务。在应用服务的 Variables 中设置 `DATABASE_URL=${{Postgres.DATABASE_URL}}`；若数据库服务名称不是 `Postgres`，将引用中的名称改为实际服务名。确认 `SEED_ON_START` 未设置为 `0`，也可显式设为 `1`。不要把生产连接串提交到 GitHub。
-3. 部署启动时先执行 `migrations/001_create_nfra_penalties.sql`、`002_track_seed_import.sql`，再导入历史和增量两份种子文件。第一次导入约 22,175 条；后续部署只在种子校验和变化时写库。用 `/api/health` 确认数据库连接状态为 `ok`，再用 `/api/penalties` 确认 `source` 为 `postgresql` 且 `count` 至少为 22,175。
+3. 部署启动时先执行 `migrations/001_create_nfra_penalties.sql`、`002_track_seed_import.sql`，再导入历史和增量两份种子文件。第一次导入约 22,254 条；后续部署只在种子校验和变化时写库。用 `/api/health` 确认数据库连接状态为 `ok`，再用 `/api/penalties` 确认 `source` 为 `postgresql` 且 `count` 至少为 22,254。
 4. GitHub 定时任务提交新的增量种子后，重新部署最新提交即可同步生产库；若应用已开启 GitHub 自动部署，部署会自动发生。数据库里的非种子记录不会被增量导入删除。
 
 Railway 变量与 PostgreSQL 连接方式见[官方 PostgreSQL 文档](https://docs.railway.com/databases/postgresql)和[变量引用说明](https://docs.railway.com/variables/reference)。
