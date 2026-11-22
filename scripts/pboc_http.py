@@ -18,7 +18,11 @@ class Client:
         with self.clock.open('a+') as handle:
             fcntl.flock(handle,fcntl.LOCK_EX);handle.seek(0)
             raw=handle.read()
-            try:last=float(json.loads(raw)['last']) if raw else 0
+            try:
+                if raw:last=float(json.loads(raw)['last'])
+                else:
+                    state=Path(__file__).resolve().parents[1]/'seeds/pboc_crawl_state.json'
+                    last=float(json.loads(state.read_text()).get('requestClock',0)) if state.exists() else 0
             except (ValueError,KeyError):last=time.time()
             delay=max(0,last+self.interval-time.time())
             if self.deadline and time.monotonic()+delay>=self.deadline:raise BudgetReached('time budget reached')

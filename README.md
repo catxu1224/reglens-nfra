@@ -117,3 +117,20 @@ python scripts/pboc_branches.py --max-requests 280 --max-minutes 280 --retry-fai
 跨网址转载的同一文号、当事人和处罚对象，通过事实、处罚决定和金额核对，避免重复计数；存在冲突时转为失败待复核。原有总行及已采集分行数据均保留，未完成的分行不会导致已采数据被删除。
 
 每日 09:30 的 PBOC GitHub 工作流先回扫总行，再以 280 次请求 / 280 分钟预算推进分行历史任务，并刷新近期公告。缓存与检查点保留到下一次运行；成功采集的记录会发布，失败任务仍使运行明确报错。首次补采会跨多次运行，请以覆盖进度为准。部署启动的 PostgreSQL 导入使用同一 PBOC 种子文件，因此总行和分行共用 PBOC 页面及独立数据库表。
+
+
+### 连续补齐及全量种子验收
+
+历史补采使用 `workflow_dispatch` 的 `mode=backfill`。每批最多 90 次请求、100 分钟，结束后有待处理任务就自动排入下一批，保留同一个请求时钟；遇到 403/429 当天停止接力。每日 09:30 任务仍保留，用于恢复暂停任务及后续新增公告。解析失败的公告不会标记完成，也不会导致同一天反复抓取同一失败来源。
+
+`pboc_validate_complete.py` 只在官方 36 个分行目录全部核验、历史任务清空、失败归零、记录范围和跨源去重校验通过后，生成 `seeds/pboc_complete_history.json`。清单包含每个分行的记录数、检查日期及统一种子文件 SHA-256；没有清单不能将当前数据称为全量覆盖。
+
+最终仍使用同一个 `seeds/pboc_penalties.csv`（总行加分行），导入同一个 PostgreSQL `pboc_penalties` 表。需要严格验收全量快照时使用：
+
+```bash
+python scripts/pboc_validate_complete.py
+node scripts/seed.mjs --regulator=pboc --require-complete --check
+node scripts/seed.mjs --regulator=pboc --require-complete
+```
+
+`--require-complete` 会在数据库写入之前核对 36 分行完成证明、条数和校验和，拒绝没有完成证明或不匹配的种子。

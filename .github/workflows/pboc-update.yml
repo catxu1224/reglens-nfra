@@ -3,8 +3,15 @@ on:
   schedule:
     - cron: '30 1 * * *'
   workflow_dispatch:
+    inputs:
+      mode:
+        description: Daily refresh or continuous historical backfill
+        type: choice
+        options: [daily, backfill]
+        default: daily
 permissions:
   contents: write
+  actions: write
 concurrency:
   group: pboc-seed-update
   cancel-in-progress: false
@@ -28,6 +35,7 @@ jobs:
           key: pboc-fetch-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: pboc-fetch-
       - name: Refresh headquarters notices
+        if: github.event_name != 'workflow_dispatch' || inputs.mode != 'backfill'
         timeout-minutes: 50
         continue-on-error: true
         id: headquarters
@@ -35,10 +43,13 @@ jobs:
           SINCE=$(TZ=Asia/Shanghai date -d '30 days ago' +%F)
           python scripts/pboc_incremental.py --since "$SINCE" --interval 60
       - name: Continue branch history and daily updates
-        if: steps.headquarters.outcome == 'success'
+        if: steps.headquarters.outcome != 'failure'
         id: branches
         continue-on-error: true
-        run: python scripts/pboc_branches.py --max-requests 280 --max-minutes 280 --retry-failed
+        run: python scripts/pboc_branches.py --max-requests 90 --max-minutes 100 --retry-failed
+      - name: Verify full branch history
+        if: steps.branches.outcome == 'success' && steps.headquarters.outcome != 'failure'
+        run: python scripts/pboc_validate_complete.py
       - name: Preserve crawl diagnostics
         if: always()
         uses: actions/upload-artifact@v4
@@ -56,7 +67,13 @@ jobs:
           node-version: '22'
           cache: npm
       - run: npm ci
-      - run: node scripts/seed.mjs --regulator=pboc --check
+      - name: Validate the seed and completion proof
+        run: |
+          if [ -f seeds/pboc_complete_history.json ]; then
+            node scripts/seed.mjs --regulator=pboc --require-complete --check
+          else
+            node scripts/seed.mjs --regulator=pboc --check
+          fi
       - run: npm test
       - name: Save successful HTTP responses for resume
         if: always()
@@ -66,13 +83,32 @@ jobs:
           key: pboc-fetch-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Publish seed
         run: |
-          if git diff --quiet -- seeds/pboc_penalties.csv seeds/pboc_notice_fields.json seeds/pboc_crawl_state.json config/pboc_branches.json; then exit 0; fi
+          if [ -z "$(git status --porcelain -- seeds/pboc_penalties.csv seeds/pboc_notice_fields.json seeds/pboc_crawl_state.json config/pboc_branches.json seeds/pboc_complete_history.json)" ]; then exit 0; fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add seeds/pboc_penalties.csv seeds/pboc_notice_fields.json seeds/pboc_crawl_state.json config/pboc_branches.json
+          if [ -e seeds/pboc_complete_history.json ] || git ls-files --error-unmatch seeds/pboc_complete_history.json >/dev/null 2>&1; then
+            git add -A -- seeds/pboc_complete_history.json
+          fi
           git commit -m 'data: update PBOC penalty seed'
           git pull --rebase origin main
           git push origin HEAD:main
+      - name: Continue unfinished historical batch
+        if: steps.headquarters.outcome != 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          python - <<'PYCONTINUE'
+          import json, os, subprocess
+          from pathlib import Path
+          state=json.loads(Path('seeds/pboc_crawl_state.json').read_text())
+          if state['queue'] and state.get('pause_reason') != 'blocked':
+              subprocess.run(['gh','workflow','run','pboc-update.yml','--ref','main','-f','mode=backfill'],check=True)
+              print('Next historical batch queued; the global rate clock is preserved.')
+          else:
+              print('No further batch queued; history is complete or failures require review.')
+          PYCONTINUE
       - name: Report incomplete requests
         if: steps.headquarters.outcome == 'failure' || steps.branches.outcome == 'failure'
         run: |

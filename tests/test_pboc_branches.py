@@ -25,6 +25,7 @@ class BranchTests(unittest.TestCase):
             return Mock(status_code=200,content=b'ok')
         with tempfile.TemporaryDirectory() as directory,patch('pboc_http.time.time',side_effect=lambda:now[0]),patch('pboc_http.time.sleep',side_effect=sleep):
             a=Client();b=Client();a.clock=b.clock=Path(directory)/'clock.json'
+            a.clock.write_text('{"last": 0}')
             a.session.get=download;b.session.get=download
             a.get('https://beijing.pbc.gov.cn/');b.get('https://shanghai.pbc.gov.cn/');a.get('https://www.pbc.gov.cn/a.pdf')
         self.assertEqual(starts,[1000.0,1060.0,1120.0])
@@ -52,3 +53,11 @@ class BranchTests(unittest.TestCase):
         row={'文号':'银罚〔2024〕1号','被处罚单位（公司）':'甲银行','被处罚单位（分行）':'','处罚对象':'机构','处罚机关':'中国人民银行北京市分行','违法违规事实':'违规','处罚决定':'罚款1万元','处罚金额':'10000','处罚书url':'https://beijing.pbc.gov.cn/a'}
         other=dict(row,处罚机关='中国人民银行天津市分行',处罚书url='https://tianjin.pbc.gov.cn/a')
         self.assertEqual(remove_mirrors([other],[row],other['处罚书url']),[other])
+
+    def test_listing_falls_back_from_nested_list_to_date_column(self):
+        soup=BeautifulSoup('<table><tr><td><li><a istitle="true" href="/a">处罚公示</a></li></td><td>2024-02-03</td></tr></table>','lxml')
+        rows,_=listing(soup,'https://beijing.pbc.gov.cn/list/')
+        self.assertEqual(rows[0]['day'],'2024-02-03')
+    def test_self_repeating_pagination_is_a_failure(self):
+        soup=BeautifulSoup('<li><a istitle="true" href="/a">公示</a>2024-02-03</li><a href="/list/">下一页</a>','lxml')
+        with self.assertRaises(ValueError):listing(soup,'https://beijing.pbc.gov.cn/list/')

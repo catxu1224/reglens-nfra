@@ -21,8 +21,11 @@ def atomic(path,value):
 def listing(soup,url):
     rows=[]
     for a in soup.select('a[istitle="true"]'):
-        container=a.find_parent('li') or a.find_parent('tr') or a.parent
-        match=re.search(r'(20\d{2})[-年/.](\d{1,2})[-月/.](\d{1,2})',container.get_text(' ',strip=True))
+        match=None
+        for container in [a.find_parent('li'),a.find_parent('tr'),a.parent]:
+            if container is not None:
+                match=re.search(r'(20\d{2})[-年/.](\d{1,2})[-月/.](\d{1,2})',container.get_text(' ',strip=True))
+                if match:break
         if not match:raise ValueError('Missing publication date: '+a.get_text())
         day=f'{match[1]}-{int(match[2]):02}-{int(match[3]):02}'
         rows.append({'url':canonical(urljoin(url,a['href'])),'day':day,'title':a.get('title') or a.get_text(strip=True)})
@@ -32,6 +35,7 @@ def listing(soup,url):
         if a.get('title')=='下一页' or a.get_text(strip=True)=='下一页':
             target=a.get('tagname') or a.get('href')
             if target and not target.startswith('['):next_url=canonical(urljoin(url,target));break
+    if next_url==canonical(url):raise ValueError('Pagination points to the same page: '+url)
     return rows,next_url
 
 def navigation(soup,url,host):
@@ -116,7 +120,11 @@ def main():
     except BlockingIOError:raise SystemExit('Another branch worker is already running')
     parser=argparse.ArgumentParser();parser.add_argument('--max-requests',type=int,default=300);parser.add_argument('--max-minutes',type=int,default=320);parser.add_argument('--retry-failed',action='store_true');parser.add_argument('--refresh-days',type=int,default=7);args=parser.parse_args()
     registry=json.loads(REGISTRY.read_text());state=json.loads(STATE.read_text()) if STATE.exists() else {'queue':[],'done':{},'listed':{},'failures':{},'discovery_seen':{}}
-    today=datetime.now(ZoneInfo('Asia/Shanghai')).date().isoformat();queue=deque(sorted(state['queue'],key=lambda task:0 if task['kind']=='discover' and task.get('depth',0)>0 else 1));queued={(t['kind'],t['url']) for t in queue}
+    today=datetime.now(ZoneInfo('Asia/Shanghai')).date().isoformat()
+    if any(value.get('last_attempt')==today and re.search(r'(?:403|429) Client Error',value.get('error','')) for value in state['failures'].values()):
+        state['pause_reason']='blocked';atomic(STATE,state);raise SystemExit('A PBOC host blocked requests today; waiting for next daily attempt')
+    state['pause_reason']=None
+    queue=deque(sorted(state['queue'],key=lambda task:0 if task['kind']=='discover' and task.get('depth',0)>0 else 1));queued={(t['kind'],t['url']) for t in queue}
     def enqueue(task,front=False):
         key=(task['kind'],task['url'])
         if key not in queued:
@@ -127,9 +135,11 @@ def main():
                 if state['listed'].get(directory)!=today:enqueue({'kind':'list','url':directory,'branch':branch['name'],'home':branch['home'],'daily':directory in state['listed']})
         elif not any(t['branch']==branch['name'] for t in queue):enqueue({'kind':'discover','url':branch['home'],'branch':branch['name'],'home':branch['home'],'depth':0})
     if args.retry_failed:
-        for value in state['failures'].values():enqueue(value['task'])
+        for value in state['failures'].values():
+            if value.get('last_attempt','')<today:enqueue(value['task'])
     client=Client(60,args.max_requests,args.max_minutes*60);CACHE.mkdir(parents=True,exist_ok=True);seed=load_seed(SEED);audits=json.loads(AUDIT.read_text());by_key={r['source_key']:r for r in seed}
     def checkpoint():
+        if client.clock.exists():state['requestClock']=json.loads(client.clock.read_text()).get('last',0)
         state['coverage']={b['name']:{'directoryStatus':b['status'],'directories':b['directories'],'parsedNotices':sum(v['branch']==b['name'] for v in state['done'].values()),'pendingTasks':sum(t['branch']==b['name'] for t in queue),'failedTasks':sum(v['task']['branch']==b['name'] for v in state['failures'].values()),'historyComplete':b['status']=='verified' and not any(t['branch']==b['name'] for t in queue) and not any(v['task']['branch']==b['name'] for v in state['failures'].values())} for b in registry['branches']}
         state['queue']=list(queue);state['updated_at']=datetime.now(ZoneInfo('Asia/Shanghai')).isoformat(timespec='seconds')
         atomic(STATE,state);atomic(REGISTRY,registry)
@@ -159,13 +169,17 @@ def main():
                 page=CACHE/(hashlib.sha256(('listing:'+today+':'+url).encode()).hexdigest()+'.html')
                 if not page.exists():page.write_bytes(client.get(url))
                 rows,next_url=listing(BeautifulSoup(page.read_bytes(),'lxml'),url);new=False
+                fingerprint=hashlib.sha256((urlparse(url).netloc+str(Path(urlparse(url).path).parent)+json.dumps(sorted(row['url'] for row in rows))).encode()).hexdigest()
+                previous=state.setdefault('pageFingerprints',{}).get(fingerprint)
+                if previous and previous['url']!=url and previous['day']==today:raise ValueError('Repeated pagination content: '+url)
+                state['pageFingerprints'][fingerprint]={'url':url,'day':today}
                 for entry in rows:
                     if START<=entry['day']<=today:
                         refresh=entry['day']>=(datetime.fromisoformat(today)-timedelta(days=args.refresh_days)).date().isoformat()
                         if entry['url'] not in state['done'] or refresh:
                             enqueue(dict(entry,kind='notice',branch=task['branch'],home=task['home'],refresh=refresh));new=True
                 state['listed'][url]=today
-                if next_url and max(r['day'] for r in rows)>=START and (not task.get('daily') or new):enqueue(dict(task,url=next_url))
+                if next_url and state['listed'].get(next_url)!=today and max(r['day'] for r in rows)>=START and (not task.get('daily') or new):enqueue(dict(task,url=next_url))
                 for branch in registry['branches']:
                     if branch['home']==task['home']:branch['status']='verified'
             else:
@@ -180,13 +194,15 @@ def main():
                 save_seed(SEED,seed);atomic(AUDIT,audits);by_key={r['source_key']:r for r in seed}
                 state['done'][url]={'branch':task['branch'],'date':task['day'],'rows':len(rows)};completed+=1
             state['failures'].pop(url,None)
+            state['completedTasks']=state.get('completedTasks',0)+1
             print(json.dumps({'kind':task['kind'],'url':url,'requests':client.count,'remaining':len(queue),'seedRows':len(seed)},ensure_ascii=False),flush=True)
         except BudgetReached:
             queue.appendleft(task);checkpoint();print('Paused at request/time budget; checkpoint saved',flush=True);break
         except Exception as error:
             state['failures'][url]={'task':task,'error':str(error),'last_attempt':today};print('FAILED '+url+': '+str(error),flush=True)
             checkpoint()
-            if getattr(getattr(error,'response',None),'status_code',None) in (403,429):print('Website blocked this batch; stopping without retry storm',flush=True);break
+            if getattr(getattr(error,'response',None),'status_code',None) in (403,429):
+                state['pause_reason']='blocked';checkpoint();print('Website blocked this batch; stopping without retry storm',flush=True);break
         checkpoint()
     checkpoint()
     print(json.dumps({'completedThisBatch':completed,'seedRows':len(seed),'pending':len(queue),'failures':len(state['failures']),'verifiedBranches':sum(b['status']=='verified' for b in registry['branches']),'totalBranches':len(registry['branches'])},ensure_ascii=False),flush=True)

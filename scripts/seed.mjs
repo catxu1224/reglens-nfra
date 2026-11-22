@@ -15,6 +15,15 @@ const rows = files.flatMap((text, index) => parse(text, { bom: true, columns: tr
   .map(row => ({ ...row, _seed_origin: index === 0 ? 'snapshot' : 'incremental' })));
 const importName = process.env.SEED_FILE ? seedPaths[0] : pboc ? 'pboc' : 'default';
 const importHash = createHash('sha256').update(files.join('\n')).digest('hex');
+if (process.argv.includes('--require-complete')) {
+  if (!pboc) throw new Error('--require-complete requires --regulator=pboc');
+  const manifest = JSON.parse(await readFile(new URL('../seeds/pboc_complete_history.json', import.meta.url), 'utf8'));
+  if (manifest.status !== 'complete' || manifest.totalBranches !== 36 || manifest.rows !== rows.length || manifest.seedSha256 !== importHash) {
+    throw new Error('PBOC full-history manifest is incomplete or does not match this seed snapshot.');
+  }
+}
+
+
 const headers = [
   '被处罚单位（公司）', '被处罚单位（分行）', '被处罚个人', '机构类型', '机构大类',
   '文号', '地区', '机关', '违法违规事实', '处罚决定', '处罚对象', '处罚依据',
