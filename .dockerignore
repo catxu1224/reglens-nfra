@@ -38,3 +38,5 @@ scripts/smoke-report.mjs
 !seeds/pboc_crawl_state.json
 
 !seeds/pboc_notice_fields.json
+
+!seeds/pboc_complete_history.json
