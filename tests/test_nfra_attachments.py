@@ -25,7 +25,7 @@ class AttachmentTests(unittest.TestCase):
         self.assertEqual(extracted[0]['party_name'], '甲银行')
 
     @patch.object(nfra_site, 'attachment_tables')
-    @patch.object(nfra_site.http, 'get')
+    @patch.object(nfra_site, 'request')
     @patch.object(nfra_site, 'get')
     def test_pdf_is_backup_for_same_word_attachment(self, get, download, extract):
         get.return_value = {'docClob': '<a href="/DOC/1.doc">Word</a><a href="/PDF/1.pdf">PDF</a>'}
@@ -40,7 +40,7 @@ class AttachmentTests(unittest.TestCase):
         self.assertEqual(download.call_count, 2)
 
     @patch.object(nfra_site, 'attachment_tables')
-    @patch.object(nfra_site.http, 'get')
+    @patch.object(nfra_site, 'request')
     @patch.object(nfra_site, 'get')
     def test_successful_word_does_not_duplicate_pdf(self, get, download, extract):
         get.return_value = {'docClob': '<a href="/DOC/1.doc">Word</a><a href="/PDF/1.pdf">PDF</a>'}

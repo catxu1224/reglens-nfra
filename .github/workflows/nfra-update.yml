@@ -15,7 +15,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 360 # One-minute spacing also applies to attachment requests.
     steps:
       - uses: actions/checkout@v4
         with:

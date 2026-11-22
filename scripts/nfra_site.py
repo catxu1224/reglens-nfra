@@ -22,19 +22,26 @@ aliases={
 "decision_authority":r"决定机关|处罚机关", "decision_date":r"决定时间|决定日期|处罚日期"}
 rate_lock=threading.Lock()
 next_request=0.0
+REQUEST_INTERVAL_SECONDS=60.0
+
+def request(url, **kwargs):
+    """Space all physical requests, including mirrors, retries and attachments."""
+    global next_request
+    with rate_lock:
+        time.sleep(max(0,next_request-time.monotonic()))
+        next_request=time.monotonic()+REQUEST_INTERVAL_SECONDS
+    return http.get(url, **kwargs)
+
 def get(path, **params):
     global next_request
     for attempt in range(3):
         try:
-            with rate_lock:
-                time.sleep(max(0,next_request-time.monotonic()))
-                next_request=time.monotonic()+0.35
             response=None
             for api_base in api_bases:
                 request_headers={"Referer":f"{api_base}/cn/view/pages/ItemList.html?itemId=931"}
                 if "SelectByDocId" in path and params.get("docId"):
                     request_headers["Referer"]=f"{api_base}/cn/view/pages/ItemDetail.html?docId={params['docId']}"
-                candidate=http.get(api_base+path,params=params,headers=request_headers,timeout=25)
+                candidate=request(api_base+path,params=params,headers=request_headers,timeout=25)
                 response=candidate
                 if candidate.status_code not in (403,429):
                     break
@@ -137,7 +144,7 @@ def parse(docid, entry, refresh):
             extracted=[]
             for suffix,link in sorted(variants,key=lambda v: {'.docx':0,'.doc':1,'.pdf':2}.get(v[0],9)):
                 try:
-                    response=http.get(link,timeout=30)
+                    response=request(link,timeout=30)
                     response.raise_for_status()
                     extracted=table_rows(attachment_tables(response.content,suffix))
                     if not extracted:
