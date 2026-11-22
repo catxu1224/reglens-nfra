@@ -78,8 +78,8 @@ test('PBOC seed API is separate from NFRA and rejects unknown regulators', async
     const payload = await response.json();
     const seed = parse(await readFile(new URL('../seeds/pboc_penalties.csv', import.meta.url), 'utf8'), { bom: true, columns: true });
     assert.equal(payload.count, seed.length);
-    assert(payload.rows.every(row => row['处罚书url'].startsWith('https://www.pbc.gov.cn/')));
-    assert(payload.rows.every(row => row['处罚机关']==='中国人民银行')); 
+    assert(payload.rows.every(row => new URL(row['处罚书url']).hostname.endsWith('.pbc.gov.cn')));
+    assert(payload.rows.every(row => row['处罚机关'].startsWith('中国人民银行'))); 
     assert.equal((await fetch(`${base}/api/penalties?regulator=invalid`)).status, 400);
   } finally { await new Promise(resolve => server.close(resolve)); }
 });

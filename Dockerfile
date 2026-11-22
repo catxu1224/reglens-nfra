@@ -11,6 +11,7 @@ COPY server/ server/
 COPY scripts/ scripts/
 COPY migrations/ migrations/
 COPY seeds/ seeds/
+COPY config/pboc_branches.json config/pboc_branches.json
 COPY data/china-provinces.json data/china-provinces.json
 COPY assets/reglens-logo.png assets/reglens-logo.png
 COPY index.html app.js ui-upgrade.js trend-upgrade.js home-upgrade.js regulator-tabs.js risk-cloud.js report.js report-core.mjs report.css styles.css overrides.css ./

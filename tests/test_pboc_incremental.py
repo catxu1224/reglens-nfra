@@ -11,3 +11,8 @@ class PbocTests(unittest.TestCase):
         self.assertEqual(rows[0]['remarks'],'说明')
         self.assertEqual(rows[0]['decision_authority'],'中国人民银行')
         self.assertNotIn('legal_basis',rows[0])
+
+    def test_vertical_penalty_form(self):
+        rows=extract([[['当事人名称','甲银行'],['行政处罚内容','罚款5万元'],['作出行政处罚决定机关名称','中国人民银行北京市分行']]])
+        self.assertEqual(rows[0]['party_name'],'甲银行')
+        self.assertEqual(rows[0]['decision_authority'],'中国人民银行北京市分行')

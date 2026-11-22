@@ -1,0 +1,225 @@
+{
+  "source": "https://www.pbc.gov.cn/rmyh/105226/105442/index.html",
+  "branches": [
+    {
+      "name": "上海市分行",
+      "home": "https://shanghai.pbc.gov.cn/",
+      "directories": [
+        "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/index.html"
+      ],
+      "status": "verified"
+    },
+    {
+      "name": "北京市分行",
+      "home": "https://beijing.pbc.gov.cn/",
+      "directories": [
+        "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/index.html"
+      ],
+      "status": "verified"
+    },
+    {
+      "name": "天津市分行",
+      "home": "https://tianjin.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "河北省分行",
+      "home": "https://shijiazhuang.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "山西省分行",
+      "home": "https://taiyuan.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "内蒙古自治区分行",
+      "home": "https://huhehaote.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "辽宁省分行",
+      "home": "https://shenyang.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "吉林省分行",
+      "home": "https://changchun.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "黑龙江省分行",
+      "home": "https://haerbin.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "江苏省分行",
+      "home": "https://nanjing.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "浙江省分行",
+      "home": "https://hangzhou.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "安徽省分行",
+      "home": "https://hefei.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "福建省分行",
+      "home": "https://fuzhou.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "江西省分行",
+      "home": "https://nanchang.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "山东省分行",
+      "home": "https://jinan.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "河南省分行",
+      "home": "https://zhengzhou.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "湖北省分行",
+      "home": "https://wuhan.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "湖南省分行",
+      "home": "https://changsha.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "广东省分行",
+      "home": "https://guangzhou.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "广西壮族自治区分行",
+      "home": "https://nanning.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "海南省分行",
+      "home": "https://haikou.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "重庆市分行",
+      "home": "https://chongqing.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "四川省分行",
+      "home": "https://chengdu.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "贵州省分行",
+      "home": "https://guiyang.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "云南省分行",
+      "home": "https://kunming.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "西藏自治区分行",
+      "home": "https://lasa.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "陕西省分行",
+      "home": "https://xian.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "甘肃省分行",
+      "home": "https://lanzhou.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "青海省分行",
+      "home": "https://xining.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "宁夏回族自治区分行",
+      "home": "https://yinchuan.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "新疆维吾尔自治区分行",
+      "home": "https://wulumuqi.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "深圳市分行",
+      "home": "https://shenzhen.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "大连市分行",
+      "home": "https://dalian.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "宁波市分行",
+      "home": "https://ningbo.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "青岛市分行",
+      "home": "https://qingdao.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    },
+    {
+      "name": "厦门市分行",
+      "home": "https://xiamen.pbc.gov.cn/",
+      "directories": [],
+      "status": "pending_discovery"
+    }
+  ]
+}

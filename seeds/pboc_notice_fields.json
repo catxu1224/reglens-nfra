@@ -4444,5 +4444,51 @@
     "notice_url": "https://www.pbc.gov.cn/zhengwugongkai/4081330/4081344/4081407/4081705/2025080819061224367/index.html",
     "published_date": "2024-02-02",
     "publishing_source": "中国人民银行"
+  },
+  {
+    "notice_title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2026〕26号、27号）",
+    "branch": "上海市分行",
+    "source_row_no": "1",
+    "party_name": "上海华瑞银行股份有限公司",
+    "decision_no": "上海银罚字〔2026〕27号",
+    "violation_text": "未按照规定开展客户尽职调查未按照规定报告可疑交易",
+    "penalty_text": "处以罚款人民币53.8万元",
+    "decision_authority": "中国人民银行上海市分行",
+    "decision_date": "2026年8月28日",
+    "doc_id": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026090417031062884/index.html",
+    "notice_url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026090417031062884/index.html",
+    "published_date": "2026-09-04",
+    "publishing_source": "上海市分行"
+  },
+  {
+    "notice_title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2026〕26号、27号）",
+    "branch": "上海市分行",
+    "source_row_no": "2",
+    "party_name": "李某元（上海华瑞银行股份有限公司公司与金融市场业务总部责任人）",
+    "decision_no": "上海银罚字〔2026〕26号",
+    "violation_text": "对上海华瑞银行股份有限公司未按照规定报告可疑的违法行为负有直接责任",
+    "penalty_text": "处以罚款人民币2.52万元",
+    "decision_authority": "中国人民银行上海市分行",
+    "decision_date": "2026年8月28日",
+    "doc_id": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026090417031062884/index.html",
+    "notice_url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026090417031062884/index.html",
+    "published_date": "2026-09-04",
+    "publishing_source": "上海市分行"
+  },
+  {
+    "notice_title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2026】45号）",
+    "branch": "北京市分行",
+    "source_row_no": "1",
+    "party_name": "中核财务有限责任公司",
+    "decision_no": "银京罚决字〔2026〕45号",
+    "violation_text": "违反金融统计相关规定。",
+    "penalty_text": "给予警告，并处罚款560,740.8元。",
+    "decision_authority": "中国人民银行北京市分行",
+    "decision_date": "2026/10/12",
+    "disclosure_period": "3年",
+    "doc_id": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2026102117065327089/index.html",
+    "notice_url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2026102117065327089/index.html",
+    "published_date": "2026-10-21",
+    "publishing_source": "北京市分行"
   }
 ]

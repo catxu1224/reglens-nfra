@@ -22,14 +22,34 @@ jobs:
       - run: python -m pip install -r requirements-nfra.txt
       - run: sudo apt-get update && sudo apt-get install -y --no-install-recommends libreoffice-writer
       - run: python -m unittest discover -s tests -p 'test_pboc*.py'
-      - name: Refresh PBOC notices
+      - uses: actions/cache/restore@v4
+        with:
+          path: work/pboc
+          key: pboc-fetch-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: pboc-fetch-
+      - name: Refresh headquarters notices
+        continue-on-error: true
+        id: headquarters
         run: |
-          if [ "$(TZ=Asia/Shanghai date +%d)" = "01" ]; then
-            python scripts/pboc_incremental.py --interval 60
-          else
-            SINCE=$(TZ=Asia/Shanghai date -d '30 days ago' +%F)
-            python scripts/pboc_incremental.py --since "$SINCE" --interval 60
-          fi
+          SINCE=$(TZ=Asia/Shanghai date -d '30 days ago' +%F)
+          python scripts/pboc_incremental.py --since "$SINCE" --interval 60
+      - name: Continue branch history and daily updates
+        if: steps.headquarters.outcome == 'success'
+        id: branches
+        continue-on-error: true
+        run: python scripts/pboc_branches.py --max-requests 280 --max-minutes 280 --retry-failed
+      - name: Preserve crawl diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pboc-crawl-${{ github.run_id }}
+          path: |
+            seeds/pboc_penalties.csv
+            seeds/pboc_notice_fields.json
+            seeds/pboc_crawl_state.json
+            config/pboc_branches.json
+            work/pboc/issues.json
+          if-no-files-found: ignore
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
@@ -37,12 +57,23 @@ jobs:
       - run: npm ci
       - run: node scripts/seed.mjs --regulator=pboc --check
       - run: npm test
+      - name: Save successful HTTP responses for resume
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: work/pboc
+          key: pboc-fetch-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Publish seed
         run: |
-          if git diff --quiet -- seeds/pboc_penalties.csv seeds/pboc_notice_fields.json; then exit 0; fi
+          if git diff --quiet -- seeds/pboc_penalties.csv seeds/pboc_notice_fields.json seeds/pboc_crawl_state.json config/pboc_branches.json; then exit 0; fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add seeds/pboc_penalties.csv seeds/pboc_notice_fields.json
+          git add seeds/pboc_penalties.csv seeds/pboc_notice_fields.json seeds/pboc_crawl_state.json config/pboc_branches.json
           git commit -m 'data: update PBOC penalty seed'
           git pull --rebase origin main
           git push origin HEAD:main
+      - name: Report incomplete requests
+        if: steps.headquarters.outcome == 'failure' || steps.branches.outcome == 'failure'
+        run: |
+          echo 'Some official requests failed. Successfully parsed notices and the checkpoint were preserved; see crawl diagnostics.'
+          exit 1

@@ -1,0 +1,985 @@
+{
+  "queue": [
+    {
+      "kind": "discover",
+      "url": "https://hangzhou.pbc.gov.cn/",
+      "branch": "浙江省分行",
+      "home": "https://hangzhou.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "kind": "discover",
+      "url": "https://hefei.pbc.gov.cn/",
+      "branch": "安徽省分行",
+      "home": "https://hefei.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "kind": "discover",
+      "url": "https://fuzhou.pbc.gov.cn/",
+      "branch": "福建省分行",
+      "home": "https://fuzhou.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "kind": "discover",
+      "url": "https://nanchang.pbc.gov.cn/",
+      "branch": "江西省分行",
+      "home": "https://nanchang.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "kind": "discover",
+      "url": "https://jinan.pbc.gov.cn/",
+      "branch": "山东省分行",
+      "home": "https://jinan.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "kind": "discover",
+      "url": "https://zhengzhou.pbc.gov.cn/",
+      "branch": "河南省分行",
+      "home": "https://zhengzhou.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "kind": "discover",
+      "url": "https://wuhan.pbc.gov.cn/",
+      "branch": "湖北省分行",
+      "home": "https://wuhan.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "kind": "discover",
+      "url": "https://changsha.pbc.gov.cn/",
+      "branch": "湖南省分行",
+      "home": "https://changsha.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "kind": "discover",
+      "url": "https://guangzhou.pbc.gov.cn/",
+      "branch": "广东省分行",
+      "home": "https://guangzhou.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "kind": "discover",
+      "url": "https://nanning.pbc.gov.cn/",
+      "branch": "广西壮族自治区分行",
+      "home": "https://nanning.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "kind": "discover",
+      "url": "https://haikou.pbc.gov.cn/",
+      "branch": "海南省分行",
+      "home": "https://haikou.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "kind": "discover",
+      "url": "https://chongqing.pbc.gov.cn/",
+      "branch": "重庆市分行",
+      "home": "https://chongqing.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "kind": "discover",
+      "url": "https://chengdu.pbc.gov.cn/",
+      "branch": "四川省分行",
+      "home": "https://chengdu.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "kind": "discover",
+      "url": "https://guiyang.pbc.gov.cn/",
+      "branch": "贵州省分行",
+      "home": "https://guiyang.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "kind": "discover",
+      "url": "https://kunming.pbc.gov.cn/",
+      "branch": "云南省分行",
+      "home": "https://kunming.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "kind": "discover",
+      "url": "https://lasa.pbc.gov.cn/",
+      "branch": "西藏自治区分行",
+      "home": "https://lasa.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "kind": "discover",
+      "url": "https://xian.pbc.gov.cn/",
+      "branch": "陕西省分行",
+      "home": "https://xian.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "kind": "discover",
+      "url": "https://lanzhou.pbc.gov.cn/",
+      "branch": "甘肃省分行",
+      "home": "https://lanzhou.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "kind": "discover",
+      "url": "https://xining.pbc.gov.cn/",
+      "branch": "青海省分行",
+      "home": "https://xining.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "kind": "discover",
+      "url": "https://yinchuan.pbc.gov.cn/",
+      "branch": "宁夏回族自治区分行",
+      "home": "https://yinchuan.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "kind": "discover",
+      "url": "https://wulumuqi.pbc.gov.cn/",
+      "branch": "新疆维吾尔自治区分行",
+      "home": "https://wulumuqi.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "kind": "discover",
+      "url": "https://shenzhen.pbc.gov.cn/",
+      "branch": "深圳市分行",
+      "home": "https://shenzhen.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "kind": "discover",
+      "url": "https://dalian.pbc.gov.cn/",
+      "branch": "大连市分行",
+      "home": "https://dalian.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "kind": "discover",
+      "url": "https://ningbo.pbc.gov.cn/",
+      "branch": "宁波市分行",
+      "home": "https://ningbo.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "kind": "discover",
+      "url": "https://qingdao.pbc.gov.cn/",
+      "branch": "青岛市分行",
+      "home": "https://qingdao.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "kind": "discover",
+      "url": "https://xiamen.pbc.gov.cn/",
+      "branch": "厦门市分行",
+      "home": "https://xiamen.pbc.gov.cn/",
+      "depth": 0
+    },
+    {
+      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026090417024141641/index.html",
+      "day": "2026-09-04",
+      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2026〕25号）",
+      "kind": "notice",
+      "branch": "上海市分行",
+      "home": "https://shanghai.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026070916570660880/index.html",
+      "day": "2026-07-09",
+      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2026〕24号）",
+      "kind": "notice",
+      "branch": "上海市分行",
+      "home": "https://shanghai.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026070319094483839/index.html",
+      "day": "2026-07-03",
+      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2026〕22号、23号）",
+      "kind": "notice",
+      "branch": "上海市分行",
+      "home": "https://shanghai.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026062621204546970/index.html",
+      "day": "2026-06-26",
+      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2026〕15号）",
+      "kind": "notice",
+      "branch": "上海市分行",
+      "home": "https://shanghai.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026062621194017513/index.html",
+      "day": "2026-06-26",
+      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2026〕14号、16号）",
+      "kind": "notice",
+      "branch": "上海市分行",
+      "home": "https://shanghai.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026043013381643034/index.html",
+      "day": "2026-04-30",
+      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2026〕13号）",
+      "kind": "notice",
+      "branch": "上海市分行",
+      "home": "https://shanghai.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026033116271526369/index.html",
+      "day": "2026-03-31",
+      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2026〕11号、12号）",
+      "kind": "notice",
+      "branch": "上海市分行",
+      "home": "https://shanghai.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026033116264849326/index.html",
+      "day": "2026-03-31",
+      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2026〕10号）",
+      "kind": "notice",
+      "branch": "上海市分行",
+      "home": "https://shanghai.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026032717182573135/index.html",
+      "day": "2026-03-27",
+      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2026〕9号）",
+      "kind": "notice",
+      "branch": "上海市分行",
+      "home": "https://shanghai.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026032616462663481/index.html",
+      "day": "2026-03-26",
+      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2026〕7号、8号）",
+      "kind": "notice",
+      "branch": "上海市分行",
+      "home": "https://shanghai.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "kind": "list",
+      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/14681-2.html",
+      "branch": "上海市分行",
+      "home": "https://shanghai.pbc.gov.cn/",
+      "daily": false
+    },
+    {
+      "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2026102117012863142/index.html",
+      "day": "2026-10-21",
+      "title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2026】44号）",
+      "kind": "notice",
+      "branch": "北京市分行",
+      "home": "https://beijing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2026093017135845581/index.html",
+      "day": "2026-09-30",
+      "title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2026】43号）",
+      "kind": "notice",
+      "branch": "北京市分行",
+      "home": "https://beijing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2026091117015974812/index.html",
+      "day": "2026-09-11",
+      "title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2026】41-42号）",
+      "kind": "notice",
+      "branch": "北京市分行",
+      "home": "https://beijing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2026080717085285799/index.html",
+      "day": "2026-08-07",
+      "title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2026】37-40号）",
+      "kind": "notice",
+      "branch": "北京市分行",
+      "home": "https://beijing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2026073118105310905/index.html",
+      "day": "2026-07-31",
+      "title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2026】35-36号）",
+      "kind": "notice",
+      "branch": "北京市分行",
+      "home": "https://beijing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2026073118055582965/index.html",
+      "day": "2026-07-31",
+      "title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2026】34号）",
+      "kind": "notice",
+      "branch": "北京市分行",
+      "home": "https://beijing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2026072416570484409/index.html",
+      "day": "2026-07-24",
+      "title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2026】31-33号）",
+      "kind": "notice",
+      "branch": "北京市分行",
+      "home": "https://beijing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2026061117055657081/index.html",
+      "day": "2026-06-11",
+      "title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2026】27-30号）",
+      "kind": "notice",
+      "branch": "北京市分行",
+      "home": "https://beijing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2026051314330283896/index.html",
+      "day": "2026-05-09",
+      "title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2026】24-26号）",
+      "kind": "notice",
+      "branch": "北京市分行",
+      "home": "https://beijing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2026022817233914508/index.html",
+      "day": "2026-02-28",
+      "title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2026】19-20号）",
+      "kind": "notice",
+      "branch": "北京市分行",
+      "home": "https://beijing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2026022817153049028/index.html",
+      "day": "2026-02-28",
+      "title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2026】16-18号）",
+      "kind": "notice",
+      "branch": "北京市分行",
+      "home": "https://beijing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2026013017063889159/index.html",
+      "day": "2026-01-30",
+      "title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2026】10-11号）",
+      "kind": "notice",
+      "branch": "北京市分行",
+      "home": "https://beijing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2026012317012067335/index.html",
+      "day": "2026-01-23",
+      "title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2026】9号）",
+      "kind": "notice",
+      "branch": "北京市分行",
+      "home": "https://beijing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2026012316490485845/index.html",
+      "day": "2026-01-23",
+      "title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2026】7-8号）",
+      "kind": "notice",
+      "branch": "北京市分行",
+      "home": "https://beijing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2026012316374661719/index.html",
+      "day": "2026-01-23",
+      "title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2026】5-6号）",
+      "kind": "notice",
+      "branch": "北京市分行",
+      "home": "https://beijing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2026012116383476016/index.html",
+      "day": "2026-01-21",
+      "title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2026】3-4号）",
+      "kind": "notice",
+      "branch": "北京市分行",
+      "home": "https://beijing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2026010916370359542/index.html",
+      "day": "2026-01-09",
+      "title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2026】1-2号）",
+      "kind": "notice",
+      "branch": "北京市分行",
+      "home": "https://beijing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2026010409372340751/index.html",
+      "day": "2025-12-31",
+      "title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2025】69-70号）",
+      "kind": "notice",
+      "branch": "北京市分行",
+      "home": "https://beijing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2025122617191489758/index.html",
+      "day": "2025-12-26",
+      "title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2025】67-68号）",
+      "kind": "notice",
+      "branch": "北京市分行",
+      "home": "https://beijing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "kind": "list",
+      "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/19192-2.html",
+      "branch": "北京市分行",
+      "home": "https://beijing.pbc.gov.cn/",
+      "daily": false
+    },
+    {
+      "kind": "discover",
+      "url": "https://tianjin.pbc.gov.cn/fzhtianjin/113682/113684/index.html",
+      "branch": "天津市分行",
+      "home": "https://tianjin.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://tianjin.pbc.gov.cn/fzhtianjin/113682/113700/113672/index.html",
+      "branch": "天津市分行",
+      "home": "https://tianjin.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://tianjin.pbc.gov.cn/fzhtianjin/113682/113717/113673/index.html",
+      "branch": "天津市分行",
+      "home": "https://tianjin.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://tianjin.pbc.gov.cn/fzhtianjin/113682/index.html",
+      "branch": "天津市分行",
+      "home": "https://tianjin.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://shijiazhuang.pbc.gov.cn/shijiazhuang/131442/131431/index.html",
+      "branch": "河北省分行",
+      "home": "https://shijiazhuang.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://shijiazhuang.pbc.gov.cn/shijiazhuang/131442/131445/index.html",
+      "branch": "河北省分行",
+      "home": "https://shijiazhuang.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://shijiazhuang.pbc.gov.cn/shijiazhuang/131442/131463/131426/index.html",
+      "branch": "河北省分行",
+      "home": "https://shijiazhuang.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://shijiazhuang.pbc.gov.cn/shijiazhuang/131442/131483/131427/index.html",
+      "branch": "河北省分行",
+      "home": "https://shijiazhuang.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://taiyuan.pbc.gov.cn/taiyuan/133960/133942/index.html",
+      "branch": "山西省分行",
+      "home": "https://taiyuan.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://taiyuan.pbc.gov.cn/taiyuan/133960/133963/index.html",
+      "branch": "山西省分行",
+      "home": "https://taiyuan.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://taiyuan.pbc.gov.cn/taiyuan/133960/133981/133937/index.html",
+      "branch": "山西省分行",
+      "home": "https://taiyuan.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://taiyuan.pbc.gov.cn/taiyuan/133960/133997/133938/index.html",
+      "branch": "山西省分行",
+      "home": "https://taiyuan.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://huhehaote.pbc.gov.cn/huhehaote/129797/129799/index.html",
+      "branch": "内蒙古自治区分行",
+      "home": "https://huhehaote.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://huhehaote.pbc.gov.cn/huhehaote/129797/129801/index.html",
+      "branch": "内蒙古自治区分行",
+      "home": "https://huhehaote.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://huhehaote.pbc.gov.cn/huhehaote/129797/129815/129770/index.html",
+      "branch": "内蒙古自治区分行",
+      "home": "https://huhehaote.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://huhehaote.pbc.gov.cn/huhehaote/129797/129848/129771/index.html",
+      "branch": "内蒙古自治区分行",
+      "home": "https://huhehaote.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://shenyang.pbc.gov.cn/shenyfh/108074/108115/index.html",
+      "branch": "辽宁省分行",
+      "home": "https://shenyang.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://shenyang.pbc.gov.cn/shenyfh/108074/108118/index.html",
+      "branch": "辽宁省分行",
+      "home": "https://shenyang.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://shenyang.pbc.gov.cn/shenyfh/108074/108127/108199/index.html",
+      "branch": "辽宁省分行",
+      "home": "https://shenyang.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://shenyang.pbc.gov.cn/shenyfh/108074/108133/108251/index.html",
+      "branch": "辽宁省分行",
+      "home": "https://shenyang.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://changchun.pbc.gov.cn/changchun/124680/124682/index.html",
+      "branch": "吉林省分行",
+      "home": "https://changchun.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://changchun.pbc.gov.cn/changchun/124680/124684/index.html",
+      "branch": "吉林省分行",
+      "home": "https://changchun.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://changchun.pbc.gov.cn/changchun/124680/124698/124665/index.html",
+      "branch": "吉林省分行",
+      "home": "https://changchun.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://changchun.pbc.gov.cn/changchun/124680/124731/124666/index.html",
+      "branch": "吉林省分行",
+      "home": "https://changchun.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://changchun.pbc.gov.cn/changchun/124680/index.html",
+      "branch": "吉林省分行",
+      "home": "https://changchun.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://haerbin.pbc.gov.cn/haerbin/112693/112751/index.html",
+      "branch": "黑龙江省分行",
+      "home": "https://haerbin.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://haerbin.pbc.gov.cn/haerbin/112693/112753/index.html",
+      "branch": "黑龙江省分行",
+      "home": "https://haerbin.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://haerbin.pbc.gov.cn/haerbin/112693/112776/112698/index.html",
+      "branch": "黑龙江省分行",
+      "home": "https://haerbin.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://haerbin.pbc.gov.cn/haerbin/112693/112793/112699/index.html",
+      "branch": "黑龙江省分行",
+      "home": "https://haerbin.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://nanjing.pbc.gov.cn/nanjing/117542/117544/index.html",
+      "branch": "江苏省分行",
+      "home": "https://nanjing.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://nanjing.pbc.gov.cn/nanjing/117542/117546/index.html",
+      "branch": "江苏省分行",
+      "home": "https://nanjing.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://nanjing.pbc.gov.cn/nanjing/117542/117560/117518/index.html",
+      "branch": "江苏省分行",
+      "home": "https://nanjing.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://nanjing.pbc.gov.cn/nanjing/117542/117592/117519/index.html",
+      "branch": "江苏省分行",
+      "home": "https://nanjing.pbc.gov.cn/",
+      "depth": 1
+    },
+    {
+      "kind": "discover",
+      "url": "https://nanjing.pbc.gov.cn/nanjing/117542/index.html",
+      "branch": "江苏省分行",
+      "home": "https://nanjing.pbc.gov.cn/",
+      "depth": 1
+    }
+  ],
+  "done": {
+    "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026090417031062884/index.html": {
+      "branch": "上海市分行",
+      "date": "2026-09-04",
+      "rows": 2
+    },
+    "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2026102117065327089/index.html": {
+      "branch": "北京市分行",
+      "date": "2026-10-21",
+      "rows": 1
+    }
+  },
+  "listed": {
+    "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/index.html": "2026-11-22",
+    "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/index.html": "2026-11-22"
+  },
+  "failures": {},
+  "discovery_seen": {
+    "https://tianjin.pbc.gov.cn/": true,
+    "https://shijiazhuang.pbc.gov.cn/": true,
+    "https://taiyuan.pbc.gov.cn/": true,
+    "https://huhehaote.pbc.gov.cn/": true,
+    "https://shenyang.pbc.gov.cn/": true,
+    "https://changchun.pbc.gov.cn/": true,
+    "https://haerbin.pbc.gov.cn/": true,
+    "https://nanjing.pbc.gov.cn/": true
+  },
+  "coverage": {
+    "上海市分行": {
+      "directoryStatus": "verified",
+      "directories": [
+        "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/index.html"
+      ],
+      "parsedNotices": 1,
+      "pendingTasks": 11,
+      "failedTasks": 0
+    },
+    "北京市分行": {
+      "directoryStatus": "verified",
+      "directories": [
+        "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/index.html"
+      ],
+      "parsedNotices": 1,
+      "pendingTasks": 20,
+      "failedTasks": 0
+    },
+    "天津市分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 4,
+      "failedTasks": 0
+    },
+    "河北省分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 4,
+      "failedTasks": 0
+    },
+    "山西省分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 4,
+      "failedTasks": 0
+    },
+    "内蒙古自治区分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 4,
+      "failedTasks": 0
+    },
+    "辽宁省分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 4,
+      "failedTasks": 0
+    },
+    "吉林省分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 5,
+      "failedTasks": 0
+    },
+    "黑龙江省分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 4,
+      "failedTasks": 0
+    },
+    "江苏省分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 5,
+      "failedTasks": 0
+    },
+    "浙江省分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    },
+    "安徽省分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    },
+    "福建省分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    },
+    "江西省分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    },
+    "山东省分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    },
+    "河南省分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    },
+    "湖北省分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    },
+    "湖南省分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    },
+    "广东省分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    },
+    "广西壮族自治区分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    },
+    "海南省分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    },
+    "重庆市分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    },
+    "四川省分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    },
+    "贵州省分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    },
+    "云南省分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    },
+    "西藏自治区分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    },
+    "陕西省分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    },
+    "甘肃省分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    },
+    "青海省分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    },
+    "宁夏回族自治区分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    },
+    "新疆维吾尔自治区分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    },
+    "深圳市分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    },
+    "大连市分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    },
+    "宁波市分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    },
+    "青岛市分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    },
+    "厦门市分行": {
+      "directoryStatus": "pending_discovery",
+      "directories": [],
+      "parsedNotices": 0,
+      "pendingTasks": 1,
+      "failedTasks": 0
+    }
+  },
+  "updated_at": "2026-11-22T15:56:25+08:00"
+}

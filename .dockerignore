@@ -30,3 +30,11 @@ scripts/smoke-report.mjs
 !overrides.css
 
 !seeds/pboc_penalties.csv
+
+!config/
+
+!config/pboc_branches.json
+
+!seeds/pboc_crawl_state.json
+
+!seeds/pboc_notice_fields.json

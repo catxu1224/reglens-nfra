@@ -15,37 +15,29 @@ ROOT=Path(__file__).resolve().parents[1]
 DIRECTORY='https://www.pbc.gov.cn/zhengwugongkai/4081330/4081344/4081407/4081705/'
 OUTPUT=ROOT/'seeds/pboc_penalties.csv'
 CACHE=ROOT/'work/pboc'
-LABELS={'序号':'source_row_no','当事人名称':'party_name','企业名称':'party_name','行政处罚决定书文号':'decision_no','违法行为类型':'violation_text','行政处罚内容':'penalty_text','作出行政处罚决定机关名称':'decision_authority','作出行政处罚决定日期':'decision_date','公示期限':'disclosure_period','备注':'remarks','处罚依据':'legal_basis'}
+LABELS={'序号':'source_row_no','当事人名称':'party_name','企业名称':'party_name','被处罚当事人名称':'party_name','被处罚人名称':'party_name','被处罚单位名称':'party_name','被处罚人姓名':'party_name','姓名':'party_name','单位名称':'party_name','主要违法违规事实':'violation_text','违法行为':'violation_text','行政处罚决定':'penalty_text','处罚内容':'penalty_text','处罚决定':'penalty_text','行政处罚机关名称':'decision_authority','作出行政处罚决定的机关名称':'decision_authority','行政处罚决定日期':'decision_date','作出行政处罚决定的日期':'decision_date','行政处罚决定书文号':'decision_no','违法行为类型':'violation_text','行政处罚内容':'penalty_text','作出行政处罚决定机关名称':'decision_authority','作出行政处罚决定日期':'decision_date','公示期限':'disclosure_period','备注':'remarks','处罚依据':'legal_basis'}
 
 def normalize_label(value):
     return LABELS.get(re.sub(r'\s+','',value or ''))
 
 def extract(matrices):
     result=[]; columns=None
-    for cells in (row for matrix in matrices for row in matrix):
-        cells=[re.sub(r'\s+','',x or '') for x in cells]
-        labels=[normalize_label(x) for x in cells]
-        if 'party_name' in labels and 'penalty_text' in labels:
-            columns=labels;continue
-        if columns and len(cells)==len(columns):
-            row={key:value for key,value in zip(columns,cells) if key and value}
-            if row.get('party_name') and row.get('penalty_text'): result.append(row)
+    for matrix in matrices:
+        vertical={}
+        for cells in matrix:
+            cells=[re.sub(r'\s+','',str(x) if x is not None else '') for x in cells]
+            labels=[normalize_label(x) for x in cells]
+            if 'party_name' in labels and 'penalty_text' in labels:
+                columns=labels;continue
+            if columns and len(cells)==len(columns):
+                row={key:value for key,value in zip(columns,cells) if key and value}
+                if row.get('party_name') and row.get('penalty_text'):result.append(row)
+            elif labels and labels[0] and len(cells)>1:
+                vertical[labels[0]]=cells[-1]
+        if vertical.get('party_name') and vertical.get('penalty_text'):result.append(vertical)
     return result
 
-class Client:
-    def __init__(self, interval=60):
-        self.session=requests.Session();self.session.headers['User-Agent']='Mozilla/5.0';self.interval=interval;self.next=0
-    def get(self,url):
-        for attempt in range(3):
-            time.sleep(max(0,self.next-time.monotonic()));self.next=time.monotonic()+self.interval
-            try:
-                response=self.session.get(url,timeout=40);response.raise_for_status();return response.content
-            except requests.RequestException:
-                if attempt==2:raise
-                time.sleep(10*(attempt+1))
-    def html(self,url):
-        data=self.get(url)
-        return BeautifulSoup(data,'lxml',from_encoding='utf-8')
+from pboc_http import Client
 
 def notices(client,since,until):
     pending=[urljoin(DIRECTORY,'index.html')];seen=set();found={}
@@ -57,12 +49,12 @@ def notices(client,since,until):
         if not listing:raise ValueError('No notice links on '+url)
         days=[]
         for a in listing:
-            li=a.find_parent('li');match=re.search(r'\d{4}-\d{2}-\d{2}',li.get_text())
+            li=a.find_parent('li') or a.find_parent('tr');match=re.search(r'\d{4}-\d{2}-\d{2}',li.get_text())
             if not match:raise ValueError('Missing publication date')
             day=match[0];days.append(day)
             if since<=day<until:found[urljoin(url,a['href'])]=(day,a.get_text(strip=True))
-        for a in soup.select('a[title="下一页"]'):
-            target=a.get('tagname')
+        for a in [a for a in soup.select('a') if a.get('title')=='下一页' or a.get_text(strip=True)=='下一页']:
+            target=a.get('tagname') or a.get('href')
             if target and max(days)>=since:pending.append(urljoin(url,target))
         print('listing',len(seen),'notices',len(found),flush=True)
     return found
@@ -95,7 +87,9 @@ def main():
                         try:
                             extracted=extract(tables(client.get(link),Path(urlparse(link).path).suffix.lower()))
                             if extracted:break
-                        except Exception as e:errors.append(str(e))
+                        except Exception as e:
+                            if getattr(getattr(e,'response',None),'status_code',None) in (403,429):raise
+                            errors.append(str(e))
                     if not extracted:raise ValueError('Attachment unreadable: '+str(variants)+str(errors))
                     source.extend(extracted)
             if not source:raise ValueError('No penalty rows')
@@ -118,7 +112,9 @@ def main():
                     generated.append(dict(source_key=key,seed_row_number=previous['seed_row_number'] if previous else '0',**built))
                 audit.append(dict(notice_title=title,**row))
             print(day,title,len(source),flush=True)
-        except Exception as e:issues.append(f'{url}: {e}')
+        except Exception as e:
+            issues.append(f'{url}: {e}')
+            if getattr(getattr(e,'response',None),'status_code',None) in (403,429):break
     if issues:
         (CACHE/'issues.json').write_text(json.dumps(issues,ensure_ascii=False,indent=2));raise RuntimeError('; '.join(issues))
     merged=[r for r in old if r['处罚书url'] not in found]+generated

@@ -46,7 +46,7 @@ test('PBOC schema stores the shared seed and remains separate from NFRA', async 
     const result = await db.query(PENALTIES_QUERY.replace('FROM nfra_penalties','FROM pboc_penalties'));
     assert.equal(result.rows.length, rows.length);
     assert.equal((await db.query('SELECT count(*)::int AS n FROM nfra_penalties')).rows[0].n, 0);
-    assert.equal(result.rows[0]['发布时间'], '2026-10-16');
+    assert.equal(result.rows[0]['发布时间'], rows.map(row=>row['发布时间']).sort().at(-1));
     await assert.rejects(db.query('INSERT INTO pboc_penalties SELECT * FROM pboc_penalties LIMIT 1'));
   } finally { await db.close(); }
 });
