@@ -28,3 +28,5 @@ scripts/smoke-report.mjs
 !report.css
 !styles.css
 !overrides.css
+
+!seeds/pboc_penalties.csv

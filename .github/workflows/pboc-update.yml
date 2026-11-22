@@ -1,0 +1,48 @@
+name: Update PBOC penalties
+on:
+  schedule:
+    - cron: '30 1 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: pboc-seed-update
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: requirements-nfra.txt
+      - run: python -m pip install -r requirements-nfra.txt
+      - run: sudo apt-get update && sudo apt-get install -y --no-install-recommends libreoffice-writer
+      - run: python -m unittest discover -s tests -p 'test_pboc*.py'
+      - name: Refresh PBOC notices
+        run: |
+          if [ "$(TZ=Asia/Shanghai date +%d)" = "01" ]; then
+            python scripts/pboc_incremental.py --interval 60
+          else
+            SINCE=$(TZ=Asia/Shanghai date -d '30 days ago' +%F)
+            python scripts/pboc_incremental.py --since "$SINCE" --interval 60
+          fi
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: node scripts/seed.mjs --regulator=pboc --check
+      - run: npm test
+      - name: Publish seed
+        run: |
+          if git diff --quiet -- seeds/pboc_penalties.csv seeds/pboc_notice_fields.json; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add seeds/pboc_penalties.csv seeds/pboc_notice_fields.json
+          git commit -m 'data: update PBOC penalty seed'
+          git pull --rebase origin main
+          git push origin HEAD:main

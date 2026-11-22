@@ -9,7 +9,7 @@ const excerpt = (value, limit = 170) => String(value || '未提供').trim().slic
 function safeNoticeUrl(value) {
   try {
     const url = new URL(value);
-    return ['http:', 'https:'].includes(url.protocol) && (url.hostname === 'nfra.gov.cn' || url.hostname.endsWith('.nfra.gov.cn')) ? url.href : '';
+    return ['http:', 'https:'].includes(url.protocol) && (url.hostname === 'nfra.gov.cn' || url.hostname.endsWith('.nfra.gov.cn') || url.hostname === 'pbc.gov.cn' || url.hostname.endsWith('.pbc.gov.cn')) ? url.href : '';
   } catch { return ''; }
 }
 
@@ -62,14 +62,14 @@ function filterDescription(filters) {
 function renderReport(model, ai = null, aiError = '') {
   const filters = filterDescription(model.filters), risks = model.risks.slice(0, 10);
   const dataSource = $('#sourceLabel').textContent;
-  $('#reportBody').innerHTML = `<div class="report-cover"><p class="report-kicker">REGLENS · NFRA REGULATORY REVIEW</p><h2>${escape(model.period)}监管处罚分析报告</h2><p>国家金融监督管理总局 · ${escape(model.sector)} · 生成于 ${escape(new Date(model.generatedAt).toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' }))}</p></div>
+  $('#reportBody').innerHTML = `<div class="report-cover"><p class="report-kicker">REGLENS · ${REGULATOR.toUpperCase()} REGULATORY REVIEW</p><h2>${escape(model.period)}监管处罚分析报告</h2><p>${REGULATOR==='pboc'?'中国人民银行':'国家金融监督管理总局'} · ${escape(model.sector)} · 生成于 ${escape(new Date(model.generatedAt).toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' }))}</p></div>
     <div class="report-intro"><strong>报告范围</strong><span>${escape(model.firstPublished || '—')} 至 ${escape(model.lastPublished || '—')} · ${escape(dataSource)} · ${comma(model.count)} 条记录</span>${filters.length ? `<small>${escape(filters.join('；'))}</small>` : ''}</div>
     <section class="report-section"><div class="report-section-head"><span>01</span><h3>核心数据与本期观察</h3></div><div class="report-kpis"><div><small>处罚记录</small><strong>${comma(model.count)}</strong><span>条</span></div><div><small>罚款总额</small><strong>${amountText(model.amount)}</strong></div><div><small>单条平均</small><strong>${model.count ? amountText(model.amount / model.count) : '—'}</strong></div><div><small>涉及法规</small><strong>${comma(model.legalReferences.length)}</strong><span>项高频依据</span></div></div><div class="report-insights">${model.insights.map(text => `<p>${escape(text)}</p>`).join('') || '<p>当前筛选范围没有处罚记录。</p>'}</div></section>
     <section class="report-section report-ai-section"><div class="report-section-head"><span>AI</span><h3>模型分析与核查建议</h3></div>${ai ? `<p class="report-ai-summary">${escape(ai.summary)}</p><ol class="report-ai-list">${ai.recommendations.map(text => `<li>${escape(text)}</li>`).join('')}</ol>` : `<p class="report-ai-pending">${escape(aiError || '正在调用模型生成分析，请稍候…')}</p>`}</section>
     <section class="report-section"><div class="report-section-head"><span>02</span><h3>分布图表</h3></div><div class="report-chart-grid"><article class="report-chart-card"><h4>地区分布 <small>前十地区 · 按记录数</small></h4>${barChart(model.regions, '#85aa4a')}</article><article class="report-chart-card"><h4>被处罚对象 <small>机构 / 个人</small></h4>${audienceChart(model.audience)}</article><article class="report-chart-card"><h4>机构类型分布 <small>前十类型 · 按记录数</small></h4>${barChart(model.institutions, '#447b64')}</article><article class="report-chart-card"><h4>合规风险点 <small>前十风险点 · 可多标签</small></h4>${barChart(risks, '#d4a142')}</article></div></section>
     <section class="report-section"><div class="report-section-head"><span>03</span><h3>金额最高的十条处罚记录</h3></div><p class="report-section-note">按可解析罚款金额降序；相同当事人、文号及金额的重复记录仅展示一次。点击链接可核对原处罚书。</p><div class="report-fine-grid">${fineCards(model.topFines)}</div></section>
     <section class="report-section"><div class="report-section-head"><span>04</span><h3>法规依据与适用观察</h3></div><p class="report-section-note">从“处罚依据”字段提取法规名称，按引用记录数排序。以下观察基于本期处罚事实，未替代法规原文核验。</p><div class="report-law-grid">${lawCards(model.legalReferences, ai?.legalNotes)}</div></section>
-    <section class="report-section report-method"><div class="report-section-head"><span>05</span><h3>统计口径</h3></div><p>来源：NFRA 行政处罚数据，按当前页面筛选条件统计。发布日期采用数据字段“发布时间”；页面生成时间不代表数据更新日。</p><p>条数以数据记录为单位，同一处罚书可能涉及多名当事人；金额为可解析“处罚金额”字段逐条相加，未对共同罚款或重复文书进行金额合并。合规风险点可多选，因此各项次数之和可能超过处罚记录数。</p><p>法规名称和处罚事实来自数据字段，建议通过原处罚书与官方现行法规文本复核。报告用于信息分析，不构成法律或合规意见。</p></section>`;
+    <section class="report-section report-method"><div class="report-section-head"><span>05</span><h3>统计口径</h3></div><p>来源：${REGULATOR.toUpperCase()} 行政处罚数据，按当前页面筛选条件统计。发布日期采用数据字段“发布时间”；页面生成时间不代表数据更新日。</p><p>条数以数据记录为单位，同一处罚书可能涉及多名当事人；金额为可解析“处罚金额”字段逐条相加，未对共同罚款或重复文书进行金额合并。合规风险点可多选，因此各项次数之和可能超过处罚记录数。</p><p>法规名称和处罚事实来自数据字段，建议通过原处罚书与官方现行法规文本复核。报告用于信息分析，不构成法律或合规意见。</p></section>`;
   $('#reportPrint').disabled = !ai;
   $('#reportStatus').textContent = ai ? `已生成 · ${comma(model.count)} 条记录 · ${model.period}` : aiError || `模型正在分析 ${comma(model.count)} 条记录…`;
 }

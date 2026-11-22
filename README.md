@@ -68,3 +68,33 @@ API Key 仅保存在当前页面内存，刷新后需重新填写；每次生成
 接口依据：[DeepSeek Chat Completions](https://api-docs.deepseek.com/api/create-chat-completion/)、[阿里云百炼 OpenAI 兼容接口与地域](https://help.aliyun.com/zh/model-studio/base-url)、[千问结构化输出](https://help.aliyun.com/zh/model-studio/qwen-structured-output)。
 
 本机可执行 `npm test` 检查统计与接口逻辑，执行 `npm run test:browser` 用模拟模型响应检查筛选、报告页面及打印样式；浏览器检查需要本机安装 Chrome。
+
+
+## PBOC 总行处罚
+
+PBOC 页签复用 NFRA 的总览、筛选、趋势、地图、明细和报告版式，接口为 `/api/penalties?regulator=pboc`。数据范围仅为人民银行官网总行行政处罚公示目录，按公告发布时间自 2024-01-01 起采集，不代表已覆盖各地分支机构的独立目录。首次采集 48 篇公告、298 条机构或个人记录，最新公告发布日期为 2026-10-16。
+
+官网字段经映射可复用现有 20 个业务字段，但不能完全无损地只用该表头：
+
+| 人民银行字段 | 共用字段或存档位置 |
+| --- | --- |
+| 当事人名称 | 被处罚单位（公司）/分行/个人，经原有分类流程拆分 |
+| 行政处罚决定书文号 | 文号 |
+| 违法行为类型 | 违法违规事实 |
+| 行政处罚内容 | 处罚决定；罚款金额、处罚类型按共用规则提取 |
+| 作出行政处罚决定机关名称 | 处罚机关、机关 |
+| 公告发布日期 | 发布时间，区别于决定日期 |
+| 决定日期、公示期限、备注 | `seeds/pboc_notice_fields.json` 原文存档 |
+| 处罚依据 | 原表未提供时留空，不从违法事实推测 |
+
+`seeds/pboc_penalties.csv` 使用与 NFRA 相同的业务表头和两项技术字段；唯一键使用独立 PBOC 前缀及公告 URL、文号、当事人和处罚对象类别。同一张表被网站拆成多个 HTML 表格时保持表头连续；正文无表格时读取 DOCX/DOC/PDF 附件。扫描型 PDF 仍需 OCR，无法解析会报错并保留既有种子。原始网页缓存在 `work/pboc/`，失败清单写入 `issues.json`。
+
+```bash
+python scripts/pboc_incremental.py --since 2024-01-01
+node scripts/seed.mjs --regulator=pboc --check
+node scripts/seed.mjs --regulator=pboc
+```
+
+`004_pboc_penalties.sql` 建立独立 `pboc_penalties` 表。设置 `DATABASE_URL` 后，应用启动在 `SEED_ON_START` 不为 `0` 时依次导入 NFRA、PBOC；按独立校验和跳过未变化文件，按唯一键更新，清理已从 PBOC 种子移除的记录。未配置数据库时，PBOC 接口使用独立种子快照。实际生产导入必须部署新版本并配置 Railway PostgreSQL 服务引用。
+
+`.github/workflows/pboc-update.yml` 每天北京时间 09:30 执行，通常回扫最近 30 天，每月 1 日全量回扫 2024 年起公告；网络请求间隔 60 秒，超时 360 分钟。没有新公告时正常结束；解析失败时不会提交不完整数据。种子提交触发 Railway 已配置的 GitHub 自动部署后，启动程序将自动导入数据库；若未启用自动部署，需要手动部署最新提交。

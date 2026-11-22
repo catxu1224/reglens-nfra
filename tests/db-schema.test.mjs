@@ -31,3 +31,22 @@ test('PostgreSQL schema accepts a penalty and serves the frontend field names', 
     await db.close();
   }
 });
+
+test('PBOC schema stores the shared seed and remains separate from NFRA', async () => {
+  const { parse } = await import('csv-parse/sync');
+  const db = new PGlite();
+  try {
+    for (const name of ['001_create_nfra_penalties.sql', '002_track_seed_import.sql', '004_pboc_penalties.sql']) {
+      await db.exec(await readFile(new URL(`../migrations/${name}`, import.meta.url), 'utf8'));
+    }
+    const rows = parse(await readFile(new URL('../seeds/pboc_penalties.csv', import.meta.url), 'utf8'), { bom: true, columns: true });
+    for (const row of rows) await db.query(`INSERT INTO pboc_penalties
+      (source_key,source_row_number,content_hash,company,person,institution_sector,penalty_subject,published_date,amount_raw)
+      VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9)`, [row.source_key,Number(row.seed_row_number),'a'.repeat(64),row['被处罚单位（公司）'],row['被处罚个人'],row['机构大类'],row['处罚对象'],row['发布时间'],row['处罚金额']]);
+    const result = await db.query(PENALTIES_QUERY.replace('FROM nfra_penalties','FROM pboc_penalties'));
+    assert.equal(result.rows.length, rows.length);
+    assert.equal((await db.query('SELECT count(*)::int AS n FROM nfra_penalties')).rows[0].n, 0);
+    assert.equal(result.rows[0]['发布时间'], '2026-10-16');
+    await assert.rejects(db.query('INSERT INTO pboc_penalties SELECT * FROM pboc_penalties LIMIT 1'));
+  } finally { await db.close(); }
+});

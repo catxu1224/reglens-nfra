@@ -9,6 +9,8 @@ if (pool) {
   if (process.env.SEED_ON_START !== '0') {
     const { stdout } = await promisify(execFile)(process.execPath, ['scripts/seed.mjs']);
     console.log(stdout.trim());
+    const pbocImport = await promisify(execFile)(process.execPath, ['scripts/seed.mjs', '--regulator=pboc']);
+    console.log('PBOC:', pbocImport.stdout.trim());
   }
 }
 

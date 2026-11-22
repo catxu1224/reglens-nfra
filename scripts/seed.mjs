@@ -4,14 +4,16 @@ import { resolve } from 'node:path';
 import { parse } from 'csv-parse/sync';
 import { createPool, migrate } from '../server/db.mjs';
 
+const pboc = process.argv.includes('--regulator=pboc');
+const table = pboc ? 'pboc_penalties' : 'nfra_penalties';
 const seedPaths = (process.env.SEED_FILE
   ? [process.env.SEED_FILE]
-  : ['seeds/nfra_penalties.csv', 'seeds/nfra_penalties_incremental.csv']
+  : pboc ? ['seeds/pboc_penalties.csv'] : ['seeds/nfra_penalties.csv', 'seeds/nfra_penalties_incremental.csv']
 ).map(path => resolve(path));
 const files = await Promise.all(seedPaths.map(path => readFile(path, 'utf8')));
 const rows = files.flatMap((text, index) => parse(text, { bom: true, columns: true, skip_empty_lines: true })
   .map(row => ({ ...row, _seed_origin: index === 0 ? 'snapshot' : 'incremental' })));
-const importName = process.env.SEED_FILE ? seedPaths[0] : 'default';
+const importName = process.env.SEED_FILE ? seedPaths[0] : pboc ? 'pboc' : 'default';
 const importHash = createHash('sha256').update(files.join('\n')).digest('hex');
 const headers = [
   '被处罚单位（公司）', '被处罚单位（分行）', '被处罚个人', '机构类型', '机构大类',
@@ -102,10 +104,10 @@ try {
         `${name} = EXCLUDED.${name}`
       ).join(',\n');
       const result = await client.query(`
-        INSERT INTO nfra_penalties (${columns.join(',')}) VALUES ${placeholders}
+        INSERT INTO ${table} (${columns.join(',')}) VALUES ${placeholders}
         ON CONFLICT (source_key) DO UPDATE SET ${updates}, updated_at = now()
-        WHERE nfra_penalties.content_hash IS DISTINCT FROM EXCLUDED.content_hash
-          OR nfra_penalties.source_row_number IS DISTINCT FROM EXCLUDED.source_row_number
+        WHERE ${table}.content_hash IS DISTINCT FROM EXCLUDED.content_hash
+          OR ${table}.source_row_number IS DISTINCT FROM EXCLUDED.source_row_number
       `, params);
       changed += result.rowCount;
     }
@@ -113,8 +115,8 @@ try {
     if (!unchanged && !process.env.SEED_FILE) {
       const incrementalKeys = rows.filter(row => row._seed_origin === 'incremental').map(row => row.source_key);
       const removed = await client.query(
-        'DELETE FROM nfra_penalties WHERE seed_origin = $1 AND NOT (source_key = ANY($2::text[]))',
-        ['incremental', incrementalKeys]
+        `DELETE FROM ${table} WHERE seed_origin = $1 AND NOT (source_key = ANY($2::text[]))`,
+        [pboc ? 'snapshot' : 'incremental', pboc ? rows.map(row => row.source_key) : incrementalKeys]
       );
       deleted = removed.rowCount;
     }
@@ -124,7 +126,7 @@ try {
         ON CONFLICT (name) DO UPDATE SET content_hash = EXCLUDED.content_hash, imported_at = now()
       `, [importName, importHash]);
     }
-    const total = await client.query('SELECT count(*)::int AS total FROM nfra_penalties');
+    const total = await client.query(`SELECT count(*)::int AS total FROM ${table}`);
     await client.query('COMMIT');
     console.log(JSON.stringify({ seedRows: records.length, insertedOrUpdated: changed,
       deleted, unchanged, databaseRows: total.rows[0].total }));

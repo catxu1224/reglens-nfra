@@ -43,6 +43,10 @@ export const PENALTIES_QUERY = `
 
 export function createApp(pool) {
   const app = express();
+  let pbocSeedRowsPromise;
+  const pbocSeedRows = () => pbocSeedRowsPromise ||= readFile(new URL('../seeds/pboc_penalties.csv', import.meta.url), 'utf8')
+    .then(text => parse(text, { bom: true, columns: true, skip_empty_lines: true }))
+    .then(rows => rows.map(({ seed_row_number, ...row }) => row));
   let seedRowsPromise;
   const seedRows = () => {
     seedRowsPromise ||= Promise.all([
@@ -85,11 +89,14 @@ export function createApp(pool) {
     }
   });
 
-  app.get('/api/penalties', async (_req, res) => {
+  app.get('/api/penalties', async (req, res) => {
+    const regulator = req.query.regulator || 'nfra';
+    if (!['nfra', 'pboc'].includes(regulator)) return res.status(400).json({ error: 'invalid_regulator' });
+    const selectedSeedRows = regulator === 'pboc' ? pbocSeedRows : seedRows;
     res.set('Cache-Control', 'no-store');
     if (!pool) {
       try {
-        const rows = await seedRows();
+        const rows = await selectedSeedRows();
         return res.json({ source: 'seed', count: rows.length, rows });
       } catch (error) {
         console.error('Seed read failed:', error);
@@ -97,7 +104,7 @@ export function createApp(pool) {
       }
     }
     try {
-      const { rows } = await pool.query(PENALTIES_QUERY);
+      const { rows } = await pool.query(regulator === 'pboc' ? PENALTIES_QUERY.replace('FROM nfra_penalties', 'FROM pboc_penalties') : PENALTIES_QUERY);
       res.json({ source: 'postgresql', count: rows.length, rows });
     } catch (error) {
       console.error('Penalty query failed:', error);
