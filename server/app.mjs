@@ -89,6 +89,32 @@ export function createApp(pool) {
     }
   });
 
+  let pbocNoticeFieldsPromise;
+  app.get('/api/pboc/coverage', async (_req, res) => {
+    res.set('Cache-Control', 'no-store');
+    try {
+      const registry = JSON.parse(await readFile(new URL('../config/pboc_branches.json', import.meta.url), 'utf8'));
+      const state = JSON.parse(await readFile(new URL('../seeds/pboc_crawl_state.json', import.meta.url), 'utf8'));
+      res.json({ totalBranches: registry.branches.length, verifiedDirectories: registry.branches.filter(branch=>branch.status==='verified').length,
+        parsedNotices: Object.keys(state.done).length, pendingTasks: state.queue.length,
+        failedTasks: Object.keys(state.failures).length, updatedAt: state.updated_at,
+        branches: Object.entries(state.coverage || {}).map(([name, value])=>({name,...value})) });
+    } catch { res.status(503).json({ error: 'pboc_coverage_unavailable' }); }
+  });
+
+  app.get('/api/pboc/notice-fields', async (_req, res) => {
+    res.set('Cache-Control', 'no-store');
+    try {
+      const fields = ['notice_url', 'decision_no', 'party_name', 'decision_date', 'disclosure_period', 'remarks'];
+      pbocNoticeFieldsPromise ||= readFile(new URL('../seeds/pboc_notice_fields.json', import.meta.url), 'utf8').then(JSON.parse)
+        .then(rows => rows.map(row => Object.fromEntries(fields.map(key => [key, row[key] || '']))));
+      res.json({ rows: await pbocNoticeFieldsPromise });
+    } catch {
+      pbocNoticeFieldsPromise = undefined;
+      res.status(503).json({ error: 'pboc_notice_fields_unavailable' });
+    }
+  });
+
   app.get('/api/penalties', async (req, res) => {
     const regulator = req.query.regulator || 'nfra';
     if (!['nfra', 'pboc'].includes(regulator)) return res.status(400).json({ error: 'invalid_regulator' });

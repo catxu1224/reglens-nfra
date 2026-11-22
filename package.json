@@ -12,7 +12,8 @@
     "db:seed": "node scripts/seed.mjs",
     "seed:build": "node scripts/build-seed.mjs",
     "test": "node --test",
-    "test:browser": "node scripts/smoke-report.mjs"
+    "test:browser": "node scripts/smoke-report.mjs",
+    "test:pboc": "node scripts/smoke-pboc.mjs"
   },
   "dependencies": {
     "compression": "^1.8.2",
