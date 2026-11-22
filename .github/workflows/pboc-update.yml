@@ -28,6 +28,7 @@ jobs:
           key: pboc-fetch-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: pboc-fetch-
       - name: Refresh headquarters notices
+        timeout-minutes: 50
         continue-on-error: true
         id: headquarters
         run: |

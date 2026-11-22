@@ -47,3 +47,8 @@ class BranchTests(unittest.TestCase):
         self.assertEqual(remove_mirrors([mirror],[row],mirror['处罚书url']),[])
         mirror['处罚金额']='20000'
         with self.assertRaises(ValueError):remove_mirrors([mirror],[row],mirror['处罚书url'])
+
+    def test_same_number_from_different_authorities_is_not_a_mirror(self):
+        row={'文号':'银罚〔2024〕1号','被处罚单位（公司）':'甲银行','被处罚单位（分行）':'','处罚对象':'机构','处罚机关':'中国人民银行北京市分行','违法违规事实':'违规','处罚决定':'罚款1万元','处罚金额':'10000','处罚书url':'https://beijing.pbc.gov.cn/a'}
+        other=dict(row,处罚机关='中国人民银行天津市分行',处罚书url='https://tianjin.pbc.gov.cn/a')
+        self.assertEqual(remove_mirrors([other],[row],other['处罚书url']),[other])

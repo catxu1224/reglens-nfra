@@ -47,7 +47,8 @@ def navigation(soup,url,host):
 def identity(row):
     number=re.sub(r'\s+','',row.get('文号','')).translate(str.maketrans('〔〕【】','[][]'))
     party=row.get('被处罚个人') if row.get('处罚对象')=='个人' else row.get('被处罚单位（公司）','')+row.get('被处罚单位（分行）','')
-    return (number,re.sub(r'\s+','',party or ''),row.get('处罚对象')) if number and party else None
+    authority=re.sub(r'\s+','',row.get('处罚机关',''))
+    return (authority,number,re.sub(r'\s+','',party or ''),row.get('处罚对象')) if number and party else None
 
 def remove_mirrors(rows,existing,url):
     index={identity(row):row for row in existing if identity(row) and row['处罚书url']!=url}
