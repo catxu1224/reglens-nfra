@@ -1,583 +1,6 @@
 {
   "queue": [
     {
-      "url": "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512959/5412817/index.html",
-      "day": "2024-07-24",
-      "title": "中国人民银行广西壮族自治区分行行政处罚决定信息公示表（2024.07.17）",
-      "kind": "notice",
-      "branch": "广西壮族自治区分行",
-      "home": "https://nanning.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512959/5403642/index.html",
-      "day": "2024-07-05",
-      "title": "中国人民银行广西壮族自治区分行行政处罚信息公示表（2024.07.05）",
-      "kind": "notice",
-      "branch": "广西壮族自治区分行",
-      "home": "https://nanning.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512995/2026112018591968682/index.html",
-      "day": "2026-11-20",
-      "title": "中国人民银行来宾市分行行政处罚决定信息公示表（来宾银罚决字〔2026〕2号）",
-      "kind": "notice",
-      "branch": "广西壮族自治区分行",
-      "home": "https://nanning.pbc.gov.cn/",
-      "refresh": true
-    },
-    {
-      "url": "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512992/2026091818080414664/index.html",
-      "day": "2026-09-18",
-      "title": "中国人民银行河池市分行行政处罚决定信息公示表（河银罚决字〔2026〕2号）",
-      "kind": "notice",
-      "branch": "广西壮族自治区分行",
-      "home": "https://nanning.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512989/2026050617452491792/index.html",
-      "day": "2026-04-24",
-      "title": "中国人民银行贺州市分行行政处罚决定信息公示表（2026.04.24）",
-      "kind": "notice",
-      "branch": "广西壮族自治区分行",
-      "home": "https://nanning.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512995/2026043017053553448/index.html",
-      "day": "2026-04-22",
-      "title": "中国人民银行来宾市分行行政处罚决定信息公示表（2026.4.22）",
-      "kind": "notice",
-      "branch": "广西壮族自治区分行",
-      "home": "https://nanning.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512998/2026042719341177225/index.html",
-      "day": "2026-04-27",
-      "title": "中国人民银行崇左市分行行政处罚决定信息公示表（2026.4.27)",
-      "kind": "notice",
-      "branch": "广西壮族自治区分行",
-      "home": "https://nanning.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512980/2026040318031827924/index.html",
-      "day": "2026-04-01",
-      "title": "中国人民银行贵港市分行行政处罚决定信息公示表（2026.4.1）",
-      "kind": "notice",
-      "branch": "广西壮族自治区分行",
-      "home": "https://nanning.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512992/2026040318022798013/index.html",
-      "day": "2026-03-26",
-      "title": "中国人民银行河池市分行行政处罚决定信息公示表（2026.03.26 )",
-      "kind": "notice",
-      "branch": "广西壮族自治区分行",
-      "home": "https://nanning.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512971/2026033118264144177/index.html",
-      "day": "2026-03-23",
-      "title": "中国人民银行北海市分行行政处罚决定信息公示表（2026.3.23）",
-      "kind": "notice",
-      "branch": "广西壮族自治区分行",
-      "home": "https://nanning.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "kind": "list",
-      "url": "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/77b1a5ca-2.html",
-      "branch": "广西壮族自治区分行",
-      "home": "https://nanning.pbc.gov.cn/",
-      "daily": false
-    },
-    {
-      "url": "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/5884539/index.html",
-      "day": "2025-10-30",
-      "title": "中国人民银行海南省分行行政处罚决定信息公示表（琼银罚决字〔2025〕9 号）",
-      "kind": "notice",
-      "branch": "海南省分行",
-      "home": "https://haikou.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174611755/index.html",
-      "day": "2025-07-25",
-      "title": "中国人民银行海南省分行行政处罚决定信息公示表（琼银罚决字〔2025〕7号）",
-      "kind": "notice",
-      "branch": "海南省分行",
-      "home": "https://haikou.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174611181/index.html",
-      "day": "2025-05-26",
-      "title": "中国人民银行海南省分行行政处罚决定信息公示表（琼银罚决字〔2025〕3-4号）",
-      "kind": "notice",
-      "branch": "海南省分行",
-      "home": "https://haikou.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174696401/index.html",
-      "day": "2025-05-26",
-      "title": "中国人民银行海南省分行行政处罚决定信息公示表（琼银罚决字〔2025〕2号）",
-      "kind": "notice",
-      "branch": "海南省分行",
-      "home": "https://haikou.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174634928/index.html",
-      "day": "2025-05-26",
-      "title": "中国人民银行海南省分行行政处罚决定信息公示表（琼银罚决字〔2025〕1号）",
-      "kind": "notice",
-      "branch": "海南省分行",
-      "home": "https://haikou.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174633060/index.html",
-      "day": "2025-01-06",
-      "title": "中国人民银行海南省分行行政处罚决定信息公示表（琼银罚决字〔2024〕8-9号）",
-      "kind": "notice",
-      "branch": "海南省分行",
-      "home": "https://haikou.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174628365/index.html",
-      "day": "2024-04-02",
-      "title": "中国人民银行海南省分行行政处罚决定信息公示表（琼银罚决字〔2024〕4-6号）",
-      "kind": "notice",
-      "branch": "海南省分行",
-      "home": "https://haikou.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174651986/index.html",
-      "day": "2024-03-27",
-      "title": "中国人民银行海南省分行行政处罚信息公示表（琼银罚决字〔2024〕2-3号）",
-      "kind": "notice",
-      "branch": "海南省分行",
-      "home": "https://haikou.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174653483/index.html",
-      "day": "2024-02-07",
-      "title": "中国人民银行海南省分行行政处罚信息公示表（琼银罚决字〔2024〕1号）",
-      "kind": "notice",
-      "branch": "海南省分行",
-      "home": "https://haikou.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "kind": "list",
-      "url": "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/1b7d8dcd-3.html",
-      "branch": "海南省分行",
-      "home": "https://haikou.pbc.gov.cn/",
-      "daily": false
-    },
-    {
-      "url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2026030217434550350/index.html",
-      "day": "2026-03-02",
-      "title": "中国人民银行重庆市分行行政处罚决定信息公示表（渝银罚决字〔2026〕2号）",
-      "kind": "notice",
-      "branch": "重庆市分行",
-      "home": "https://chongqing.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2026030217432239848/index.html",
-      "day": "2026-03-02",
-      "title": "中国人民银行重庆市分行行政处罚决定信息公示表（渝银罚决字〔2026〕1号）",
-      "kind": "notice",
-      "branch": "重庆市分行",
-      "home": "https://chongqing.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2026010917353970529/index.html",
-      "day": "2026-01-09",
-      "title": "中国人民银行重庆市分行行政处罚决定信息公示表（渝银罚决字〔2025〕39号）",
-      "kind": "notice",
-      "branch": "重庆市分行",
-      "home": "https://chongqing.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2026010917351173357/index.html",
-      "day": "2026-01-09",
-      "title": "中国人民银行重庆市分行行政处罚决定信息公示表（渝银罚决字〔2025〕38号）",
-      "kind": "notice",
-      "branch": "重庆市分行",
-      "home": "https://chongqing.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2026010917344560965/index.html",
-      "day": "2026-01-09",
-      "title": "中国人民银行重庆市分行行政处罚决定信息公示表（渝银罚决字〔2025〕37号）",
-      "kind": "notice",
-      "branch": "重庆市分行",
-      "home": "https://chongqing.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2026010917341819382/index.html",
-      "day": "2026-01-09",
-      "title": "中国人民银行重庆市分行行政处罚决定信息公示表（渝银罚决字〔2025〕36号）",
-      "kind": "notice",
-      "branch": "重庆市分行",
-      "home": "https://chongqing.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2025123119383937723/index.html",
-      "day": "2025-12-31",
-      "title": "中国人民银行重庆市分行行政处罚决定信息公示表（渝银罚决字〔2025〕35号）",
-      "kind": "notice",
-      "branch": "重庆市分行",
-      "home": "https://chongqing.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/5863763/index.html",
-      "day": "2025-10-11",
-      "title": "中国人民银行重庆市分行行政处罚决定信息公示表（渝银罚决字〔2025〕34号）",
-      "kind": "notice",
-      "branch": "重庆市分行",
-      "home": "https://chongqing.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2025092318230933269/index.html",
-      "day": "2025-08-22",
-      "title": "中国人民银行重庆市分行行政处罚决定信息公示表（渝银罚决字〔2025〕32号）",
-      "kind": "notice",
-      "branch": "重庆市分行",
-      "home": "https://chongqing.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2025092318230920311/index.html",
-      "day": "2025-08-22",
-      "title": "中国人民银行重庆市分行行政处罚决定信息公示表（渝银罚决字〔2025〕31号）",
-      "kind": "notice",
-      "branch": "重庆市分行",
-      "home": "https://chongqing.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525110/2026112016350891089/index.html",
-      "day": "2026-11-20",
-      "title": "中国人民银行万州分行行政处罚决定信息公示表（万银罚决字〔2026〕2号）",
-      "kind": "notice",
-      "branch": "重庆市分行",
-      "home": "https://chongqing.pbc.gov.cn/",
-      "refresh": true
-    },
-    {
-      "kind": "list",
-      "url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/0f42a2da-3.html",
-      "branch": "重庆市分行",
-      "home": "https://chongqing.pbc.gov.cn/",
-      "daily": false
-    },
-    {
-      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5901784/index.html",
-      "day": "2025-11-14",
-      "title": "中国人民银行四川省分行行政处罚决定信息公示表（川银罚字〔2025〕23号）（农业发展银行四川省分行）",
-      "kind": "notice",
-      "branch": "四川省分行",
-      "home": "https://chengdu.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5811434/index.html",
-      "day": "2025-08-15",
-      "title": "中国人民银行四川省分行行政处罚决定信息公示表（川银罚字〔2025〕20-22号）（长城华西银行）",
-      "kind": "notice",
-      "branch": "四川省分行",
-      "home": "https://chengdu.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5784683/index.html",
-      "day": "2025-07-18",
-      "title": "中国人民银行四川省分行行政处罚决定信息公示表（川银罚字〔2025年〕14号-19号）（荣县农商行、三台农商行）",
-      "kind": "notice",
-      "branch": "四川省分行",
-      "home": "https://chengdu.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5638655/index.html",
-      "day": "2025-03-26",
-      "title": "中国人民银行四川省分行行政处罚决定信息公示表（川银罚字﹝2025﹞11-12号）（现代金控成都）",
-      "kind": "notice",
-      "branch": "四川省分行",
-      "home": "https://chengdu.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5597601/index.html",
-      "day": "2025-02-21",
-      "title": "中国人民银行四川省分行行政处罚决定信息公示表（川银罚字﹝2025﹞1-7号）(天府银行成都分行)",
-      "kind": "notice",
-      "branch": "四川省分行",
-      "home": "https://chengdu.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5453482/index.html",
-      "day": "2024-09-06",
-      "title": "中国人民银行四川省分行行政处罚决定信息公示表（中信银行成都分行、巴中农商行南江支行、雅安农商行汉源支行）",
-      "kind": "notice",
-      "branch": "四川省分行",
-      "home": "https://chengdu.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5428070/index.html",
-      "day": "2024-08-09",
-      "title": "中国人民银行四川省分行行政处罚决定信息公示表（太平青羊、拉卡拉）",
-      "kind": "notice",
-      "branch": "四川省分行",
-      "home": "https://chengdu.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5427876/index.html",
-      "day": "2024-08-09",
-      "title": "中国人民银行四川省分行行政处罚决定信息公示表（绵商行、宜商行、雅安农商行）",
-      "kind": "notice",
-      "branch": "四川省分行",
-      "home": "https://chengdu.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5327860/index.html",
-      "day": "2024-04-12",
-      "title": "中国人民银行四川省分行行政处罚决定信息公示表（资阳民生、自贡农商行等5件）",
-      "kind": "notice",
-      "branch": "四川省分行",
-      "home": "https://chengdu.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498161/2026111815171677633/index.html",
-      "day": "2026-11-18",
-      "title": "中国人民银行自贡市分行行政处罚决定信息公示表（自银罚决字〔2026〕3号）（中国邮政储蓄银行自贡市分行）",
-      "kind": "notice",
-      "branch": "四川省分行",
-      "home": "https://chengdu.pbc.gov.cn/",
-      "refresh": true
-    },
-    {
-      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498188/2026111710312970364/index.html",
-      "day": "2026-11-17",
-      "title": "中国人民银行南充市分行行政处罚决定信息公示表（南银罚决字〔2026〕1号）（中国邮政储蓄银行南充市分行）",
-      "kind": "notice",
-      "branch": "四川省分行",
-      "home": "https://chengdu.pbc.gov.cn/",
-      "refresh": true
-    },
-    {
-      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498206/2026111016480525465/index.html",
-      "day": "2026-11-10",
-      "title": "中国人民银行眉山市分行行政处罚决定信息公示表（眉银罚字〔2026〕2号 光大银行眉山分行）",
-      "kind": "notice",
-      "branch": "四川省分行",
-      "home": "https://chengdu.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498194/2026110317243176312/index.html",
-      "day": "2026-11-03",
-      "title": "中国人民银行广安市分行行政处罚决定信息公示表（广安银罚决字〔2026〕3号）（武胜中银富登村镇银行）",
-      "kind": "notice",
-      "branch": "四川省分行",
-      "home": "https://chengdu.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498191/2026092816341836510/index.html",
-      "day": "2026-09-28",
-      "title": "中国人民银行宜宾市分行行政处罚决定信息公示表（宜银罚决字〔2026〕2-9号）（宜宾农村商业银行股份有限公司）",
-      "kind": "notice",
-      "branch": "四川省分行",
-      "home": "https://chengdu.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498164/2026092816320269074/index.html",
-      "day": "2026-09-28",
-      "title": "中国人民银行攀枝花市分行行政处罚决定信息公示表（攀银罚决字〔2026〕1号）（建行攀枝花分行）",
-      "kind": "notice",
-      "branch": "四川省分行",
-      "home": "https://chengdu.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498161/2026091815534331710/index.html",
-      "day": "2026-09-18",
-      "title": "中国人民银行自贡市分行行政处罚决定信息公示表（自银罚决字〔2026〕2号）（成都农商行自贡分行）",
-      "kind": "notice",
-      "branch": "四川省分行",
-      "home": "https://chengdu.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498218/2026091010515952823/index.html",
-      "day": "2026-09-10",
-      "title": "中国人民银行凉山彝族自治州分行行政处罚决定信息公示表（凉银罚决字〔2026〕2号）（中国农业银行股份有限公司凉山分行）",
-      "kind": "notice",
-      "branch": "四川省分行",
-      "home": "https://chengdu.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498215/2026090315155712000/index.html",
-      "day": "2026-09-03",
-      "title": "中国人民银行甘孜藏族自治州分行行政处罚决定信息公示表（甘银罚决字〔2026〕2号）（农行得荣县支行）",
-      "kind": "notice",
-      "branch": "四川省分行",
-      "home": "https://chengdu.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "kind": "list",
-      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/c368223c-3.html",
-      "branch": "四川省分行",
-      "home": "https://chengdu.pbc.gov.cn/",
-      "daily": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025123116340589049/index.html",
-      "day": "2025-12-31",
-      "title": "中国人民银行贵州省分行行政处罚决定信息公示表（贵银处罚〔2025〕 0012号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235780839/index.html",
-      "day": "2025-09-30",
-      "title": "中国人民银行贵州省分行行政处罚决定信息公示表（贵银处罚〔2025〕 0011号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235791555/index.html",
-      "day": "2025-09-08",
-      "title": "中国人民银行贵州省分行行政处罚决定信息公示表（贵银处罚〔2025〕 0010号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235756659/index.html",
-      "day": "2025-09-08",
-      "title": "中国人民银行贵州省分行行政处罚决定信息公示表（贵银处罚〔2025〕 0009号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235729106/index.html",
-      "day": "2025-09-08",
-      "title": "中国人民银行贵州省分行行政处罚决定信息公示表（贵银处罚〔2025〕 0008号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235740414/index.html",
-      "day": "2025-09-08",
-      "title": "中国人民银行贵州省分行行政处罚决定信息公示表（贵银处罚〔2025〕 0007号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235728842/index.html",
-      "day": "2025-09-08",
-      "title": "中国人民银行贵州省分行行政处罚决定信息公示表（贵银处罚〔2025〕 0006号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235831087/index.html",
-      "day": "2025-09-08",
-      "title": "中国人民银行贵州省分行行政处罚决定信息公示表（贵银处罚〔2025〕 0005号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235857482/index.html",
-      "day": "2025-09-08",
-      "title": "中国人民银行贵州省分行行政处罚决定信息公示表（贵银处罚〔2025〕 0004号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235886923/index.html",
-      "day": "2025-09-08",
-      "title": "中国人民银行贵州省分行行政处罚决定信息公示表（贵银处罚〔2025〕 0003号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503847/2026072017321723872/index.html",
-      "day": "2026-07-20",
-      "title": "中国人民银行毕节市分行行政处罚决定信息公示表（毕银处罚〔2026〕02号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503847/2026020609071034002/index.html",
-      "day": "2026-02-06",
-      "title": "中国人民银行毕节市分行行政处罚决定信息公示表（毕银处罚〔2026〕01号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503859/2026020216125066875/index.html",
-      "day": "2026-02-02",
-      "title": "中国人民银行黔西南布依族苗族自治州分行行政处罚决定信息公示表（黔西南银处罚〔2026〕01号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
       "kind": "list",
       "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/6cf9f205-3.html",
       "branch": "贵州省分行",
@@ -4905,6 +4328,290 @@
       "branch": "广东省分行",
       "home": "https://guangzhou.pbc.gov.cn/",
       "daily": false
+    },
+    {
+      "url": "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512974/2026033118254113342/index.html",
+      "day": "2026-03-25",
+      "title": "中国人民银行防城港市分行行政处罚决定信息公示表（2026.03.25）",
+      "kind": "notice",
+      "branch": "广西壮族自治区分行",
+      "home": "https://nanning.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512983/2026032017533950688/index.html",
+      "day": "2026-03-12",
+      "title": "中国人民银行玉林市分行行政处罚决定信息公示表（2026.03.12 )",
+      "kind": "notice",
+      "branch": "广西壮族自治区分行",
+      "home": "https://nanning.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512968/2026031617523020574/index.html",
+      "day": "2026-03-12",
+      "title": "中国人民银行梧州市分行行政处罚决定信息公示表（2026.03.12）",
+      "kind": "notice",
+      "branch": "广西壮族自治区分行",
+      "home": "https://nanning.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512986/2026031617504391941/index.html",
+      "day": "2026-03-10",
+      "title": "中国人民银行百色市分行行政处罚决定信息公示表（2026.03.10）",
+      "kind": "notice",
+      "branch": "广西壮族自治区分行",
+      "home": "https://nanning.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512965/2026031118010224158/index.html",
+      "day": "2026-03-10",
+      "title": "中国人民银行桂林市分行行政处罚决定信息公示表（2026.03.10）",
+      "kind": "notice",
+      "branch": "广西壮族自治区分行",
+      "home": "https://nanning.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512986/2026020917480274597/index.html",
+      "day": "2026-02-02",
+      "title": "中国人民银行百色市分行行政处罚决定信息公示表（2026.2.2）",
+      "kind": "notice",
+      "branch": "广西壮族自治区分行",
+      "home": "https://nanning.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512983/2025122618170460294/index.html",
+      "day": "2025-12-18",
+      "title": "中国人民银行玉林市分行行政处罚决定信息公示表（2025.12.18-2025.12.19 )",
+      "kind": "notice",
+      "branch": "广西壮族自治区分行",
+      "home": "https://nanning.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512992/2025122417574729249/index.html",
+      "day": "2025-12-18",
+      "title": "中国人民银行河池市分行行政处罚决定信息公示表（2025.12.18 )",
+      "kind": "notice",
+      "branch": "广西壮族自治区分行",
+      "home": "https://nanning.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512980/5915039/index.html",
+      "day": "2025-11-24",
+      "title": "中国人民银行贵港市分行行政处罚决定信息公示表（2025.11.24）",
+      "kind": "notice",
+      "branch": "广西壮族自治区分行",
+      "home": "https://nanning.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512995/5890978/index.html",
+      "day": "2025-10-30",
+      "title": "中国人民银行来宾市分行行政处罚决定信息公示表（2025.10.30）",
+      "kind": "notice",
+      "branch": "广西壮族自治区分行",
+      "home": "https://nanning.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2025092318230945689/index.html",
+      "day": "2025-08-22",
+      "title": "中国人民银行重庆市分行行政处罚决定信息公示表（渝银罚决字〔2025〕30号）",
+      "kind": "notice",
+      "branch": "重庆市分行",
+      "home": "https://chongqing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2025092318230994678/index.html",
+      "day": "2025-08-22",
+      "title": "中国人民银行重庆市分行行政处罚决定信息公示表（渝银罚决字〔2025〕29号）",
+      "kind": "notice",
+      "branch": "重庆市分行",
+      "home": "https://chongqing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2025092318230910812/index.html",
+      "day": "2025-07-18",
+      "title": "中国人民银行重庆市分行行政处罚决定信息公示表（渝银罚决字〔2025〕28号）",
+      "kind": "notice",
+      "branch": "重庆市分行",
+      "home": "https://chongqing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2025092318230931516/index.html",
+      "day": "2025-07-18",
+      "title": "中国人民银行重庆市分行行政处罚决定信息公示表（渝银罚决字〔2025〕27号）",
+      "kind": "notice",
+      "branch": "重庆市分行",
+      "home": "https://chongqing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2025092318230915137/index.html",
+      "day": "2025-07-18",
+      "title": "中国人民银行重庆市分行行政处罚决定信息公示表（渝银罚决字〔2025〕26号）",
+      "kind": "notice",
+      "branch": "重庆市分行",
+      "home": "https://chongqing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2025092318230973388/index.html",
+      "day": "2025-07-18",
+      "title": "中国人民银行重庆市分行行政处罚决定信息公示表（渝银罚决字〔2025〕25号）",
+      "kind": "notice",
+      "branch": "重庆市分行",
+      "home": "https://chongqing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2025092318230975721/index.html",
+      "day": "2025-07-18",
+      "title": "中国人民银行重庆市分行行政处罚决定信息公示表（渝银罚决字〔2025〕24号）",
+      "kind": "notice",
+      "branch": "重庆市分行",
+      "home": "https://chongqing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2025092318230964340/index.html",
+      "day": "2025-07-18",
+      "title": "中国人民银行重庆市分行行政处罚决定信息公示表（渝银罚决字〔2025〕23号）",
+      "kind": "notice",
+      "branch": "重庆市分行",
+      "home": "https://chongqing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2025092318230968826/index.html",
+      "day": "2025-07-18",
+      "title": "中国人民银行重庆市分行行政处罚决定信息公示表（渝银罚决字〔2025〕22号）",
+      "kind": "notice",
+      "branch": "重庆市分行",
+      "home": "https://chongqing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2025092318230982673/index.html",
+      "day": "2025-07-18",
+      "title": "中国人民银行重庆市分行行政处罚决定信息公示表（渝银罚决字〔2025〕21号）",
+      "kind": "notice",
+      "branch": "重庆市分行",
+      "home": "https://chongqing.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525110/2026112016350891089/index.html",
+      "day": "2026-11-20",
+      "title": "中国人民银行万州分行行政处罚决定信息公示表（万银罚决字〔2026〕2号）",
+      "kind": "notice",
+      "branch": "重庆市分行",
+      "home": "https://chongqing.pbc.gov.cn/",
+      "refresh": true
+    },
+    {
+      "kind": "list",
+      "url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/0f42a2da-4.html",
+      "branch": "重庆市分行",
+      "home": "https://chongqing.pbc.gov.cn/",
+      "daily": false
+    },
+    {
+      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498161/2026111815171677633/index.html",
+      "day": "2026-11-18",
+      "title": "中国人民银行自贡市分行行政处罚决定信息公示表（自银罚决字〔2026〕3号）（中国邮政储蓄银行自贡市分行）",
+      "kind": "notice",
+      "branch": "四川省分行",
+      "home": "https://chengdu.pbc.gov.cn/",
+      "refresh": true
+    },
+    {
+      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498188/2026111710312970364/index.html",
+      "day": "2026-11-17",
+      "title": "中国人民银行南充市分行行政处罚决定信息公示表（南银罚决字〔2026〕1号）（中国邮政储蓄银行南充市分行）",
+      "kind": "notice",
+      "branch": "四川省分行",
+      "home": "https://chengdu.pbc.gov.cn/",
+      "refresh": true
+    },
+    {
+      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498206/2026111016480525465/index.html",
+      "day": "2026-11-10",
+      "title": "中国人民银行眉山市分行行政处罚决定信息公示表（眉银罚字〔2026〕2号 光大银行眉山分行）",
+      "kind": "notice",
+      "branch": "四川省分行",
+      "home": "https://chengdu.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498194/2026110317243176312/index.html",
+      "day": "2026-11-03",
+      "title": "中国人民银行广安市分行行政处罚决定信息公示表（广安银罚决字〔2026〕3号）（武胜中银富登村镇银行）",
+      "kind": "notice",
+      "branch": "四川省分行",
+      "home": "https://chengdu.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498191/2026092816341836510/index.html",
+      "day": "2026-09-28",
+      "title": "中国人民银行宜宾市分行行政处罚决定信息公示表（宜银罚决字〔2026〕2-9号）（宜宾农村商业银行股份有限公司）",
+      "kind": "notice",
+      "branch": "四川省分行",
+      "home": "https://chengdu.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498164/2026092816320269074/index.html",
+      "day": "2026-09-28",
+      "title": "中国人民银行攀枝花市分行行政处罚决定信息公示表（攀银罚决字〔2026〕1号）（建行攀枝花分行）",
+      "kind": "notice",
+      "branch": "四川省分行",
+      "home": "https://chengdu.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498161/2026091815534331710/index.html",
+      "day": "2026-09-18",
+      "title": "中国人民银行自贡市分行行政处罚决定信息公示表（自银罚决字〔2026〕2号）（成都农商行自贡分行）",
+      "kind": "notice",
+      "branch": "四川省分行",
+      "home": "https://chengdu.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498218/2026091010515952823/index.html",
+      "day": "2026-09-10",
+      "title": "中国人民银行凉山彝族自治州分行行政处罚决定信息公示表（凉银罚决字〔2026〕2号）（中国农业银行股份有限公司凉山分行）",
+      "kind": "notice",
+      "branch": "四川省分行",
+      "home": "https://chengdu.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498215/2026090315155712000/index.html",
+      "day": "2026-09-03",
+      "title": "中国人民银行甘孜藏族自治州分行行政处罚决定信息公示表（甘银罚决字〔2026〕2号）（农行得荣县支行）",
+      "kind": "notice",
+      "branch": "四川省分行",
+      "home": "https://chengdu.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "kind": "list",
+      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/18150-2.html",
+      "branch": "四川省分行",
+      "home": "https://chengdu.pbc.gov.cn/",
+      "daily": false
     }
   ],
   "done": {
@@ -6157,6 +5864,111 @@
       "branch": "山东省分行",
       "date": "2024-02-08",
       "rows": 5
+    },
+    "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174653483/index.html": {
+      "branch": "海南省分行",
+      "date": "2024-02-07",
+      "rows": 1
+    },
+    "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2026030217434550350/index.html": {
+      "branch": "重庆市分行",
+      "date": "2026-03-02",
+      "rows": 1
+    },
+    "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2026030217432239848/index.html": {
+      "branch": "重庆市分行",
+      "date": "2026-03-02",
+      "rows": 1
+    },
+    "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2026010917353970529/index.html": {
+      "branch": "重庆市分行",
+      "date": "2026-01-09",
+      "rows": 1
+    },
+    "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2026010917351173357/index.html": {
+      "branch": "重庆市分行",
+      "date": "2026-01-09",
+      "rows": 1
+    },
+    "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2026010917344560965/index.html": {
+      "branch": "重庆市分行",
+      "date": "2026-01-09",
+      "rows": 1
+    },
+    "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2026010917341819382/index.html": {
+      "branch": "重庆市分行",
+      "date": "2026-01-09",
+      "rows": 1
+    },
+    "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2025123119383937723/index.html": {
+      "branch": "重庆市分行",
+      "date": "2025-12-31",
+      "rows": 1
+    },
+    "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/5863763/index.html": {
+      "branch": "重庆市分行",
+      "date": "2025-10-11",
+      "rows": 1
+    },
+    "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2025092318230933269/index.html": {
+      "branch": "重庆市分行",
+      "date": "2025-08-22",
+      "rows": 1
+    },
+    "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2025092318230920311/index.html": {
+      "branch": "重庆市分行",
+      "date": "2025-08-22",
+      "rows": 1
+    },
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025123116340589049/index.html": {
+      "branch": "贵州省分行",
+      "date": "2025-12-31",
+      "rows": 2
+    },
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235780839/index.html": {
+      "branch": "贵州省分行",
+      "date": "2025-09-30",
+      "rows": 1
+    },
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235791555/index.html": {
+      "branch": "贵州省分行",
+      "date": "2025-09-08",
+      "rows": 3
+    },
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235756659/index.html": {
+      "branch": "贵州省分行",
+      "date": "2025-09-08",
+      "rows": 3
+    },
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235729106/index.html": {
+      "branch": "贵州省分行",
+      "date": "2025-09-08",
+      "rows": 3
+    },
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235740414/index.html": {
+      "branch": "贵州省分行",
+      "date": "2025-09-08",
+      "rows": 3
+    },
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235728842/index.html": {
+      "branch": "贵州省分行",
+      "date": "2025-09-08",
+      "rows": 2
+    },
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235831087/index.html": {
+      "branch": "贵州省分行",
+      "date": "2025-09-08",
+      "rows": 1
+    },
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235857482/index.html": {
+      "branch": "贵州省分行",
+      "date": "2025-09-08",
+      "rows": 1
+    },
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235886923/index.html": {
+      "branch": "贵州省分行",
+      "date": "2025-09-08",
+      "rows": 6
     }
   },
   "listed": {
@@ -6244,7 +6056,11 @@
     "https://zhengzhou.pbc.gov.cn/zhengzhou/124182/124200/124207/caa0a973-2.html": "2026-11-23",
     "https://wuhan.pbc.gov.cn/wuhan/123472/123493/123502/b8a06bd7-2.html": "2026-11-23",
     "https://changsha.pbc.gov.cn/changsha/130011/130029/130036/7deae701-3.html": "2026-11-23",
-    "https://guangzhou.pbc.gov.cn/guangzhou/129142/129159/129166/318c1324-3.html": "2026-11-23"
+    "https://guangzhou.pbc.gov.cn/guangzhou/129142/129159/129166/318c1324-3.html": "2026-11-23",
+    "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/77b1a5ca-2.html": "2026-11-23",
+    "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/1b7d8dcd-3.html": "2026-11-23",
+    "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/0f42a2da-3.html": "2026-11-23",
+    "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/c368223c-3.html": "2026-11-23"
   },
   "failures": {
     "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026070916570660880/index.html": {
@@ -12655,6 +12471,253 @@
       },
       "error": "Unparsed attachment ['https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512959/5534681/2024121318215588494.pdf'][]",
       "last_attempt": "2026-11-23"
+    },
+    "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512959/5412817/index.html": {
+      "task": {
+        "url": "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512959/5412817/index.html",
+        "day": "2024-07-24",
+        "title": "中国人民银行广西壮族自治区分行行政处罚决定信息公示表（2024.07.17）",
+        "kind": "notice",
+        "branch": "广西壮族自治区分行",
+        "home": "https://nanning.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512959/5412817/2024072417031777957.pdf'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512959/5403642/index.html": {
+      "task": {
+        "url": "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512959/5403642/index.html",
+        "day": "2024-07-05",
+        "title": "中国人民银行广西壮族自治区分行行政处罚信息公示表（2024.07.05）",
+        "kind": "notice",
+        "branch": "广西壮族自治区分行",
+        "home": "https://nanning.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://nanning.pbc.gov.cn/nanning/133346/133364/133371/5512959/5403642/2024071217371488237.pdf'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/5884539/index.html": {
+      "task": {
+        "url": "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/5884539/index.html",
+        "day": "2025-10-30",
+        "title": "中国人民银行海南省分行行政处罚决定信息公示表（琼银罚决字〔2025〕9 号）",
+        "kind": "notice",
+        "branch": "海南省分行",
+        "home": "https://haikou.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/5884539/2025103016024814991.doc'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174611755/index.html": {
+      "task": {
+        "url": "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174611755/index.html",
+        "day": "2025-07-25",
+        "title": "中国人民银行海南省分行行政处罚决定信息公示表（琼银罚决字〔2025〕7号）",
+        "kind": "notice",
+        "branch": "海南省分行",
+        "home": "https://haikou.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174611755/2025072519234822848.doc'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174611181/index.html": {
+      "task": {
+        "url": "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174611181/index.html",
+        "day": "2025-05-26",
+        "title": "中国人民银行海南省分行行政处罚决定信息公示表（琼银罚决字〔2025〕3-4号）",
+        "kind": "notice",
+        "branch": "海南省分行",
+        "home": "https://haikou.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174611181/2025052616031441974.doc'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174696401/index.html": {
+      "task": {
+        "url": "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174696401/index.html",
+        "day": "2025-05-26",
+        "title": "中国人民银行海南省分行行政处罚决定信息公示表（琼银罚决字〔2025〕2号）",
+        "kind": "notice",
+        "branch": "海南省分行",
+        "home": "https://haikou.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174696401/2025052616023982317.doc'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174634928/index.html": {
+      "task": {
+        "url": "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174634928/index.html",
+        "day": "2025-05-26",
+        "title": "中国人民银行海南省分行行政处罚决定信息公示表（琼银罚决字〔2025〕1号）",
+        "kind": "notice",
+        "branch": "海南省分行",
+        "home": "https://haikou.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174634928/2025052616020066446.doc'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174633060/index.html": {
+      "task": {
+        "url": "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174633060/index.html",
+        "day": "2025-01-06",
+        "title": "中国人民银行海南省分行行政处罚决定信息公示表（琼银罚决字〔2024〕8-9号）",
+        "kind": "notice",
+        "branch": "海南省分行",
+        "home": "https://haikou.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174633060/2025010610310921122.doc'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174628365/index.html": {
+      "task": {
+        "url": "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174628365/index.html",
+        "day": "2024-04-02",
+        "title": "中国人民银行海南省分行行政处罚决定信息公示表（琼银罚决字〔2024〕4-6号）",
+        "kind": "notice",
+        "branch": "海南省分行",
+        "home": "https://haikou.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174628365/2025040216094241435.doc'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174651986/index.html": {
+      "task": {
+        "url": "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174651986/index.html",
+        "day": "2024-03-27",
+        "title": "中国人民银行海南省分行行政处罚信息公示表（琼银罚决字〔2024〕2-3号）",
+        "kind": "notice",
+        "branch": "海南省分行",
+        "home": "https://haikou.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://haikou.pbc.gov.cn/haikou/132982/133000/133007/5485279/2025092315174651986/2024032715261393224.doc'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5901784/index.html": {
+      "task": {
+        "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5901784/index.html",
+        "day": "2025-11-14",
+        "title": "中国人民银行四川省分行行政处罚决定信息公示表（川银罚字〔2025〕23号）（农业发展银行四川省分行）",
+        "kind": "notice",
+        "branch": "四川省分行",
+        "home": "https://chengdu.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5901784/2025111419223465095.pdf'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5811434/index.html": {
+      "task": {
+        "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5811434/index.html",
+        "day": "2025-08-15",
+        "title": "中国人民银行四川省分行行政处罚决定信息公示表（川银罚字〔2025〕20-22号）（长城华西银行）",
+        "kind": "notice",
+        "branch": "四川省分行",
+        "home": "https://chengdu.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5811434/2025081517344080468.pdf'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5784683/index.html": {
+      "task": {
+        "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5784683/index.html",
+        "day": "2025-07-18",
+        "title": "中国人民银行四川省分行行政处罚决定信息公示表（川银罚字〔2025年〕14号-19号）（荣县农商行、三台农商行）",
+        "kind": "notice",
+        "branch": "四川省分行",
+        "home": "https://chengdu.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5784683/2025071815272462190.pdf'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5638655/index.html": {
+      "task": {
+        "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5638655/index.html",
+        "day": "2025-03-26",
+        "title": "中国人民银行四川省分行行政处罚决定信息公示表（川银罚字﹝2025﹞11-12号）（现代金控成都）",
+        "kind": "notice",
+        "branch": "四川省分行",
+        "home": "https://chengdu.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5638655/2025041011181020162.pdf'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5597601/index.html": {
+      "task": {
+        "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5597601/index.html",
+        "day": "2025-02-21",
+        "title": "中国人民银行四川省分行行政处罚决定信息公示表（川银罚字﹝2025﹞1-7号）(天府银行成都分行)",
+        "kind": "notice",
+        "branch": "四川省分行",
+        "home": "https://chengdu.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5597601/2025041011202817989.pdf'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5453482/index.html": {
+      "task": {
+        "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5453482/index.html",
+        "day": "2024-09-06",
+        "title": "中国人民银行四川省分行行政处罚决定信息公示表（中信银行成都分行、巴中农商行南江支行、雅安农商行汉源支行）",
+        "kind": "notice",
+        "branch": "四川省分行",
+        "home": "https://chengdu.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5453482/2025042417043089028.pdf'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5428070/index.html": {
+      "task": {
+        "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5428070/index.html",
+        "day": "2024-08-09",
+        "title": "中国人民银行四川省分行行政处罚决定信息公示表（太平青羊、拉卡拉）",
+        "kind": "notice",
+        "branch": "四川省分行",
+        "home": "https://chengdu.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5428070/2025042417051141471.pdf'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5427876/index.html": {
+      "task": {
+        "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5427876/index.html",
+        "day": "2024-08-09",
+        "title": "中国人民银行四川省分行行政处罚决定信息公示表（绵商行、宜商行、雅安农商行）",
+        "kind": "notice",
+        "branch": "四川省分行",
+        "home": "https://chengdu.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5427876/2025042417060122771.pdf'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5327860/index.html": {
+      "task": {
+        "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5327860/index.html",
+        "day": "2024-04-12",
+        "title": "中国人民银行四川省分行行政处罚决定信息公示表（资阳民生、自贡农商行等5件）",
+        "kind": "notice",
+        "branch": "四川省分行",
+        "home": "https://chengdu.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498158/5327860/2025042417082530390.pdf'][]",
+      "last_attempt": "2026-11-23"
     }
   },
   "discovery_seen": {
@@ -12924,8 +12987,8 @@
         "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/index.html"
       ],
       "parsedNotices": 5,
-      "pendingTasks": 19,
-      "failedTasks": 18,
+      "pendingTasks": 18,
+      "failedTasks": 20,
       "historyComplete": false
     },
     "海南省分行": {
@@ -12933,9 +12996,9 @@
       "directories": [
         "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/index.html"
       ],
-      "parsedNotices": 3,
-      "pendingTasks": 18,
-      "failedTasks": 8,
+      "parsedNotices": 4,
+      "pendingTasks": 8,
+      "failedTasks": 16,
       "historyComplete": false
     },
     "重庆市分行": {
@@ -12943,7 +13006,7 @@
       "directories": [
         "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/index.html"
       ],
-      "parsedNotices": 20,
+      "parsedNotices": 30,
       "pendingTasks": 18,
       "failedTasks": 0,
       "historyComplete": false
@@ -12954,8 +13017,8 @@
         "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/index.html"
       ],
       "parsedNotices": 12,
-      "pendingTasks": 19,
-      "failedTasks": 8,
+      "pendingTasks": 10,
+      "failedTasks": 17,
       "historyComplete": false
     },
     "贵州省分行": {
@@ -12963,8 +13026,8 @@
       "directories": [
         "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/index.html"
       ],
-      "parsedNotices": 17,
-      "pendingTasks": 14,
+      "parsedNotices": 27,
+      "pendingTasks": 1,
       "failedTasks": 3,
       "historyComplete": false
     },
@@ -13089,9 +13152,9 @@
       "historyComplete": true
     }
   },
-  "updated_at": "2026-11-23T17:46:53+08:00",
+  "updated_at": "2026-11-23T19:32:26+08:00",
   "pause_reason": null,
-  "requestClock": 1795427212.909492,
+  "requestClock": 1795433546.0500157,
   "pageFingerprints": {
     "77eafe10a2f9cd308f28d42fafb25556ac363d485149dfecae527603e7754ff5": {
       "url": "https://shenyang.pbc.gov.cn/shenyfh/108074/108127/108208/9b97ac7e-2.html",
@@ -13408,7 +13471,23 @@
     "f7b21bf9e7741dd1a7a847b421f2e2caa3577de9c35776ce8269c19d1aa466ba": {
       "url": "https://guangzhou.pbc.gov.cn/guangzhou/129142/129159/129166/318c1324-3.html",
       "day": "2026-11-23"
+    },
+    "2b957c20c72bfeefacba5bc89d770dc379cf70dd0bda4dda5c795d411d7ab8aa": {
+      "url": "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/77b1a5ca-2.html",
+      "day": "2026-11-23"
+    },
+    "d1fcb98683a674ec05e1d2cea7d4c00f5c9fe4da9d4604531ccea0ed5557e2e6": {
+      "url": "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/1b7d8dcd-3.html",
+      "day": "2026-11-23"
+    },
+    "8b12f18785509aed5a3db3bf2df85a3107e4be516b87a48b2d8f3a964ed8bfbb": {
+      "url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/0f42a2da-3.html",
+      "day": "2026-11-23"
+    },
+    "4a0d37358d7650938e34dbc350fdf90eaa8e335b5daf05108b661ef69cf0c68a": {
+      "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/c368223c-3.html",
+      "day": "2026-11-23"
     }
   },
-  "completedTasks": 302
+  "completedTasks": 329
 }
