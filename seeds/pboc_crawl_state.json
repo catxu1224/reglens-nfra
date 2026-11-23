@@ -1,459 +1,6 @@
 {
   "queue": [
     {
-      "url": "https://dalian.pbc.gov.cn/dalian/123812/123830/123837/2026111709514319315/index.html",
-      "day": "2026-11-17",
-      "title": "中国人民银行大连市分行行政处罚决定信息公示表（大银罚决字〔2025〕1-6号）",
-      "kind": "notice",
-      "branch": "大连市分行",
-      "home": "https://dalian.pbc.gov.cn/",
-      "refresh": true
-    },
-    {
-      "url": "https://dalian.pbc.gov.cn/dalian/123812/123830/123837/2026010410422465791/index.html",
-      "day": "2026-01-04",
-      "title": "中国人民银行大连市分行行政处罚决定信息公示表（大银罚决字〔2025〕10号）",
-      "kind": "notice",
-      "branch": "大连市分行",
-      "home": "https://dalian.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://dalian.pbc.gov.cn/dalian/123812/123830/123837/2026010410405767080/index.html",
-      "day": "2026-01-04",
-      "title": "中国人民银行大连市分行行政处罚决定信息公示表（大银罚决字〔2025〕9号）",
-      "kind": "notice",
-      "branch": "大连市分行",
-      "home": "https://dalian.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://dalian.pbc.gov.cn/dalian/123812/123830/123837/2025080521414997608/index.html",
-      "day": "2024-01-04",
-      "title": "中国人民银行大连市分行行政处罚决定信息公示表（大银罚决字〔2023〕12-14号）",
-      "kind": "notice",
-      "branch": "大连市分行",
-      "home": "https://dalian.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/2026112014400153706/index.html",
-      "day": "2026-11-20",
-      "title": "中国人民银行宁波市分行行政处罚决定信息公示表（甬银罚决字〔2026〕11-12号）",
-      "kind": "notice",
-      "branch": "宁波市分行",
-      "home": "https://ningbo.pbc.gov.cn/",
-      "refresh": true
-    },
-    {
-      "url": "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/2026112014380465381/index.html",
-      "day": "2026-11-20",
-      "title": "中国人民银行宁波市分行行政处罚决定信息公示表（甬银罚决字〔2026〕7号）",
-      "kind": "notice",
-      "branch": "宁波市分行",
-      "home": "https://ningbo.pbc.gov.cn/",
-      "refresh": true
-    },
-    {
-      "url": "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/2026112014373676264/index.html",
-      "day": "2026-11-20",
-      "title": "中国人民银行宁波市分行行政处罚决定信息公示表（甬银罚决字〔2026〕6号）",
-      "kind": "notice",
-      "branch": "宁波市分行",
-      "home": "https://ningbo.pbc.gov.cn/",
-      "refresh": true
-    },
-    {
-      "url": "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/2026063017214236574/index.html",
-      "day": "2026-06-30",
-      "title": "中国人民银行宁波市分行行政处罚决定信息公示表（甬银罚决字〔2026〕5号）",
-      "kind": "notice",
-      "branch": "宁波市分行",
-      "home": "https://ningbo.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/2026051510020128833/index.html",
-      "day": "2026-05-15",
-      "title": "中国人民银行宁波市分行行政处罚决定信息公示表（甬银罚决字〔2026〕4号）",
-      "kind": "notice",
-      "branch": "宁波市分行",
-      "home": "https://ningbo.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/2026051510013415289/index.html",
-      "day": "2026-05-15",
-      "title": "中国人民银行宁波市分行行政处罚决定信息公示表（甬银罚决字〔2026〕2-3号）",
-      "kind": "notice",
-      "branch": "宁波市分行",
-      "home": "https://ningbo.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/2026051510010184079/index.html",
-      "day": "2026-05-15",
-      "title": "中国人民银行宁波市分行行政处罚决定信息公示表（甬银罚决字〔2026〕1号）",
-      "kind": "notice",
-      "branch": "宁波市分行",
-      "home": "https://ningbo.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/2025122613565412200/index.html",
-      "day": "2025-12-26",
-      "title": "中国人民银行宁波市分行行政处罚决定信息公示表（甬银罚决字〔2025〕22-23号）",
-      "kind": "notice",
-      "branch": "宁波市分行",
-      "home": "https://ningbo.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/2025121910481858835/index.html",
-      "day": "2025-12-19",
-      "title": "中国人民银行宁波市分行行政处罚决定信息公示表（甬银罚决字〔2025〕19-21号）",
-      "kind": "notice",
-      "branch": "宁波市分行",
-      "home": "https://ningbo.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/5912087/index.html",
-      "day": "2025-11-25",
-      "title": "中国人民银行宁波市分行行政处罚决定信息公示表（甬银罚决字〔2025〕18号）",
-      "kind": "notice",
-      "branch": "宁波市分行",
-      "home": "https://ningbo.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "kind": "list",
-      "url": "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/17279-2.html",
-      "branch": "宁波市分行",
-      "home": "https://ningbo.pbc.gov.cn/",
-      "daily": false
-    },
-    {
-      "url": "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2026101617100729088/index.html",
-      "day": "2026-10-16",
-      "title": "中国人民银行青岛市分行行政处罚决定信息公示表（青银罚决字〔2026〕6号）",
-      "kind": "notice",
-      "branch": "青岛市分行",
-      "home": "https://qingdao.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2026071016530553692/index.html",
-      "day": "2026-07-10",
-      "title": "中国人民银行青岛市分行行政处罚决定信息公示表（青银罚决字〔2026〕5号）",
-      "kind": "notice",
-      "branch": "青岛市分行",
-      "home": "https://qingdao.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2026070117150594017/index.html",
-      "day": "2026-07-01",
-      "title": "中国人民银行青岛市分行行政处罚决定信息公示表（青银罚决字〔2026〕4号）",
-      "kind": "notice",
-      "branch": "青岛市分行",
-      "home": "https://qingdao.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2026051316590093821/index.html",
-      "day": "2026-05-13",
-      "title": "中国人民银行青岛市分行行政处罚决定信息公示表（青银罚决字〔2026〕2号）",
-      "kind": "notice",
-      "branch": "青岛市分行",
-      "home": "https://qingdao.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2026050914371269449/index.html",
-      "day": "2026-05-09",
-      "title": "中国人民银行青岛市分行行政处罚决定信息公示表（青银罚决字〔2026〕3号）",
-      "kind": "notice",
-      "branch": "青岛市分行",
-      "home": "https://qingdao.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2026021410051875196/index.html",
-      "day": "2026-02-14",
-      "title": "中国人民银行青岛市分行行政处罚决定信息公示表（青银罚决字〔2026〕1号）",
-      "kind": "notice",
-      "branch": "青岛市分行",
-      "home": "https://qingdao.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2026010511014577378/index.html",
-      "day": "2026-01-05",
-      "title": "中国人民银行青岛市分行行政处罚决定信息公示表（青银罚决字〔2025〕7号）",
-      "kind": "notice",
-      "branch": "青岛市分行",
-      "home": "https://qingdao.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2025092319374573080/index.html",
-      "day": "2025-07-04",
-      "title": "中国人民银行青岛市分行行政处罚决定信息公示表（青银罚决字〔2025〕6号）",
-      "kind": "notice",
-      "branch": "青岛市分行",
-      "home": "https://qingdao.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2025092319374544098/index.html",
-      "day": "2025-06-13",
-      "title": "中国人民银行青岛市分行行政处罚决定信息公示表（青银罚决字〔2025〕4号、青银罚决字〔2025〕5号）",
-      "kind": "notice",
-      "branch": "青岛市分行",
-      "home": "https://qingdao.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2025092319374595756/index.html",
-      "day": "2025-06-13",
-      "title": "中国人民银行青岛市分行行政处罚决定信息公示表（青银罚决字〔2025〕2号、青银罚决字〔2025〕3号）",
-      "kind": "notice",
-      "branch": "青岛市分行",
-      "home": "https://qingdao.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "kind": "list",
-      "url": "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/16720-2.html",
-      "branch": "青岛市分行",
-      "home": "https://qingdao.pbc.gov.cn/",
-      "daily": false
-    },
-    {
-      "url": "https://xiamen.pbc.gov.cn/xiamen/127703/127721/127728/2026101014505364792/index.html",
-      "day": "2026-10-10",
-      "title": "中国人民银行厦门市分行行政处罚决定信息公示表（厦门银罚决字〔2026〕3号）",
-      "kind": "notice",
-      "branch": "厦门市分行",
-      "home": "https://xiamen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://xiamen.pbc.gov.cn/xiamen/127703/127721/127728/2026052216492783152/index.html",
-      "day": "2026-05-22",
-      "title": "中国人民银行厦门市分行行政处罚信息公示表（厦门银罚决字〔2026〕2号）",
-      "kind": "notice",
-      "branch": "厦门市分行",
-      "home": "https://xiamen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://xiamen.pbc.gov.cn/xiamen/127703/127721/127728/2026052216484028830/index.html",
-      "day": "2026-05-22",
-      "title": "中国人民银行厦门市分行行政处罚信息公示表（厦门银罚决字〔2026〕1号）",
-      "kind": "notice",
-      "branch": "厦门市分行",
-      "home": "https://xiamen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://xiamen.pbc.gov.cn/xiamen/127703/127721/127728/5916561/index.html",
-      "day": "2025-11-28",
-      "title": "中国人民银行厦门市分行行政处罚信息公示表（厦门银罚决字〔2025〕11号、12号）",
-      "kind": "notice",
-      "branch": "厦门市分行",
-      "home": "https://xiamen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://xiamen.pbc.gov.cn/xiamen/127703/127721/127728/5864283/index.html",
-      "day": "2025-10-11",
-      "title": "中国人民银行厦门市分行行政处罚信息公示表（厦门银罚决字〔2025〕8号、10号）",
-      "kind": "notice",
-      "branch": "厦门市分行",
-      "home": "https://xiamen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://xiamen.pbc.gov.cn/xiamen/127703/127721/127728/5843481/index.html",
-      "day": "2025-09-18",
-      "title": "中国人民银行厦门市分行行政处罚信息公示表（厦门银罚决字〔2025〕3-6号）",
-      "kind": "notice",
-      "branch": "厦门市分行",
-      "home": "https://xiamen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://xiamen.pbc.gov.cn/xiamen/127703/127721/127728/2025092315245417129/index.html",
-      "day": "2025-06-19",
-      "title": "中国人民银行厦门市分行行政处罚信息公示表（厦门银罚决字〔2025〕1号）",
-      "kind": "notice",
-      "branch": "厦门市分行",
-      "home": "https://xiamen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://xiamen.pbc.gov.cn/xiamen/127703/127721/127728/2025092315245412880/index.html",
-      "day": "2024-09-14",
-      "title": "中国人民银行厦门市分行行政处罚信息公示表（厦门银罚决字〔2024〕1-3号）",
-      "kind": "notice",
-      "branch": "厦门市分行",
-      "home": "https://xiamen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026021316170673894/index.html",
-      "day": "2026-02-13",
-      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2026〕3号、4号）",
-      "kind": "notice",
-      "branch": "上海市分行",
-      "home": "https://shanghai.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026021011194427448/index.html",
-      "day": "2026-02-10",
-      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2026〕1号、2号）",
-      "kind": "notice",
-      "branch": "上海市分行",
-      "home": "https://shanghai.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026010916452739336/index.html",
-      "day": "2026-01-09",
-      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2025〕46号）",
-      "kind": "notice",
-      "branch": "上海市分行",
-      "home": "https://shanghai.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5898313/index.html",
-      "day": "2025-11-12",
-      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2025〕43号）",
-      "kind": "notice",
-      "branch": "上海市分行",
-      "home": "https://shanghai.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5886826/index.html",
-      "day": "2025-10-31",
-      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2025〕41、42号）",
-      "kind": "notice",
-      "branch": "上海市分行",
-      "home": "https://shanghai.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5871076/index.html",
-      "day": "2025-10-17",
-      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2025〕39、40号）",
-      "kind": "notice",
-      "branch": "上海市分行",
-      "home": "https://shanghai.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5854541/index.html",
-      "day": "2025-09-26",
-      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2025〕37、38号）",
-      "kind": "notice",
-      "branch": "上海市分行",
-      "home": "https://shanghai.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5847357/index.html",
-      "day": "2025-09-19",
-      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2025〕35、36号）",
-      "kind": "notice",
-      "branch": "上海市分行",
-      "home": "https://shanghai.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5832358/index.html",
-      "day": "2025-09-08",
-      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2025〕33、34号）",
-      "kind": "notice",
-      "branch": "上海市分行",
-      "home": "https://shanghai.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5802025/index.html",
-      "day": "2025-08-05",
-      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2025〕第31号）",
-      "kind": "notice",
-      "branch": "上海市分行",
-      "home": "https://shanghai.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5790540/index.html",
-      "day": "2025-07-24",
-      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2025〕27号、28号）",
-      "kind": "notice",
-      "branch": "上海市分行",
-      "home": "https://shanghai.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "kind": "list",
-      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/14681-3.html",
-      "branch": "上海市分行",
-      "home": "https://shanghai.pbc.gov.cn/",
-      "daily": false
-    },
-    {
-      "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2025122617105123462/index.html",
-      "day": "2025-12-26",
-      "title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2025】65-66号）",
-      "kind": "notice",
-      "branch": "北京市分行",
-      "home": "https://beijing.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/5922094/index.html",
-      "day": "2025-12-04",
-      "title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2025】63-64号）",
-      "kind": "notice",
-      "branch": "北京市分行",
-      "home": "https://beijing.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/5914103/index.html",
-      "day": "2025-11-27",
-      "title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2025】61-62号）",
-      "kind": "notice",
-      "branch": "北京市分行",
-      "home": "https://beijing.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2025111421414257266/index.html",
-      "day": "2025-10-31",
-      "title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2025】59-60号）",
-      "kind": "notice",
-      "branch": "北京市分行",
-      "home": "https://beijing.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2025111421414218837/index.html",
-      "day": "2025-10-31",
-      "title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2025】57-58号）",
-      "kind": "notice",
-      "branch": "北京市分行",
-      "home": "https://beijing.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
       "url": "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2025111421414261925/index.html",
       "day": "2025-08-15",
       "title": "中国人民银行北京市分行行政处罚决定信息公示表（银京罚决字【2025】54-55号）",
@@ -5168,6 +4715,191 @@
       "branch": "深圳市分行",
       "home": "https://shenzhen.pbc.gov.cn/",
       "daily": false
+    },
+    {
+      "url": "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/5907721/index.html",
+      "day": "2025-11-21",
+      "title": "中国人民银行宁波市分行行政处罚决定信息公示表（甬银罚决字〔2025〕17号）",
+      "kind": "notice",
+      "branch": "宁波市分行",
+      "home": "https://ningbo.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/5836213/index.html",
+      "day": "2025-09-11",
+      "title": "中国人民银行宁波市分行行政处罚决定信息公示表（甬银罚决字〔2025〕15-16号）",
+      "kind": "notice",
+      "branch": "宁波市分行",
+      "home": "https://ningbo.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/5738020/index.html",
+      "day": "2025-06-10",
+      "title": "中国人民银行宁波市分行行政处罚决定信息公示表（甬银罚决字〔2025〕13-14号）",
+      "kind": "notice",
+      "branch": "宁波市分行",
+      "home": "https://ningbo.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/5737999/index.html",
+      "day": "2025-06-10",
+      "title": "中国人民银行宁波市分行行政处罚决定信息公示表（甬银罚决字〔2025〕10-12号）",
+      "kind": "notice",
+      "branch": "宁波市分行",
+      "home": "https://ningbo.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/5686664/index.html",
+      "day": "2025-04-27",
+      "title": "中国人民银行宁波市分行行政处罚决定信息公示表（甬银罚决字〔2025〕7-9号）",
+      "kind": "notice",
+      "branch": "宁波市分行",
+      "home": "https://ningbo.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/5686656/index.html",
+      "day": "2025-04-27",
+      "title": "中国人民银行宁波市分行行政处罚决定信息公示表（甬银罚决字〔2025〕2-6号）",
+      "kind": "notice",
+      "branch": "宁波市分行",
+      "home": "https://ningbo.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/5705064/index.html",
+      "day": "2025-04-02",
+      "title": "中国人民银行宁波市分行行政处罚决定信息公示表（甬银罚决字〔2025〕1号）",
+      "kind": "notice",
+      "branch": "宁波市分行",
+      "home": "https://ningbo.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2025092319374539715/index.html",
+      "day": "2024-04-15",
+      "title": "中国人民银行青岛市分行行政处罚决定信息公示表（2024年4月15日）",
+      "kind": "notice",
+      "branch": "青岛市分行",
+      "home": "https://qingdao.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "kind": "list",
+      "url": "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/16720-3.html",
+      "branch": "青岛市分行",
+      "home": "https://qingdao.pbc.gov.cn/",
+      "daily": false
+    },
+    {
+      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5776559/index.html",
+      "day": "2025-07-10",
+      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2025〕24号-25号）",
+      "kind": "notice",
+      "branch": "上海市分行",
+      "home": "https://shanghai.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5776554/index.html",
+      "day": "2025-07-10",
+      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2025〕22号-23号）",
+      "kind": "notice",
+      "branch": "上海市分行",
+      "home": "https://shanghai.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5776549/index.html",
+      "day": "2025-07-10",
+      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2025〕20号-21号）",
+      "kind": "notice",
+      "branch": "上海市分行",
+      "home": "https://shanghai.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5771212/index.html",
+      "day": "2025-07-07",
+      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2025〕19号）",
+      "kind": "notice",
+      "branch": "上海市分行",
+      "home": "https://shanghai.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5763668/index.html",
+      "day": "2025-06-27",
+      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2025〕18号）",
+      "kind": "notice",
+      "branch": "上海市分行",
+      "home": "https://shanghai.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5763660/index.html",
+      "day": "2025-06-27",
+      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2025〕14号-17号）",
+      "kind": "notice",
+      "branch": "上海市分行",
+      "home": "https://shanghai.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5727368/index.html",
+      "day": "2025-05-28",
+      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2025〕12号、13号）",
+      "kind": "notice",
+      "branch": "上海市分行",
+      "home": "https://shanghai.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5727363/index.html",
+      "day": "2025-05-28",
+      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2025〕10号、11号）",
+      "kind": "notice",
+      "branch": "上海市分行",
+      "home": "https://shanghai.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5708874/index.html",
+      "day": "2025-05-13",
+      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2025〕8-9号）",
+      "kind": "notice",
+      "branch": "上海市分行",
+      "home": "https://shanghai.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5669346/index.html",
+      "day": "2025-04-10",
+      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2025〕4号、5号、6号）",
+      "kind": "notice",
+      "branch": "上海市分行",
+      "home": "https://shanghai.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5669341/index.html",
+      "day": "2025-04-10",
+      "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2025〕2号、3号）",
+      "kind": "notice",
+      "branch": "上海市分行",
+      "home": "https://shanghai.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "kind": "list",
+      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/14681-4.html",
+      "branch": "上海市分行",
+      "home": "https://shanghai.pbc.gov.cn/",
+      "daily": false
     }
   ],
   "done": {
@@ -6095,6 +5827,156 @@
       "branch": "深圳市分行",
       "date": "2025-05-09",
       "rows": 3
+    },
+    "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/2026112014400153706/index.html": {
+      "branch": "宁波市分行",
+      "date": "2026-11-20",
+      "rows": 2
+    },
+    "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/2026112014380465381/index.html": {
+      "branch": "宁波市分行",
+      "date": "2026-11-20",
+      "rows": 1
+    },
+    "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/2026112014373676264/index.html": {
+      "branch": "宁波市分行",
+      "date": "2026-11-20",
+      "rows": 1
+    },
+    "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/2026063017214236574/index.html": {
+      "branch": "宁波市分行",
+      "date": "2026-06-30",
+      "rows": 1
+    },
+    "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/2026051510020128833/index.html": {
+      "branch": "宁波市分行",
+      "date": "2026-05-15",
+      "rows": 1
+    },
+    "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/2026051510013415289/index.html": {
+      "branch": "宁波市分行",
+      "date": "2026-05-15",
+      "rows": 2
+    },
+    "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/2026051510010184079/index.html": {
+      "branch": "宁波市分行",
+      "date": "2026-05-15",
+      "rows": 1
+    },
+    "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/2025122613565412200/index.html": {
+      "branch": "宁波市分行",
+      "date": "2025-12-26",
+      "rows": 2
+    },
+    "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/2025121910481858835/index.html": {
+      "branch": "宁波市分行",
+      "date": "2025-12-19",
+      "rows": 3
+    },
+    "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/5912087/index.html": {
+      "branch": "宁波市分行",
+      "date": "2025-11-25",
+      "rows": 1
+    },
+    "https://xiamen.pbc.gov.cn/xiamen/127703/127721/127728/2026101014505364792/index.html": {
+      "branch": "厦门市分行",
+      "date": "2026-10-10",
+      "rows": 1
+    },
+    "https://xiamen.pbc.gov.cn/xiamen/127703/127721/127728/2026052216492783152/index.html": {
+      "branch": "厦门市分行",
+      "date": "2026-05-22",
+      "rows": 1
+    },
+    "https://xiamen.pbc.gov.cn/xiamen/127703/127721/127728/2026052216484028830/index.html": {
+      "branch": "厦门市分行",
+      "date": "2026-05-22",
+      "rows": 1
+    },
+    "https://xiamen.pbc.gov.cn/xiamen/127703/127721/127728/5916561/index.html": {
+      "branch": "厦门市分行",
+      "date": "2025-11-28",
+      "rows": 2
+    },
+    "https://xiamen.pbc.gov.cn/xiamen/127703/127721/127728/5864283/index.html": {
+      "branch": "厦门市分行",
+      "date": "2025-10-11",
+      "rows": 2
+    },
+    "https://xiamen.pbc.gov.cn/xiamen/127703/127721/127728/5843481/index.html": {
+      "branch": "厦门市分行",
+      "date": "2025-09-18",
+      "rows": 4
+    },
+    "https://xiamen.pbc.gov.cn/xiamen/127703/127721/127728/2025092315245417129/index.html": {
+      "branch": "厦门市分行",
+      "date": "2025-06-19",
+      "rows": 1
+    },
+    "https://xiamen.pbc.gov.cn/xiamen/127703/127721/127728/2025092315245412880/index.html": {
+      "branch": "厦门市分行",
+      "date": "2024-09-14",
+      "rows": 3
+    },
+    "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026021316170673894/index.html": {
+      "branch": "上海市分行",
+      "date": "2026-02-13",
+      "rows": 2
+    },
+    "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026010916452739336/index.html": {
+      "branch": "上海市分行",
+      "date": "2026-01-09",
+      "rows": 1
+    },
+    "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5886826/index.html": {
+      "branch": "上海市分行",
+      "date": "2025-10-31",
+      "rows": 2
+    },
+    "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5871076/index.html": {
+      "branch": "上海市分行",
+      "date": "2025-10-17",
+      "rows": 2
+    },
+    "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5854541/index.html": {
+      "branch": "上海市分行",
+      "date": "2025-09-26",
+      "rows": 2
+    },
+    "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5847357/index.html": {
+      "branch": "上海市分行",
+      "date": "2025-09-19",
+      "rows": 2
+    },
+    "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5832358/index.html": {
+      "branch": "上海市分行",
+      "date": "2025-09-08",
+      "rows": 2
+    },
+    "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2025122617105123462/index.html": {
+      "branch": "北京市分行",
+      "date": "2025-12-26",
+      "rows": 2
+    },
+    "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/5922094/index.html": {
+      "branch": "北京市分行",
+      "date": "2025-12-04",
+      "rows": 2
+    },
+    "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/5914103/index.html": {
+      "branch": "北京市分行",
+      "date": "2025-11-27",
+      "rows": 2
+    },
+    "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2025111421414257266/index.html": {
+      "branch": "北京市分行",
+      "date": "2025-10-31",
+      "rows": 2
+    },
+    "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/2025111421414218837/index.html": {
+      "branch": "北京市分行",
+      "date": "2025-10-31",
+      "rows": 2
     }
   },
   "listed": {
@@ -6163,7 +6045,10 @@
     "https://lanzhou.pbc.gov.cn/lanzhou/117067/117091/117098/9dda93d5-2.html": "2026-11-23",
     "https://xining.pbc.gov.cn/xining/118239/118263/118270/31bd370b-2.html": "2026-11-23",
     "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/14752-2.html": "2026-11-23",
-    "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/15142-2.html": "2026-11-23"
+    "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/15142-2.html": "2026-11-23",
+    "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/17279-2.html": "2026-11-23",
+    "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/16720-2.html": "2026-11-23",
+    "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/14681-3.html": "2026-11-23"
   },
   "failures": {
     "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026070916570660880/index.html": {
@@ -11261,6 +11146,240 @@
       },
       "error": "Unparsed attachment ['https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521333/2026040318041971351/2026040318031087541.pdf'][]",
       "last_attempt": "2026-11-23"
+    },
+    "https://dalian.pbc.gov.cn/dalian/123812/123830/123837/2026111709514319315/index.html": {
+      "task": {
+        "url": "https://dalian.pbc.gov.cn/dalian/123812/123830/123837/2026111709514319315/index.html",
+        "day": "2026-11-17",
+        "title": "中国人民银行大连市分行行政处罚决定信息公示表（大银罚决字〔2025〕1-6号）",
+        "kind": "notice",
+        "branch": "大连市分行",
+        "home": "https://dalian.pbc.gov.cn/",
+        "refresh": true
+      },
+      "error": "Unparsed attachment ['https://dalian.pbc.gov.cn/dalian/123812/123830/123837/2026111709514319315/2026111709501080535.pdf'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://dalian.pbc.gov.cn/dalian/123812/123830/123837/2026010410422465791/index.html": {
+      "task": {
+        "url": "https://dalian.pbc.gov.cn/dalian/123812/123830/123837/2026010410422465791/index.html",
+        "day": "2026-01-04",
+        "title": "中国人民银行大连市分行行政处罚决定信息公示表（大银罚决字〔2025〕10号）",
+        "kind": "notice",
+        "branch": "大连市分行",
+        "home": "https://dalian.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://dalian.pbc.gov.cn/dalian/123812/123830/123837/2026010410422465791/2026010410414352601.docx'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://dalian.pbc.gov.cn/dalian/123812/123830/123837/2026010410405767080/index.html": {
+      "task": {
+        "url": "https://dalian.pbc.gov.cn/dalian/123812/123830/123837/2026010410405767080/index.html",
+        "day": "2026-01-04",
+        "title": "中国人民银行大连市分行行政处罚决定信息公示表（大银罚决字〔2025〕9号）",
+        "kind": "notice",
+        "branch": "大连市分行",
+        "home": "https://dalian.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://dalian.pbc.gov.cn/dalian/123812/123830/123837/2026010410405767080/2026010410393123550.docx'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://dalian.pbc.gov.cn/dalian/123812/123830/123837/2025080521414997608/index.html": {
+      "task": {
+        "url": "https://dalian.pbc.gov.cn/dalian/123812/123830/123837/2025080521414997608/index.html",
+        "day": "2024-01-04",
+        "title": "中国人民银行大连市分行行政处罚决定信息公示表（大银罚决字〔2023〕12-14号）",
+        "kind": "notice",
+        "branch": "大连市分行",
+        "home": "https://dalian.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://dalian.pbc.gov.cn/dalian/123812/123830/123837/2025080521414997608/2024010217443935164.pdf'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2026101617100729088/index.html": {
+      "task": {
+        "url": "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2026101617100729088/index.html",
+        "day": "2026-10-16",
+        "title": "中国人民银行青岛市分行行政处罚决定信息公示表（青银罚决字〔2026〕6号）",
+        "kind": "notice",
+        "branch": "青岛市分行",
+        "home": "https://qingdao.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "No readable penalty table; scanned image/PDF may need OCR",
+      "last_attempt": "2026-11-23"
+    },
+    "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2026071016530553692/index.html": {
+      "task": {
+        "url": "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2026071016530553692/index.html",
+        "day": "2026-07-10",
+        "title": "中国人民银行青岛市分行行政处罚决定信息公示表（青银罚决字〔2026〕5号）",
+        "kind": "notice",
+        "branch": "青岛市分行",
+        "home": "https://qingdao.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "No readable penalty table; scanned image/PDF may need OCR",
+      "last_attempt": "2026-11-23"
+    },
+    "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2026070117150594017/index.html": {
+      "task": {
+        "url": "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2026070117150594017/index.html",
+        "day": "2026-07-01",
+        "title": "中国人民银行青岛市分行行政处罚决定信息公示表（青银罚决字〔2026〕4号）",
+        "kind": "notice",
+        "branch": "青岛市分行",
+        "home": "https://qingdao.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "No readable penalty table; scanned image/PDF may need OCR",
+      "last_attempt": "2026-11-23"
+    },
+    "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2026051316590093821/index.html": {
+      "task": {
+        "url": "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2026051316590093821/index.html",
+        "day": "2026-05-13",
+        "title": "中国人民银行青岛市分行行政处罚决定信息公示表（青银罚决字〔2026〕2号）",
+        "kind": "notice",
+        "branch": "青岛市分行",
+        "home": "https://qingdao.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "No readable penalty table; scanned image/PDF may need OCR",
+      "last_attempt": "2026-11-23"
+    },
+    "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2026050914371269449/index.html": {
+      "task": {
+        "url": "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2026050914371269449/index.html",
+        "day": "2026-05-09",
+        "title": "中国人民银行青岛市分行行政处罚决定信息公示表（青银罚决字〔2026〕3号）",
+        "kind": "notice",
+        "branch": "青岛市分行",
+        "home": "https://qingdao.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "No readable penalty table; scanned image/PDF may need OCR",
+      "last_attempt": "2026-11-23"
+    },
+    "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2026021410051875196/index.html": {
+      "task": {
+        "url": "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2026021410051875196/index.html",
+        "day": "2026-02-14",
+        "title": "中国人民银行青岛市分行行政处罚决定信息公示表（青银罚决字〔2026〕1号）",
+        "kind": "notice",
+        "branch": "青岛市分行",
+        "home": "https://qingdao.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "No readable penalty table; scanned image/PDF may need OCR",
+      "last_attempt": "2026-11-23"
+    },
+    "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2026010511014577378/index.html": {
+      "task": {
+        "url": "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2026010511014577378/index.html",
+        "day": "2026-01-05",
+        "title": "中国人民银行青岛市分行行政处罚决定信息公示表（青银罚决字〔2025〕7号）",
+        "kind": "notice",
+        "branch": "青岛市分行",
+        "home": "https://qingdao.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "No readable penalty table; scanned image/PDF may need OCR",
+      "last_attempt": "2026-11-23"
+    },
+    "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2025092319374573080/index.html": {
+      "task": {
+        "url": "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2025092319374573080/index.html",
+        "day": "2025-07-04",
+        "title": "中国人民银行青岛市分行行政处罚决定信息公示表（青银罚决字〔2025〕6号）",
+        "kind": "notice",
+        "branch": "青岛市分行",
+        "home": "https://qingdao.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "No readable penalty table; scanned image/PDF may need OCR",
+      "last_attempt": "2026-11-23"
+    },
+    "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2025092319374544098/index.html": {
+      "task": {
+        "url": "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2025092319374544098/index.html",
+        "day": "2025-06-13",
+        "title": "中国人民银行青岛市分行行政处罚决定信息公示表（青银罚决字〔2025〕4号、青银罚决字〔2025〕5号）",
+        "kind": "notice",
+        "branch": "青岛市分行",
+        "home": "https://qingdao.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "No readable penalty table; scanned image/PDF may need OCR",
+      "last_attempt": "2026-11-23"
+    },
+    "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2025092319374595756/index.html": {
+      "task": {
+        "url": "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/2025092319374595756/index.html",
+        "day": "2025-06-13",
+        "title": "中国人民银行青岛市分行行政处罚决定信息公示表（青银罚决字〔2025〕2号、青银罚决字〔2025〕3号）",
+        "kind": "notice",
+        "branch": "青岛市分行",
+        "home": "https://qingdao.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "No readable penalty table; scanned image/PDF may need OCR",
+      "last_attempt": "2026-11-23"
+    },
+    "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026021011194427448/index.html": {
+      "task": {
+        "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026021011194427448/index.html",
+        "day": "2026-02-10",
+        "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2026〕1号、2号）",
+        "kind": "notice",
+        "branch": "上海市分行",
+        "home": "https://shanghai.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026021011194427448/2026021011173657253.wps'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5898313/index.html": {
+      "task": {
+        "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5898313/index.html",
+        "day": "2025-11-12",
+        "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2025〕43号）",
+        "kind": "notice",
+        "branch": "上海市分行",
+        "home": "https://shanghai.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5898313/2025111216403242219.doc'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5802025/index.html": {
+      "task": {
+        "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5802025/index.html",
+        "day": "2025-08-05",
+        "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2025〕第31号）",
+        "kind": "notice",
+        "branch": "上海市分行",
+        "home": "https://shanghai.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5802025/2025080517172744498.doc'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5790540/index.html": {
+      "task": {
+        "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5790540/index.html",
+        "day": "2025-07-24",
+        "title": "中国人民银行上海市分行行政处罚信息公示表（上海银罚字〔2025〕27号、28号）",
+        "kind": "notice",
+        "branch": "上海市分行",
+        "home": "https://shanghai.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/5790540/2025072416263263854.doc'][]",
+      "last_attempt": "2026-11-23"
     }
   },
   "discovery_seen": {
@@ -11339,9 +11458,9 @@
       "directories": [
         "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/index.html"
       ],
-      "parsedNotices": 7,
+      "parsedNotices": 14,
       "pendingTasks": 17,
-      "failedTasks": 4,
+      "failedTasks": 8,
       "historyComplete": false
     },
     "北京市分行": {
@@ -11349,8 +11468,8 @@
       "directories": [
         "https://beijing.pbc.gov.cn/beijing/132030/132052/132059/index.html"
       ],
-      "parsedNotices": 20,
-      "pendingTasks": 22,
+      "parsedNotices": 25,
+      "pendingTasks": 17,
       "failedTasks": 0,
       "historyComplete": false
     },
@@ -11660,8 +11779,8 @@
         "https://dalian.pbc.gov.cn/dalian/123812/123830/123837/index.html"
       ],
       "parsedNotices": 0,
-      "pendingTasks": 5,
-      "failedTasks": 0,
+      "pendingTasks": 1,
+      "failedTasks": 4,
       "historyComplete": false
     },
     "宁波市分行": {
@@ -11669,8 +11788,8 @@
       "directories": [
         "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/index.html"
       ],
-      "parsedNotices": 0,
-      "pendingTasks": 12,
+      "parsedNotices": 10,
+      "pendingTasks": 8,
       "failedTasks": 0,
       "historyComplete": false
     },
@@ -11680,8 +11799,8 @@
         "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/index.html"
       ],
       "parsedNotices": 0,
-      "pendingTasks": 12,
-      "failedTasks": 0,
+      "pendingTasks": 3,
+      "failedTasks": 10,
       "historyComplete": false
     },
     "厦门市分行": {
@@ -11689,15 +11808,15 @@
       "directories": [
         "https://xiamen.pbc.gov.cn/xiamen/127703/127721/127728/index.html"
       ],
-      "parsedNotices": 0,
-      "pendingTasks": 9,
+      "parsedNotices": 8,
+      "pendingTasks": 1,
       "failedTasks": 0,
       "historyComplete": false
     }
   },
-  "updated_at": "2026-11-23T11:46:39+08:00",
+  "updated_at": "2026-11-23T13:16:39+08:00",
   "pause_reason": null,
-  "requestClock": 1795405599.0292766,
+  "requestClock": 1795410999.0642283,
   "pageFingerprints": {
     "77eafe10a2f9cd308f28d42fafb25556ac363d485149dfecae527603e7754ff5": {
       "url": "https://shenyang.pbc.gov.cn/shenyfh/108074/108127/108208/9b97ac7e-2.html",
@@ -11794,7 +11913,19 @@
     "5e1f59aaaa8d6cb81d28ca5c17ae74945f66d84be2d24577f2a452ae698fe9d4": {
       "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/15142-2.html",
       "day": "2026-11-23"
+    },
+    "86af35f59fa94640d8915c3b1517b3008500bcc0db32df9c2b70a98792bd253c": {
+      "url": "https://ningbo.pbc.gov.cn/ningbo/127076/127098/127105/17279-2.html",
+      "day": "2026-11-23"
+    },
+    "896f431d85c360f72834ce1daf27ae3c59a7e3f8929cf37b6e63fb341c0d22b1": {
+      "url": "https://qingdao.pbc.gov.cn/qingdao/126166/126184/126191/16720-2.html",
+      "day": "2026-11-23"
+    },
+    "4f03f7b9e5a0b544864904b9fdacf76ce4d0613b7d240e691459cdb840451b15": {
+      "url": "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/14681-3.html",
+      "day": "2026-11-23"
     }
   },
-  "completedTasks": 180
+  "completedTasks": 213
 }
