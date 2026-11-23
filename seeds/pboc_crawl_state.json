@@ -1,497 +1,6 @@
 {
   "queue": [
     {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2026030916461724747/index.html",
-      "day": "2026-03-09",
-      "title": "中国人民银行贵州省分行行政处罚决定信息公示表（贵银处罚〔2026〕 03号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2026021308332834404/index.html",
-      "day": "2026-02-02",
-      "title": "中国人民银行贵州省分行行政处罚决定信息公示表（贵银处罚〔2026〕 02号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2026011514525062140/index.html",
-      "day": "2026-01-12",
-      "title": "中国人民银行贵州省分行行政处罚决定信息公示表（贵银处罚〔2026〕01号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025123116400880907/index.html",
-      "day": "2025-12-31",
-      "title": "中国人民银行贵州省分行行政处罚决定信息公示表（贵银处罚〔2025〕 0014号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025123116392162510/index.html",
-      "day": "2025-12-31",
-      "title": "中国人民银行贵州省分行行政处罚决定信息公示表（贵银处罚〔2025〕 0013号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503853/2026101916515223262/index.html",
-      "day": "2026-10-19",
-      "title": "中国人民银行黔东南苗族侗族自治州分行行政处罚决定信息公示表（黔东南银处罚〔2026〕02号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503847/2026093016541218489/index.html",
-      "day": "2026-09-30",
-      "title": "中国人民银行毕节市分行行政处罚决定信息公示表（毕银处罚〔2026〕03号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503853/2026092016542819422/index.html",
-      "day": "2026-09-20",
-      "title": "中国人民银行黔东南苗族侗族自治州分行行政处罚决定信息公示表（黔东南银处罚〔2026〕01号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503835/2026092016531922650/index.html",
-      "day": "2026-09-20",
-      "title": "中国人民银行安顺市分行行政处罚决定信息公示表（安银处罚〔2026〕01号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503856/2026083117084643357/index.html",
-      "day": "2026-08-31",
-      "title": "中国人民银行黔南布依族苗族自治州分行行政处罚决定信息公示表（黔南银处罚〔2026〕02号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503847/2026072017321723872/index.html",
-      "day": "2026-07-20",
-      "title": "中国人民银行毕节市分行行政处罚决定信息公示表（毕银处罚〔2026〕02号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503832/2026033116362725706/index.html",
-      "day": "2026-03-31",
-      "title": "中国人民银行六盘水市分行行政处罚决定信息公示表（六银处罚〔2026〕01号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503850/2026020917215777298/index.html",
-      "day": "2026-02-09",
-      "title": "中国人民银行铜仁市分行行政处罚决定信息公示表（铜银处罚〔2026〕01号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503847/2026020609071034002/index.html",
-      "day": "2026-02-06",
-      "title": "中国人民银行毕节市分行行政处罚决定信息公示表（毕银处罚〔2026〕01号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503859/2026020216125066875/index.html",
-      "day": "2026-02-02",
-      "title": "中国人民银行黔西南布依族苗族自治州分行行政处罚决定信息公示表（黔西南银处罚〔2026〕01号）",
-      "kind": "notice",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "kind": "list",
-      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/6cf9f205-2.html",
-      "branch": "贵州省分行",
-      "home": "https://guiyang.pbc.gov.cn/",
-      "daily": false
-    },
-    {
-      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2026112017073295638/index.html",
-      "day": "2026-11-20",
-      "title": "中国人民银行云南省分行行政处罚决定信息公示表（云银罚决字〔2026〕10号）",
-      "kind": "notice",
-      "branch": "云南省分行",
-      "home": "https://kunming.pbc.gov.cn/",
-      "refresh": true
-    },
-    {
-      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2026112017061111989/index.html",
-      "day": "2026-11-20",
-      "title": "中国人民银行云南省分行行政处罚决定信息公示表（云银罚决字〔2026〕9号）",
-      "kind": "notice",
-      "branch": "云南省分行",
-      "home": "https://kunming.pbc.gov.cn/",
-      "refresh": true
-    },
-    {
-      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2026112016513685959/index.html",
-      "day": "2026-11-20",
-      "title": "中国人民银行云南省分行行政处罚决定信息公示表（云银罚决字〔2026〕8号）",
-      "kind": "notice",
-      "branch": "云南省分行",
-      "home": "https://kunming.pbc.gov.cn/",
-      "refresh": true
-    },
-    {
-      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2026093014121775846/index.html",
-      "day": "2026-09-30",
-      "title": "中国人民银行云南省分行行政处罚决定信息公示表（云银罚决字〔2026〕7号）",
-      "kind": "notice",
-      "branch": "云南省分行",
-      "home": "https://kunming.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2026080714295958506/index.html",
-      "day": "2026-08-07",
-      "title": "中国人民银行云南省分行行政处罚决定信息公示表（云银罚决字〔2026〕5-6号）",
-      "kind": "notice",
-      "branch": "云南省分行",
-      "home": "https://kunming.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2026062616253692634/index.html",
-      "day": "2026-06-26",
-      "title": "中国人民银行云南省分行行政处罚决定信息公示表（云银罚决字〔2026〕4号）",
-      "kind": "notice",
-      "branch": "云南省分行",
-      "home": "https://kunming.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2026043016423957816/index.html",
-      "day": "2026-04-30",
-      "title": "中国人民银行云南省分行行政处罚决定信息公示表（云银罚决字〔2026〕2-3号）",
-      "kind": "notice",
-      "branch": "云南省分行",
-      "home": "https://kunming.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2026043016293392415/index.html",
-      "day": "2026-04-30",
-      "title": "中国人民银行云南省分行行政处罚决定信息公示表（云银罚决字〔2026〕1号）",
-      "kind": "notice",
-      "branch": "云南省分行",
-      "home": "https://kunming.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2025123114442915527/index.html",
-      "day": "2025-12-31",
-      "title": "中国人民银行云南省分行行政处罚决定信息公示表（云银罚决字〔2025〕19-21号）",
-      "kind": "notice",
-      "branch": "云南省分行",
-      "home": "https://kunming.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2025123114423855130/index.html",
-      "day": "2025-12-31",
-      "title": "中国人民银行云南省分行行政处罚决定信息公示表（云银罚决字〔2025〕17-18号）",
-      "kind": "notice",
-      "branch": "云南省分行",
-      "home": "https://kunming.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505429/2026111617460481628/index.html",
-      "day": "2026-11-16",
-      "title": "中国人民银行玉溪市分行行政处罚决定信息公示表（玉银罚决字〔2026〕1号）",
-      "kind": "notice",
-      "branch": "云南省分行",
-      "home": "https://kunming.pbc.gov.cn/",
-      "refresh": true
-    },
-    {
-      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505462/2026111317462153640/index.html",
-      "day": "2026-11-13",
-      "title": "中国人民银行德宏州分行行政处罚决定信息公示表（德银罚决字〔2026〕2号）",
-      "kind": "notice",
-      "branch": "云南省分行",
-      "home": "https://kunming.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505456/2026110618163959069/index.html",
-      "day": "2026-11-06",
-      "title": "中国人民银行西双版纳州分行行政处罚决定信息公示表（西银罚决字〔2026〕01号）",
-      "kind": "notice",
-      "branch": "云南省分行",
-      "home": "https://kunming.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505435/2026110617421756283/index.html",
-      "day": "2026-11-06",
-      "title": "中国人民银行昭通市分行行政处罚决定信息公示表（昭银罚决字〔2026〕4号）",
-      "kind": "notice",
-      "branch": "云南省分行",
-      "home": "https://kunming.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505447/2026110318045419356/index.html",
-      "day": "2026-11-03",
-      "title": "中国人民银行楚雄州分行行政处罚决定信息公示表（楚银罚决字〔2026〕2号）",
-      "kind": "notice",
-      "branch": "云南省分行",
-      "home": "https://kunming.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505468/2026102311443821334/index.html",
-      "day": "2026-10-23",
-      "title": "中国人民银行迪庆州分行行政处罚决定信息公示表（迪银罚决字〔2026〕1号）",
-      "kind": "notice",
-      "branch": "云南省分行",
-      "home": "https://kunming.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505453/2026092220431919634/index.html",
-      "day": "2026-09-22",
-      "title": "中国人民银行文山州分行行政处罚决定信息公示表（文银罚决字〔2026〕02号）",
-      "kind": "notice",
-      "branch": "云南省分行",
-      "home": "https://kunming.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505426/2026082816310716394/index.html",
-      "day": "2026-08-28",
-      "title": "中国人民银行曲靖市分行行政处罚决定信息公示表（曲银罚决字〔2026〕1号）",
-      "kind": "notice",
-      "branch": "云南省分行",
-      "home": "https://kunming.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505435/2026082816294871801/index.html",
-      "day": "2026-08-28",
-      "title": "中国人民银行昭通市分行行政处罚决定信息公示表（昭银罚决字〔2026〕3号）",
-      "kind": "notice",
-      "branch": "云南省分行",
-      "home": "https://kunming.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505465/2026061210172917368/index.html",
-      "day": "2026-06-12",
-      "title": "中国人民银行怒江州分行行政处罚决定信息公示表（怒银罚决字〔2026〕第1号）",
-      "kind": "notice",
-      "branch": "云南省分行",
-      "home": "https://kunming.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "kind": "list",
-      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/cebe846a-2.html",
-      "branch": "云南省分行",
-      "home": "https://kunming.pbc.gov.cn/",
-      "daily": false
-    },
-    {
-      "url": "https://lasa.pbc.gov.cn/lasa/120480/120504/120511/5517088/2026112017573228877/index.html",
-      "day": "2026-11-20",
-      "title": "中国人民银行西藏自治区分行行政处罚决定信息公示表（藏人银罚决字〔2026〕4号-7号）",
-      "kind": "notice",
-      "branch": "西藏自治区分行",
-      "home": "https://lasa.pbc.gov.cn/",
-      "refresh": true
-    },
-    {
-      "url": "https://lasa.pbc.gov.cn/lasa/120480/120504/120511/5517088/2026101010244194884/index.html",
-      "day": "2026-09-04",
-      "title": "中国人民银行西藏自治区分行行政处罚决定信息公示表（藏人银罚决字〔2026〕1-3号）",
-      "kind": "notice",
-      "branch": "西藏自治区分行",
-      "home": "https://lasa.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://lasa.pbc.gov.cn/lasa/120480/120504/120511/5517088/2025123112482725727/index.html",
-      "day": "2025-12-31",
-      "title": "中国人民银行西藏自治区分行行政处罚决定信息公示表（藏人银罚决字〔2025〕8号）",
-      "kind": "notice",
-      "branch": "西藏自治区分行",
-      "home": "https://lasa.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://lasa.pbc.gov.cn/lasa/120480/120504/120511/5517088/2025092315431184177/index.html",
-      "day": "2025-08-15",
-      "title": "中国人民银行西藏自治区分行行政处罚决定信息公示表（藏人银罚决字〔2025〕2-4号）",
-      "kind": "notice",
-      "branch": "西藏自治区分行",
-      "home": "https://lasa.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/2026090315130549257/index.html",
-      "day": "2026-09-03",
-      "title": "中国人民银行陕西省分行行政处罚决定信息公示表（陕银罚决字〔2026〕4号）",
-      "kind": "notice",
-      "branch": "陕西省分行",
-      "home": "https://xian.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/2026040110140627895/index.html",
-      "day": "2026-04-01",
-      "title": "中国人民银行陕西省分行行政处罚决定信息公示表（陕银罚决字〔2026〕3号）",
-      "kind": "notice",
-      "branch": "陕西省分行",
-      "home": "https://xian.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/2026030915483349989/index.html",
-      "day": "2026-03-09",
-      "title": "中国人民银行陕西省分行行政处罚决定信息公示表（陕银罚决字〔2026〕2号）",
-      "kind": "notice",
-      "branch": "陕西省分行",
-      "home": "https://xian.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/2026030915474947443/index.html",
-      "day": "2026-03-09",
-      "title": "中国人民银行陕西省分行行政处罚决定信息公示表（陕银罚决字〔2026〕1号）",
-      "kind": "notice",
-      "branch": "陕西省分行",
-      "home": "https://xian.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/5917921/index.html",
-      "day": "2025-12-01",
-      "title": "中国人民银行陕西省分行行政处罚决定信息公示表（陕银罚决字〔2025〕17-19号）",
-      "kind": "notice",
-      "branch": "陕西省分行",
-      "home": "https://xian.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/5793809/index.html",
-      "day": "2025-07-29",
-      "title": "中国人民银行陕西省分行行政处罚决定信息公示表（陕银罚决字〔2025〕14-16号）",
-      "kind": "notice",
-      "branch": "陕西省分行",
-      "home": "https://xian.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/5780983/index.html",
-      "day": "2025-07-15",
-      "title": "中国人民银行陕西省分行行政处罚决定信息公示表（陕银罚决字〔2025〕11-12号）",
-      "kind": "notice",
-      "branch": "陕西省分行",
-      "home": "https://xian.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/5780978/index.html",
-      "day": "2025-07-15",
-      "title": "中国人民银行陕西省分行行政处罚决定信息公示表（陕银罚决字〔2025〕9-10号）",
-      "kind": "notice",
-      "branch": "陕西省分行",
-      "home": "https://xian.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/5702203/index.html",
-      "day": "2025-05-08",
-      "title": "中国人民银行陕西省分行行政处罚决定信息公示表（陕银罚决字〔2025〕7-8号）",
-      "kind": "notice",
-      "branch": "陕西省分行",
-      "home": "https://xian.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/5702193/index.html",
-      "day": "2025-05-08",
-      "title": "中国人民银行陕西省分行行政处罚决定信息公示表（陕银罚决字〔2025〕1-2号）",
-      "kind": "notice",
-      "branch": "陕西省分行",
-      "home": "https://xian.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518220/2026110514443837298/index.html",
-      "day": "2026-11-05",
-      "title": "中国人民银行延安市分行行政处罚决定信息公示表（延银罚决字〔2026〕3号）",
-      "kind": "notice",
-      "branch": "陕西省分行",
-      "home": "https://xian.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518205/2026102217593992522/index.html",
-      "day": "2026-10-22",
-      "title": "中国人民银行铜川市分行行政处罚决定信息公示表（铜银罚决字〔2026〕2号）",
-      "kind": "notice",
-      "branch": "陕西省分行",
-      "home": "https://xian.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518199/2026101915000244961/index.html",
-      "day": "2026-10-19",
-      "title": "中国人民银行咸阳市分行行政处罚决定信息公示表（咸银罚决字〔2026〕2号）",
-      "kind": "notice",
-      "branch": "陕西省分行",
-      "home": "https://xian.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518220/2026101515031572452/index.html",
-      "day": "2026-10-15",
-      "title": "中国人民银行延安市分行行政处罚决定信息公示表（延银罚决字〔2026〕2号）",
-      "kind": "notice",
-      "branch": "陕西省分行",
-      "home": "https://xian.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
       "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518202/2026100916512838085/index.html",
       "day": "2026-10-09",
       "title": "中国人民银行宝鸡市分行行政处罚决定信息公示表（宝银罚决字〔2026〕2号）",
@@ -5744,6 +5253,308 @@
       "branch": "四川省分行",
       "home": "https://chengdu.pbc.gov.cn/",
       "daily": false
+    },
+    {
+      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025123116340589049/index.html",
+      "day": "2025-12-31",
+      "title": "中国人民银行贵州省分行行政处罚决定信息公示表（贵银处罚〔2025〕 0012号）",
+      "kind": "notice",
+      "branch": "贵州省分行",
+      "home": "https://guiyang.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235780839/index.html",
+      "day": "2025-09-30",
+      "title": "中国人民银行贵州省分行行政处罚决定信息公示表（贵银处罚〔2025〕 0011号）",
+      "kind": "notice",
+      "branch": "贵州省分行",
+      "home": "https://guiyang.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235791555/index.html",
+      "day": "2025-09-08",
+      "title": "中国人民银行贵州省分行行政处罚决定信息公示表（贵银处罚〔2025〕 0010号）",
+      "kind": "notice",
+      "branch": "贵州省分行",
+      "home": "https://guiyang.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235756659/index.html",
+      "day": "2025-09-08",
+      "title": "中国人民银行贵州省分行行政处罚决定信息公示表（贵银处罚〔2025〕 0009号）",
+      "kind": "notice",
+      "branch": "贵州省分行",
+      "home": "https://guiyang.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235729106/index.html",
+      "day": "2025-09-08",
+      "title": "中国人民银行贵州省分行行政处罚决定信息公示表（贵银处罚〔2025〕 0008号）",
+      "kind": "notice",
+      "branch": "贵州省分行",
+      "home": "https://guiyang.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235740414/index.html",
+      "day": "2025-09-08",
+      "title": "中国人民银行贵州省分行行政处罚决定信息公示表（贵银处罚〔2025〕 0007号）",
+      "kind": "notice",
+      "branch": "贵州省分行",
+      "home": "https://guiyang.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235728842/index.html",
+      "day": "2025-09-08",
+      "title": "中国人民银行贵州省分行行政处罚决定信息公示表（贵银处罚〔2025〕 0006号）",
+      "kind": "notice",
+      "branch": "贵州省分行",
+      "home": "https://guiyang.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235831087/index.html",
+      "day": "2025-09-08",
+      "title": "中国人民银行贵州省分行行政处罚决定信息公示表（贵银处罚〔2025〕 0005号）",
+      "kind": "notice",
+      "branch": "贵州省分行",
+      "home": "https://guiyang.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235857482/index.html",
+      "day": "2025-09-08",
+      "title": "中国人民银行贵州省分行行政处罚决定信息公示表（贵银处罚〔2025〕 0004号）",
+      "kind": "notice",
+      "branch": "贵州省分行",
+      "home": "https://guiyang.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025111421235886923/index.html",
+      "day": "2025-09-08",
+      "title": "中国人民银行贵州省分行行政处罚决定信息公示表（贵银处罚〔2025〕 0003号）",
+      "kind": "notice",
+      "branch": "贵州省分行",
+      "home": "https://guiyang.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503847/2026072017321723872/index.html",
+      "day": "2026-07-20",
+      "title": "中国人民银行毕节市分行行政处罚决定信息公示表（毕银处罚〔2026〕02号）",
+      "kind": "notice",
+      "branch": "贵州省分行",
+      "home": "https://guiyang.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503847/2026020609071034002/index.html",
+      "day": "2026-02-06",
+      "title": "中国人民银行毕节市分行行政处罚决定信息公示表（毕银处罚〔2026〕01号）",
+      "kind": "notice",
+      "branch": "贵州省分行",
+      "home": "https://guiyang.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503859/2026020216125066875/index.html",
+      "day": "2026-02-02",
+      "title": "中国人民银行黔西南布依族苗族自治州分行行政处罚决定信息公示表（黔西南银处罚〔2026〕01号）",
+      "kind": "notice",
+      "branch": "贵州省分行",
+      "home": "https://guiyang.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "kind": "list",
+      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/6cf9f205-3.html",
+      "branch": "贵州省分行",
+      "home": "https://guiyang.pbc.gov.cn/",
+      "daily": false
+    },
+    {
+      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/5900938/index.html",
+      "day": "2025-11-14",
+      "title": "中国人民银行云南省分行行政处罚决定信息公示表（云银罚决字〔2025〕14号）",
+      "kind": "notice",
+      "branch": "云南省分行",
+      "home": "https://kunming.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/5900928/index.html",
+      "day": "2025-11-14",
+      "title": "中国人民银行云南省分行行政处罚决定信息公示表（云银罚决字〔2025〕12-13号）",
+      "kind": "notice",
+      "branch": "云南省分行",
+      "home": "https://kunming.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/5900897/index.html",
+      "day": "2025-11-14",
+      "title": "中国人民银行云南省分行行政处罚决定信息公示表（云银罚决字〔2025〕9-11号）",
+      "kind": "notice",
+      "branch": "云南省分行",
+      "home": "https://kunming.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/5900850/index.html",
+      "day": "2025-11-14",
+      "title": "中国人民银行云南省分行行政处罚决定信息公示表（云银罚决字〔2025〕6-8号）",
+      "kind": "notice",
+      "branch": "云南省分行",
+      "home": "https://kunming.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2025092316011170365/index.html",
+      "day": "2025-05-21",
+      "title": "中国人民银行云南省分行行政处罚决定信息公示表（云银罚决字〔2025〕4-5号）",
+      "kind": "notice",
+      "branch": "云南省分行",
+      "home": "https://kunming.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2025092316011158597/index.html",
+      "day": "2024-11-15",
+      "title": "中国人民银行云南省分行行政处罚决定信息公示表（云银罚决字〔2024〕18-22号）",
+      "kind": "notice",
+      "branch": "云南省分行",
+      "home": "https://kunming.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2025092316011172181/index.html",
+      "day": "2024-10-28",
+      "title": "中国人民银行云南省分行行政处罚决定信息公示表（云银罚决字〔2024〕16-17号）",
+      "kind": "notice",
+      "branch": "云南省分行",
+      "home": "https://kunming.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2025092316011112220/index.html",
+      "day": "2024-10-23",
+      "title": "中国人民银行云南省分行行政处罚决定信息公示表（云银罚决字〔2024〕14-15号）",
+      "kind": "notice",
+      "branch": "云南省分行",
+      "home": "https://kunming.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2025092316011125355/index.html",
+      "day": "2024-10-18",
+      "title": "中国人民银行云南省分行行政处罚决定信息公示表（云银罚决字〔2024〕11-13号）",
+      "kind": "notice",
+      "branch": "云南省分行",
+      "home": "https://kunming.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2025092316011170558/index.html",
+      "day": "2024-10-15",
+      "title": "云银罚决字〔2024〕08-10号",
+      "kind": "notice",
+      "branch": "云南省分行",
+      "home": "https://kunming.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505429/2026111617460481628/index.html",
+      "day": "2026-11-16",
+      "title": "中国人民银行玉溪市分行行政处罚决定信息公示表（玉银罚决字〔2026〕1号）",
+      "kind": "notice",
+      "branch": "云南省分行",
+      "home": "https://kunming.pbc.gov.cn/",
+      "refresh": true
+    },
+    {
+      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505462/2026111317462153640/index.html",
+      "day": "2026-11-13",
+      "title": "中国人民银行德宏州分行行政处罚决定信息公示表（德银罚决字〔2026〕2号）",
+      "kind": "notice",
+      "branch": "云南省分行",
+      "home": "https://kunming.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505456/2026110618163959069/index.html",
+      "day": "2026-11-06",
+      "title": "中国人民银行西双版纳州分行行政处罚决定信息公示表（西银罚决字〔2026〕01号）",
+      "kind": "notice",
+      "branch": "云南省分行",
+      "home": "https://kunming.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505435/2026110617421756283/index.html",
+      "day": "2026-11-06",
+      "title": "中国人民银行昭通市分行行政处罚决定信息公示表（昭银罚决字〔2026〕4号）",
+      "kind": "notice",
+      "branch": "云南省分行",
+      "home": "https://kunming.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505447/2026110318045419356/index.html",
+      "day": "2026-11-03",
+      "title": "中国人民银行楚雄州分行行政处罚决定信息公示表（楚银罚决字〔2026〕2号）",
+      "kind": "notice",
+      "branch": "云南省分行",
+      "home": "https://kunming.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505468/2026102311443821334/index.html",
+      "day": "2026-10-23",
+      "title": "中国人民银行迪庆州分行行政处罚决定信息公示表（迪银罚决字〔2026〕1号）",
+      "kind": "notice",
+      "branch": "云南省分行",
+      "home": "https://kunming.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505453/2026092220431919634/index.html",
+      "day": "2026-09-22",
+      "title": "中国人民银行文山州分行行政处罚决定信息公示表（文银罚决字〔2026〕02号）",
+      "kind": "notice",
+      "branch": "云南省分行",
+      "home": "https://kunming.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505426/2026082816310716394/index.html",
+      "day": "2026-08-28",
+      "title": "中国人民银行曲靖市分行行政处罚决定信息公示表（曲银罚决字〔2026〕1号）",
+      "kind": "notice",
+      "branch": "云南省分行",
+      "home": "https://kunming.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505435/2026082816294871801/index.html",
+      "day": "2026-08-28",
+      "title": "中国人民银行昭通市分行行政处罚决定信息公示表（昭银罚决字〔2026〕3号）",
+      "kind": "notice",
+      "branch": "云南省分行",
+      "home": "https://kunming.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "kind": "list",
+      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/cebe846a-3.html",
+      "branch": "云南省分行",
+      "home": "https://kunming.pbc.gov.cn/",
+      "daily": false
     }
   ],
   "done": {
@@ -6381,6 +6192,141 @@
       "branch": "贵州省分行",
       "date": "2026-03-09",
       "rows": 1
+    },
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2026030916461724747/index.html": {
+      "branch": "贵州省分行",
+      "date": "2026-03-09",
+      "rows": 1
+    },
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2026021308332834404/index.html": {
+      "branch": "贵州省分行",
+      "date": "2026-02-02",
+      "rows": 2
+    },
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2026011514525062140/index.html": {
+      "branch": "贵州省分行",
+      "date": "2026-01-12",
+      "rows": 1
+    },
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025123116400880907/index.html": {
+      "branch": "贵州省分行",
+      "date": "2025-12-31",
+      "rows": 1
+    },
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503826/2025123116392162510/index.html": {
+      "branch": "贵州省分行",
+      "date": "2025-12-31",
+      "rows": 1
+    },
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503853/2026101916515223262/index.html": {
+      "branch": "贵州省分行",
+      "date": "2026-10-19",
+      "rows": 1
+    },
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503847/2026093016541218489/index.html": {
+      "branch": "贵州省分行",
+      "date": "2026-09-30",
+      "rows": 1
+    },
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503853/2026092016542819422/index.html": {
+      "branch": "贵州省分行",
+      "date": "2026-09-20",
+      "rows": 1
+    },
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503835/2026092016531922650/index.html": {
+      "branch": "贵州省分行",
+      "date": "2026-09-20",
+      "rows": 1
+    },
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503856/2026083117084643357/index.html": {
+      "branch": "贵州省分行",
+      "date": "2026-08-31",
+      "rows": 1
+    },
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503832/2026033116362725706/index.html": {
+      "branch": "贵州省分行",
+      "date": "2026-03-31",
+      "rows": 1
+    },
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503850/2026020917215777298/index.html": {
+      "branch": "贵州省分行",
+      "date": "2026-02-09",
+      "rows": 3
+    },
+    "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2026112017073295638/index.html": {
+      "branch": "云南省分行",
+      "date": "2026-11-20",
+      "rows": 1
+    },
+    "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2026112017061111989/index.html": {
+      "branch": "云南省分行",
+      "date": "2026-11-20",
+      "rows": 1
+    },
+    "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2026112016513685959/index.html": {
+      "branch": "云南省分行",
+      "date": "2026-11-20",
+      "rows": 1
+    },
+    "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2026093014121775846/index.html": {
+      "branch": "云南省分行",
+      "date": "2026-09-30",
+      "rows": 1
+    },
+    "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2026080714295958506/index.html": {
+      "branch": "云南省分行",
+      "date": "2026-08-07",
+      "rows": 2
+    },
+    "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2026062616253692634/index.html": {
+      "branch": "云南省分行",
+      "date": "2026-06-26",
+      "rows": 1
+    },
+    "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2026043016423957816/index.html": {
+      "branch": "云南省分行",
+      "date": "2026-04-30",
+      "rows": 2
+    },
+    "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2026043016293392415/index.html": {
+      "branch": "云南省分行",
+      "date": "2026-04-30",
+      "rows": 1
+    },
+    "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2025123114442915527/index.html": {
+      "branch": "云南省分行",
+      "date": "2025-12-31",
+      "rows": 3
+    },
+    "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505423/2025123114423855130/index.html": {
+      "branch": "云南省分行",
+      "date": "2025-12-31",
+      "rows": 2
+    },
+    "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505465/2026061210172917368/index.html": {
+      "branch": "云南省分行",
+      "date": "2026-06-12",
+      "rows": 1
+    },
+    "https://lasa.pbc.gov.cn/lasa/120480/120504/120511/5517088/2026112017573228877/index.html": {
+      "branch": "西藏自治区分行",
+      "date": "2026-11-20",
+      "rows": 4
+    },
+    "https://lasa.pbc.gov.cn/lasa/120480/120504/120511/5517088/2026101010244194884/index.html": {
+      "branch": "西藏自治区分行",
+      "date": "2026-09-04",
+      "rows": 3
+    },
+    "https://lasa.pbc.gov.cn/lasa/120480/120504/120511/5517088/2025123112482725727/index.html": {
+      "branch": "西藏自治区分行",
+      "date": "2025-12-31",
+      "rows": 1
+    },
+    "https://lasa.pbc.gov.cn/lasa/120480/120504/120511/5517088/2025092315431184177/index.html": {
+      "branch": "西藏自治区分行",
+      "date": "2025-08-15",
+      "rows": 3
     }
   },
   "listed": {
@@ -6442,7 +6388,9 @@
     "https://nanning.pbc.gov.cn/nanning/133346/133364/133371/19833-2.html": "2026-11-23",
     "https://haikou.pbc.gov.cn/haikou/132982/133000/133007/1b7d8dcd-2.html": "2026-11-23",
     "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/0f42a2da-2.html": "2026-11-23",
-    "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/c368223c-2.html": "2026-11-23"
+    "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/c368223c-2.html": "2026-11-23",
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/6cf9f205-2.html": "2026-11-23",
+    "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/cebe846a-2.html": "2026-11-23"
   },
   "failures": {
     "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026070916570660880/index.html": {
@@ -10357,6 +10305,344 @@
       },
       "error": "Unparsed attachment ['https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/5498215/2026090315155712000/2026090315154082251.pdf'][]",
       "last_attempt": "2026-11-23"
+    },
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503847/2026072017321723872/index.html": {
+      "task": {
+        "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503847/2026072017321723872/index.html",
+        "day": "2026-07-20",
+        "title": "中国人民银行毕节市分行行政处罚决定信息公示表（毕银处罚〔2026〕02号）",
+        "kind": "notice",
+        "branch": "贵州省分行",
+        "home": "https://guiyang.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503847/2026072017321723872/2026072315465191745.xls'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503847/2026020609071034002/index.html": {
+      "task": {
+        "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503847/2026020609071034002/index.html",
+        "day": "2026-02-06",
+        "title": "中国人民银行毕节市分行行政处罚决定信息公示表（毕银处罚〔2026〕01号）",
+        "kind": "notice",
+        "branch": "贵州省分行",
+        "home": "https://guiyang.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503847/2026020609071034002/2026020609063673477.xls'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503859/2026020216125066875/index.html": {
+      "task": {
+        "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503859/2026020216125066875/index.html",
+        "day": "2026-02-02",
+        "title": "中国人民银行黔西南布依族苗族自治州分行行政处罚决定信息公示表（黔西南银处罚〔2026〕01号）",
+        "kind": "notice",
+        "branch": "贵州省分行",
+        "home": "https://guiyang.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/5503859/2026020216125066875/2026020216114253368.xlsx'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505429/2026111617460481628/index.html": {
+      "task": {
+        "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505429/2026111617460481628/index.html",
+        "day": "2026-11-16",
+        "title": "中国人民银行玉溪市分行行政处罚决定信息公示表（玉银罚决字〔2026〕1号）",
+        "kind": "notice",
+        "branch": "云南省分行",
+        "home": "https://kunming.pbc.gov.cn/",
+        "refresh": true
+      },
+      "error": "No readable penalty table; scanned image/PDF may need OCR",
+      "last_attempt": "2026-11-23"
+    },
+    "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505462/2026111317462153640/index.html": {
+      "task": {
+        "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505462/2026111317462153640/index.html",
+        "day": "2026-11-13",
+        "title": "中国人民银行德宏州分行行政处罚决定信息公示表（德银罚决字〔2026〕2号）",
+        "kind": "notice",
+        "branch": "云南省分行",
+        "home": "https://kunming.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "No readable penalty table; scanned image/PDF may need OCR",
+      "last_attempt": "2026-11-23"
+    },
+    "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505456/2026110618163959069/index.html": {
+      "task": {
+        "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505456/2026110618163959069/index.html",
+        "day": "2026-11-06",
+        "title": "中国人民银行西双版纳州分行行政处罚决定信息公示表（西银罚决字〔2026〕01号）",
+        "kind": "notice",
+        "branch": "云南省分行",
+        "home": "https://kunming.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "No readable penalty table; scanned image/PDF may need OCR",
+      "last_attempt": "2026-11-23"
+    },
+    "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505435/2026110617421756283/index.html": {
+      "task": {
+        "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505435/2026110617421756283/index.html",
+        "day": "2026-11-06",
+        "title": "中国人民银行昭通市分行行政处罚决定信息公示表（昭银罚决字〔2026〕4号）",
+        "kind": "notice",
+        "branch": "云南省分行",
+        "home": "https://kunming.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "No readable penalty table; scanned image/PDF may need OCR",
+      "last_attempt": "2026-11-23"
+    },
+    "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505447/2026110318045419356/index.html": {
+      "task": {
+        "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505447/2026110318045419356/index.html",
+        "day": "2026-11-03",
+        "title": "中国人民银行楚雄州分行行政处罚决定信息公示表（楚银罚决字〔2026〕2号）",
+        "kind": "notice",
+        "branch": "云南省分行",
+        "home": "https://kunming.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "No readable penalty table; scanned image/PDF may need OCR",
+      "last_attempt": "2026-11-23"
+    },
+    "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505468/2026102311443821334/index.html": {
+      "task": {
+        "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505468/2026102311443821334/index.html",
+        "day": "2026-10-23",
+        "title": "中国人民银行迪庆州分行行政处罚决定信息公示表（迪银罚决字〔2026〕1号）",
+        "kind": "notice",
+        "branch": "云南省分行",
+        "home": "https://kunming.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "No readable penalty table; scanned image/PDF may need OCR",
+      "last_attempt": "2026-11-23"
+    },
+    "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505453/2026092220431919634/index.html": {
+      "task": {
+        "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505453/2026092220431919634/index.html",
+        "day": "2026-09-22",
+        "title": "中国人民银行文山州分行行政处罚决定信息公示表（文银罚决字〔2026〕02号）",
+        "kind": "notice",
+        "branch": "云南省分行",
+        "home": "https://kunming.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "No readable penalty table; scanned image/PDF may need OCR",
+      "last_attempt": "2026-11-23"
+    },
+    "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505426/2026082816310716394/index.html": {
+      "task": {
+        "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505426/2026082816310716394/index.html",
+        "day": "2026-08-28",
+        "title": "中国人民银行曲靖市分行行政处罚决定信息公示表（曲银罚决字〔2026〕1号）",
+        "kind": "notice",
+        "branch": "云南省分行",
+        "home": "https://kunming.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "No readable penalty table; scanned image/PDF may need OCR",
+      "last_attempt": "2026-11-23"
+    },
+    "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505435/2026082816294871801/index.html": {
+      "task": {
+        "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/5505435/2026082816294871801/index.html",
+        "day": "2026-08-28",
+        "title": "中国人民银行昭通市分行行政处罚决定信息公示表（昭银罚决字〔2026〕3号）",
+        "kind": "notice",
+        "branch": "云南省分行",
+        "home": "https://kunming.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "No readable penalty table; scanned image/PDF may need OCR",
+      "last_attempt": "2026-11-23"
+    },
+    "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/2026090315130549257/index.html": {
+      "task": {
+        "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/2026090315130549257/index.html",
+        "day": "2026-09-03",
+        "title": "中国人民银行陕西省分行行政处罚决定信息公示表（陕银罚决字〔2026〕4号）",
+        "kind": "notice",
+        "branch": "陕西省分行",
+        "home": "https://xian.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/2026090315130549257/2026090315122023334.doc'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/2026040110140627895/index.html": {
+      "task": {
+        "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/2026040110140627895/index.html",
+        "day": "2026-04-01",
+        "title": "中国人民银行陕西省分行行政处罚决定信息公示表（陕银罚决字〔2026〕3号）",
+        "kind": "notice",
+        "branch": "陕西省分行",
+        "home": "https://xian.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/2026040110140627895/2026040110134235309.doc'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/2026030915483349989/index.html": {
+      "task": {
+        "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/2026030915483349989/index.html",
+        "day": "2026-03-09",
+        "title": "中国人民银行陕西省分行行政处罚决定信息公示表（陕银罚决字〔2026〕2号）",
+        "kind": "notice",
+        "branch": "陕西省分行",
+        "home": "https://xian.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/2026030915483349989/2026030915480128953.doc'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/2026030915474947443/index.html": {
+      "task": {
+        "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/2026030915474947443/index.html",
+        "day": "2026-03-09",
+        "title": "中国人民银行陕西省分行行政处罚决定信息公示表（陕银罚决字〔2026〕1号）",
+        "kind": "notice",
+        "branch": "陕西省分行",
+        "home": "https://xian.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/2026030915474947443/2026030915465046986.doc'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/5917921/index.html": {
+      "task": {
+        "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/5917921/index.html",
+        "day": "2025-12-01",
+        "title": "中国人民银行陕西省分行行政处罚决定信息公示表（陕银罚决字〔2025〕17-19号）",
+        "kind": "notice",
+        "branch": "陕西省分行",
+        "home": "https://xian.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/5917921/2025120116311439262.doc'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/5793809/index.html": {
+      "task": {
+        "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/5793809/index.html",
+        "day": "2025-07-29",
+        "title": "中国人民银行陕西省分行行政处罚决定信息公示表（陕银罚决字〔2025〕14-16号）",
+        "kind": "notice",
+        "branch": "陕西省分行",
+        "home": "https://xian.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/5793809/2025072909032577147.doc'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/5780983/index.html": {
+      "task": {
+        "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/5780983/index.html",
+        "day": "2025-07-15",
+        "title": "中国人民银行陕西省分行行政处罚决定信息公示表（陕银罚决字〔2025〕11-12号）",
+        "kind": "notice",
+        "branch": "陕西省分行",
+        "home": "https://xian.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/5780983/2025071515343053114.doc'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/5780978/index.html": {
+      "task": {
+        "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/5780978/index.html",
+        "day": "2025-07-15",
+        "title": "中国人民银行陕西省分行行政处罚决定信息公示表（陕银罚决字〔2025〕9-10号）",
+        "kind": "notice",
+        "branch": "陕西省分行",
+        "home": "https://xian.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/5780978/2025071515331547240.doc'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/5702203/index.html": {
+      "task": {
+        "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/5702203/index.html",
+        "day": "2025-05-08",
+        "title": "中国人民银行陕西省分行行政处罚决定信息公示表（陕银罚决字〔2025〕7-8号）",
+        "kind": "notice",
+        "branch": "陕西省分行",
+        "home": "https://xian.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/5702203/2025050815305664803.doc'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/5702193/index.html": {
+      "task": {
+        "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/5702193/index.html",
+        "day": "2025-05-08",
+        "title": "中国人民银行陕西省分行行政处罚决定信息公示表（陕银罚决字〔2025〕1-2号）",
+        "kind": "notice",
+        "branch": "陕西省分行",
+        "home": "https://xian.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://xian.pbc.gov.cn/xian/129428/129449/129458/5518196/5702193/2025050815301923168.doc'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518220/2026110514443837298/index.html": {
+      "task": {
+        "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518220/2026110514443837298/index.html",
+        "day": "2026-11-05",
+        "title": "中国人民银行延安市分行行政处罚决定信息公示表（延银罚决字〔2026〕3号）",
+        "kind": "notice",
+        "branch": "陕西省分行",
+        "home": "https://xian.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://xian.pbc.gov.cn/xian/129428/129449/129458/5518220/2026110514443837298/2026110514441351983.doc'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518205/2026102217593992522/index.html": {
+      "task": {
+        "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518205/2026102217593992522/index.html",
+        "day": "2026-10-22",
+        "title": "中国人民银行铜川市分行行政处罚决定信息公示表（铜银罚决字〔2026〕2号）",
+        "kind": "notice",
+        "branch": "陕西省分行",
+        "home": "https://xian.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://xian.pbc.gov.cn/xian/129428/129449/129458/5518205/2026102217593992522/2026102217583310739.doc'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518199/2026101915000244961/index.html": {
+      "task": {
+        "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518199/2026101915000244961/index.html",
+        "day": "2026-10-19",
+        "title": "中国人民银行咸阳市分行行政处罚决定信息公示表（咸银罚决字〔2026〕2号）",
+        "kind": "notice",
+        "branch": "陕西省分行",
+        "home": "https://xian.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://xian.pbc.gov.cn/xian/129428/129449/129458/5518199/2026101915000244961/2026101914593621216.doc'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518220/2026101515031572452/index.html": {
+      "task": {
+        "url": "https://xian.pbc.gov.cn/xian/129428/129449/129458/5518220/2026101515031572452/index.html",
+        "day": "2026-10-15",
+        "title": "中国人民银行延安市分行行政处罚决定信息公示表（延银罚决字〔2026〕2号）",
+        "kind": "notice",
+        "branch": "陕西省分行",
+        "home": "https://xian.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://xian.pbc.gov.cn/xian/129428/129449/129458/5518220/2026101515031572452/2026101515022675164.doc'][]",
+      "last_attempt": "2026-11-23"
     }
   },
   "discovery_seen": {
@@ -10665,9 +10951,9 @@
       "directories": [
         "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/index.html"
       ],
-      "parsedNotices": 5,
-      "pendingTasks": 17,
-      "failedTasks": 0,
+      "parsedNotices": 17,
+      "pendingTasks": 15,
+      "failedTasks": 3,
       "historyComplete": false
     },
     "云南省分行": {
@@ -10675,9 +10961,9 @@
       "directories": [
         "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/index.html"
       ],
-      "parsedNotices": 0,
-      "pendingTasks": 22,
-      "failedTasks": 0,
+      "parsedNotices": 11,
+      "pendingTasks": 21,
+      "failedTasks": 9,
       "historyComplete": false
     },
     "西藏自治区分行": {
@@ -10685,8 +10971,8 @@
       "directories": [
         "https://lasa.pbc.gov.cn/lasa/120480/120504/120511/index.html"
       ],
-      "parsedNotices": 0,
-      "pendingTasks": 5,
+      "parsedNotices": 4,
+      "pendingTasks": 1,
       "failedTasks": 0,
       "historyComplete": false
     },
@@ -10696,8 +10982,8 @@
         "https://xian.pbc.gov.cn/xian/129428/129449/129458/index.html"
       ],
       "parsedNotices": 0,
-      "pendingTasks": 22,
-      "failedTasks": 0,
+      "pendingTasks": 8,
+      "failedTasks": 14,
       "historyComplete": false
     },
     "甘肃省分行": {
@@ -10791,9 +11077,9 @@
       "historyComplete": false
     }
   },
-  "updated_at": "2026-11-23T07:16:39+08:00",
+  "updated_at": "2026-11-23T08:46:39+08:00",
   "pause_reason": null,
-  "requestClock": 1795389398.9108143,
+  "requestClock": 1795394798.9577231,
   "pageFingerprints": {
     "77eafe10a2f9cd308f28d42fafb25556ac363d485149dfecae527603e7754ff5": {
       "url": "https://shenyang.pbc.gov.cn/shenyfh/108074/108127/108208/9b97ac7e-2.html",
@@ -10862,7 +11148,15 @@
     "c17624f2f258d5b6fd97467a339bdc325b902409a9fedf7c09b8ca56b96d8857": {
       "url": "https://chengdu.pbc.gov.cn/chengdu/129320/129341/129350/c368223c-2.html",
       "day": "2026-11-23"
+    },
+    "8c00928a11e25322d21fa768b8826b37e7b9c290926513ae6a79fb333200c94a": {
+      "url": "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/6cf9f205-2.html",
+      "day": "2026-11-23"
+    },
+    "f5ff67074d5a0e319a49899562bc47f98a80c18af200e13fefb135a76035a3aa": {
+      "url": "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/cebe846a-2.html",
+      "day": "2026-11-23"
     }
   },
-  "completedTasks": 115
+  "completedTasks": 144
 }
