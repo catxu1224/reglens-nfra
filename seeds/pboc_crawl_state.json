@@ -1,504 +1,6 @@
 {
   "queue": [
     {
-      "url": "https://xining.pbc.gov.cn/xining/118239/118263/118270/5513658/2026021014462818226/index.html",
-      "day": "2026-02-10",
-      "title": "中国人民银行海东市分行行政处罚决定信息公示表（海东人银罚决字〔2026〕1号）",
-      "kind": "notice",
-      "branch": "青海省分行",
-      "home": "https://xining.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://xining.pbc.gov.cn/xining/118239/118263/118270/5513664/2026012710060527246/index.html",
-      "day": "2026-01-27",
-      "title": "中国人民银行海南州分行行政处罚决定信息公示表（南人银罚决字〔2026〕1号）",
-      "kind": "notice",
-      "branch": "青海省分行",
-      "home": "https://xining.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://xining.pbc.gov.cn/xining/118239/118263/118270/5513670/2026011617243213713/index.html",
-      "day": "2026-01-16",
-      "title": "中国人民银行玉树州分行行政处罚决定信息公示表（玉树银罚决字〔2026〕1号）",
-      "kind": "notice",
-      "branch": "青海省分行",
-      "home": "https://xining.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "kind": "list",
-      "url": "https://xining.pbc.gov.cn/xining/118239/118263/118270/31bd370b-2.html",
-      "branch": "青海省分行",
-      "home": "https://xining.pbc.gov.cn/",
-      "daily": false
-    },
-    {
-      "url": "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521152/2026051217235913422/index.html",
-      "day": "2026-05-12",
-      "title": "中国人民银行宁夏回族自治区分行行政处罚决定信息公示表（宁银罚决字〔2026〕2-6号）",
-      "kind": "notice",
-      "branch": "宁夏回族自治区分行",
-      "home": "https://yinchuan.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521152/2026011616484738431/index.html",
-      "day": "2026-01-15",
-      "title": "中国人民银行宁夏回族自治区分行行政处罚决定信息公示表（宁银罚决字〔2026〕1号）",
-      "kind": "notice",
-      "branch": "宁夏回族自治区分行",
-      "home": "https://yinchuan.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521152/5831912/index.html",
-      "day": "2025-09-08",
-      "title": "中国人民银行宁夏回族自治区分行行政处罚决定信息公示表（宁银罚决字〔2025〕4-7号）",
-      "kind": "notice",
-      "branch": "宁夏回族自治区分行",
-      "home": "https://yinchuan.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521152/5789625/index.html",
-      "day": "2025-07-23",
-      "title": "中国人民银行宁夏回族自治区分行行政处罚决定信息公示表（宁银罚决字〔2025〕2-3号）",
-      "kind": "notice",
-      "branch": "宁夏回族自治区分行",
-      "home": "https://yinchuan.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521152/5460553/index.html",
-      "day": "2024-09-13",
-      "title": "中国人民银行宁夏回族自治区分行行政处罚决定信息公示表（宁银罚决字〔2024〕11-13号）",
-      "kind": "notice",
-      "branch": "宁夏回族自治区分行",
-      "home": "https://yinchuan.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521152/5333455/index.html",
-      "day": "2024-04-19",
-      "title": "中国人民银行宁夏回族自治区分行行政处罚决定信息公示表（宁银罚决字〔2024〕4-5号）",
-      "kind": "notice",
-      "branch": "宁夏回族自治区分行",
-      "home": "https://yinchuan.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521152/5281727/index.html",
-      "day": "2024-03-18",
-      "title": "中国人民银行宁夏回族自治区分行行政处罚决定信息公示表（宁银罚决字〔2024〕2-3号）",
-      "kind": "notice",
-      "branch": "宁夏回族自治区分行",
-      "home": "https://yinchuan.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521155/2026042015581186034/index.html",
-      "day": "2026-04-20",
-      "title": "中国人民银行石嘴山市分行行政处罚决定信息公示表（石银罚决字〔2026〕1号）",
-      "kind": "notice",
-      "branch": "宁夏回族自治区分行",
-      "home": "https://yinchuan.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521158/2026040814161484631/index.html",
-      "day": "2026-04-03",
-      "title": "中国人民银行吴忠市分行行政处罚决定信息公示表（吴银罚决字〔2026〕1号）",
-      "kind": "notice",
-      "branch": "宁夏回族自治区分行",
-      "home": "https://yinchuan.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521155/5888147/index.html",
-      "day": "2025-11-03",
-      "title": "中国人民银行石嘴山市分行行政处罚决定信息公示表（石银罚决字〔2025〕1号）",
-      "kind": "notice",
-      "branch": "宁夏回族自治区分行",
-      "home": "https://yinchuan.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2026041722183737579/index.html",
-      "day": "2026-04-17",
-      "title": "中国人民银行新疆维吾尔自治区分行行政处罚决定信息公示表（新银罚决字〔2026〕7-10号）",
-      "kind": "notice",
-      "branch": "新疆维吾尔自治区分行",
-      "home": "https://wulumuqi.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2026031318330139869/index.html",
-      "day": "2026-03-13",
-      "title": "中国人民银行新疆维吾尔自治区分行行政处罚决定信息公示表（新银罚决字〔2026〕6号）",
-      "kind": "notice",
-      "branch": "新疆维吾尔自治区分行",
-      "home": "https://wulumuqi.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2026022819341870364/index.html",
-      "day": "2026-02-28",
-      "title": "中国人民银行新疆维吾尔自治区分行行政处罚决定信息公示表（新银罚决字〔2026〕3-5号）",
-      "kind": "notice",
-      "branch": "新疆维吾尔自治区分行",
-      "home": "https://wulumuqi.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2026012116375441233/index.html",
-      "day": "2026-01-21",
-      "title": "中国人民银行新疆维吾尔自治区分行行政处罚决定信息公示表（新银罚决字〔2026〕1-2号）",
-      "kind": "notice",
-      "branch": "新疆维吾尔自治区分行",
-      "home": "https://wulumuqi.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/5859510/index.html",
-      "day": "2025-09-30",
-      "title": "中国人民银行新疆维吾尔自治区分行行政处罚决定信息公示表（新银罚决字〔2025〕13号）",
-      "kind": "notice",
-      "branch": "新疆维吾尔自治区分行",
-      "home": "https://wulumuqi.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2025092316120910915/index.html",
-      "day": "2025-07-28",
-      "title": "中国人民银行新疆维吾尔自治区分行行政处罚决定信息公示表（新银罚决字〔2025〕11-12号）",
-      "kind": "notice",
-      "branch": "新疆维吾尔自治区分行",
-      "home": "https://wulumuqi.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2025092316120925837/index.html",
-      "day": "2025-06-11",
-      "title": "中国人民银行新疆维吾尔自治区分行行政处罚决定信息公示表（新银罚决字〔2025〕8-10号）",
-      "kind": "notice",
-      "branch": "新疆维吾尔自治区分行",
-      "home": "https://wulumuqi.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2025092316120920593/index.html",
-      "day": "2025-05-09",
-      "title": "中国人民银行新疆维吾尔自治区分行行政处罚决定信息公示表（新银罚决字〔2025〕3-4号）",
-      "kind": "notice",
-      "branch": "新疆维吾尔自治区分行",
-      "home": "https://wulumuqi.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2025092316120988356/index.html",
-      "day": "2025-03-06",
-      "title": "中国人民银行新疆维吾尔自治区分行行政处罚决定信息公示表（新银罚决字〔2025〕1-2号）",
-      "kind": "notice",
-      "branch": "新疆维吾尔自治区分行",
-      "home": "https://wulumuqi.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2025092316120963327/index.html",
-      "day": "2024-12-27",
-      "title": "中国人民银行新疆维吾尔自治区分行行政处罚决定信息公示表（新银罚决字〔2024〕8号）",
-      "kind": "notice",
-      "branch": "新疆维吾尔自治区分行",
-      "home": "https://wulumuqi.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521354/2026102117410110253/index.html",
-      "day": "2026-10-21",
-      "title": "中国人民银行石河子市分行行政处罚决定信息公示表（石银罚决字〔2026〕1号）",
-      "kind": "notice",
-      "branch": "新疆维吾尔自治区分行",
-      "home": "https://wulumuqi.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521315/2026100816053564914/index.html",
-      "day": "2026-10-08",
-      "title": "中国人民银行克拉玛依市分行行政处罚决定信息公示表（克银罚决字〔2026〕2号）",
-      "kind": "notice",
-      "branch": "新疆维吾尔自治区分行",
-      "home": "https://wulumuqi.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521339/2026100816042852058/index.html",
-      "day": "2026-10-08",
-      "title": "中国人民银行喀什地区分行行政处罚决定信息公示表（喀银罚决字〔2026〕1-2号）",
-      "kind": "notice",
-      "branch": "新疆维吾尔自治区分行",
-      "home": "https://wulumuqi.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521321/2026092413172140891/index.html",
-      "day": "2026-09-24",
-      "title": "中国人民银行哈密市分行行政处罚决定信息公示表（哈银罚决字〔2026〕1号）",
-      "kind": "notice",
-      "branch": "新疆维吾尔自治区分行",
-      "home": "https://wulumuqi.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521318/2026082716461453999/index.html",
-      "day": "2026-08-27",
-      "title": "中国人民银行吐鲁番市分行行政处罚决定信息公示表（吐银罚决字〔2026〕1号）",
-      "kind": "notice",
-      "branch": "新疆维吾尔自治区分行",
-      "home": "https://wulumuqi.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521351/2026082511305755780/index.html",
-      "day": "2026-08-25",
-      "title": "中国人民银行阿勒泰地区分行行政处罚决定信息公示表（阿银罚决字〔2026〕3号）",
-      "kind": "notice",
-      "branch": "新疆维吾尔自治区分行",
-      "home": "https://wulumuqi.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521351/2026062520331284435/index.html",
-      "day": "2026-06-25",
-      "title": "中国人民银行阿勒泰地区分行行政处罚决定信息公示表（阿银罚决字〔2026〕2号）",
-      "kind": "notice",
-      "branch": "新疆维吾尔自治区分行",
-      "home": "https://wulumuqi.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521345/2026062520323052333/index.html",
-      "day": "2026-06-25",
-      "title": "中国人民银行伊犁哈萨克自治州分行行政处罚决定信息公示表（伊银罚决字〔2026〕2号）",
-      "kind": "notice",
-      "branch": "新疆维吾尔自治区分行",
-      "home": "https://wulumuqi.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521324/2026052511332586722/index.html",
-      "day": "2026-05-25",
-      "title": "中国人民银行昌吉回族自治州分行行政处罚决定信息公示表（昌银罚决字〔2026〕2号）",
-      "kind": "notice",
-      "branch": "新疆维吾尔自治区分行",
-      "home": "https://wulumuqi.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521333/2026040318041971351/index.html",
-      "day": "2026-04-03",
-      "title": "中国人民银行阿克苏地区分行行政处罚决定信息公示表（阿银罚决字〔2026〕1号）",
-      "kind": "notice",
-      "branch": "新疆维吾尔自治区分行",
-      "home": "https://wulumuqi.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "kind": "list",
-      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/14752-2.html",
-      "branch": "新疆维吾尔自治区分行",
-      "home": "https://wulumuqi.pbc.gov.cn/",
-      "daily": false
-    },
-    {
-      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2026103018002399816/index.html",
-      "day": "2026-10-30",
-      "title": "中国人民银行深圳市分行行政处罚决定信息公示表（深人银罚〔2026〕20-21号）",
-      "kind": "notice",
-      "branch": "深圳市分行",
-      "home": "https://shenzhen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2026103017565371055/index.html",
-      "day": "2026-10-30",
-      "title": "中国人民银行深圳市分行行政处罚决定信息公示表（深人银罚〔2026〕18-19号）",
-      "kind": "notice",
-      "branch": "深圳市分行",
-      "home": "https://shenzhen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2026101509530997492/index.html",
-      "day": "2026-10-15",
-      "title": "中国人民银行深圳市分行行政处罚决定信息公示表（深人银罚〔2026〕17号）",
-      "kind": "notice",
-      "branch": "深圳市分行",
-      "home": "https://shenzhen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2026101017461010743/index.html",
-      "day": "2026-10-10",
-      "title": "中国人民银行深圳市分行行政处罚决定信息公示表（深人银罚〔2026〕16号）",
-      "kind": "notice",
-      "branch": "深圳市分行",
-      "home": "https://shenzhen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2026093017333142716/index.html",
-      "day": "2026-09-30",
-      "title": "中国人民银行深圳市分行行政处罚决定信息公示表（深人银罚〔2026〕14号、15号）",
-      "kind": "notice",
-      "branch": "深圳市分行",
-      "home": "https://shenzhen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2026061517502832085/index.html",
-      "day": "2026-06-15",
-      "title": "中国人民银行深圳市分行行政处罚决定信息公示表（深人银罚〔2026〕12号-13号）",
-      "kind": "notice",
-      "branch": "深圳市分行",
-      "home": "https://shenzhen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2026050918254149123/index.html",
-      "day": "2026-05-09",
-      "title": "中国人民银行深圳市分行行政处罚决定信息公示表（深人银罚〔2026〕10号-11号）",
-      "kind": "notice",
-      "branch": "深圳市分行",
-      "home": "https://shenzhen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2026032018260823244/index.html",
-      "day": "2026-03-20",
-      "title": "中国人民银行深圳市分行行政处罚决定信息公示表（深人银罚〔2026〕8号、9号）",
-      "kind": "notice",
-      "branch": "深圳市分行",
-      "home": "https://shenzhen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2026022817171252733/index.html",
-      "day": "2026-02-28",
-      "title": "中国人民银行深圳市分行行政处罚决定信息公示表（深人银罚〔2026〕7号）",
-      "kind": "notice",
-      "branch": "深圳市分行",
-      "home": "https://shenzhen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2026011618504147934/index.html",
-      "day": "2026-01-16",
-      "title": "中国人民银行深圳市分行行政处罚决定信息公示表（深人银罚〔2026〕5号、6号）",
-      "kind": "notice",
-      "branch": "深圳市分行",
-      "home": "https://shenzhen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2025123117524034023/index.html",
-      "day": "2025-12-31",
-      "title": "中国人民银行深圳市分行行政处罚决定信息公示表（深人银罚〔2025〕77号-80号）",
-      "kind": "notice",
-      "branch": "深圳市分行",
-      "home": "https://shenzhen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/5923705/index.html",
-      "day": "2025-12-05",
-      "title": "中国人民银行深圳市分行行政处罚决定信息公示表（深人银罚〔2025〕71号）",
-      "kind": "notice",
-      "branch": "深圳市分行",
-      "home": "https://shenzhen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/5916490/index.html",
-      "day": "2025-11-28",
-      "title": "中国人民银行深圳市分行行政处罚决定信息公示表（深人银罚〔2025〕69号-70号，72号-76号）",
-      "kind": "notice",
-      "branch": "深圳市分行",
-      "home": "https://shenzhen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/5915044/index.html",
-      "day": "2025-11-27",
-      "title": "中国人民银行深圳市分行行政处罚决定信息公示表（深人银罚〔2025〕61号-68号）",
-      "kind": "notice",
-      "branch": "深圳市分行",
-      "home": "https://shenzhen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2025111422024710979/index.html",
-      "day": "2025-10-23",
-      "title": "中国人民银行深圳市分行行政处罚决定信息公示表（深人银罚〔2025〕29号-37号）",
-      "kind": "notice",
-      "branch": "深圳市分行",
-      "home": "https://shenzhen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2025111422024792127/index.html",
-      "day": "2025-10-11",
-      "title": "中国人民银行深圳市分行行政处罚决定信息公示表（深人银罚〔2025〕27号、28号）",
-      "kind": "notice",
-      "branch": "深圳市分行",
-      "home": "https://shenzhen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2025111422024715427/index.html",
-      "day": "2025-09-30",
-      "title": "中国人民银行深圳市分行行政处罚决定信息公示表（深人银罚〔2025〕24、25、26号）",
-      "kind": "notice",
-      "branch": "深圳市分行",
-      "home": "https://shenzhen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2025111422024776295/index.html",
-      "day": "2025-09-23",
-      "title": "中国人民银行深圳市分行行政处罚决定信息公示表（深人银罚〔2025〕21号-23号）",
-      "kind": "notice",
-      "branch": "深圳市分行",
-      "home": "https://shenzhen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2025111422024755210/index.html",
-      "day": "2025-06-20",
-      "title": "中国人民银行深圳市分行行政处罚决定信息公示表（深人银罚〔2025〕19号-20号）",
-      "kind": "notice",
-      "branch": "深圳市分行",
-      "home": "https://shenzhen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2025111422024791627/index.html",
-      "day": "2025-05-09",
-      "title": "中国人民银行深圳市分行行政处罚决定信息公示表（深人银罚〔2025〕16号-18号）",
-      "kind": "notice",
-      "branch": "深圳市分行",
-      "home": "https://shenzhen.pbc.gov.cn/",
-      "refresh": false
-    },
-    {
-      "kind": "list",
-      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/15142-2.html",
-      "branch": "深圳市分行",
-      "home": "https://shenzhen.pbc.gov.cn/",
-      "daily": false
-    },
-    {
       "url": "https://dalian.pbc.gov.cn/dalian/123812/123830/123837/2026111709514319315/index.html",
       "day": "2026-11-17",
       "title": "中国人民银行大连市分行行政处罚决定信息公示表（大银罚决字〔2025〕1-6号）",
@@ -5420,6 +4922,252 @@
       "branch": "甘肃省分行",
       "home": "https://lanzhou.pbc.gov.cn/",
       "daily": false
+    },
+    {
+      "url": "https://xining.pbc.gov.cn/xining/118239/118263/118270/5513673/2026111715313826366/index.html",
+      "day": "2026-11-17",
+      "title": "中国人民银行果洛藏族自治州分行行政处罚决定信息公示表（果人银罚决字〔2026〕1号）",
+      "kind": "notice",
+      "branch": "青海省分行",
+      "home": "https://xining.pbc.gov.cn/",
+      "refresh": true
+    },
+    {
+      "url": "https://xining.pbc.gov.cn/xining/118239/118263/118270/5513676/2026110911261472873/index.html",
+      "day": "2026-11-09",
+      "title": "中国人民银行黄南州分行行政处罚决定信息公示表（黄人银罚决字〔2026〕1号）",
+      "kind": "notice",
+      "branch": "青海省分行",
+      "home": "https://xining.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://xining.pbc.gov.cn/xining/118239/118263/118270/5513664/2026110615041944969/index.html",
+      "day": "2026-11-06",
+      "title": "中国人民银行海南州分行行政处罚决定信息公示表（南人银罚决字〔2026〕2号）",
+      "kind": "notice",
+      "branch": "青海省分行",
+      "home": "https://xining.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://xining.pbc.gov.cn/xining/118239/118263/118270/5513667/2026101610562167148/index.html",
+      "day": "2026-10-16",
+      "title": "中国人民银行海北州分行行政处罚决定信息公示表（北人银罚决字〔2026〕2号）",
+      "kind": "notice",
+      "branch": "青海省分行",
+      "home": "https://xining.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://xining.pbc.gov.cn/xining/118239/118263/118270/5513661/2026092315411046527/index.html",
+      "day": "2026-09-23",
+      "title": "中国人民银行海西州分行行政处罚决定信息公示表（海西银罚决字〔2026〕2号）",
+      "kind": "notice",
+      "branch": "青海省分行",
+      "home": "https://xining.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://xining.pbc.gov.cn/xining/118239/118263/118270/5513664/2026012710060527246/index.html",
+      "day": "2026-01-27",
+      "title": "中国人民银行海南州分行行政处罚决定信息公示表（南人银罚决字〔2026〕1号）",
+      "kind": "notice",
+      "branch": "青海省分行",
+      "home": "https://xining.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://xining.pbc.gov.cn/xining/118239/118263/118270/5513670/2026011617243213713/index.html",
+      "day": "2026-01-16",
+      "title": "中国人民银行玉树州分行行政处罚决定信息公示表（玉树银罚决字〔2026〕1号）",
+      "kind": "notice",
+      "branch": "青海省分行",
+      "home": "https://xining.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "kind": "list",
+      "url": "https://xining.pbc.gov.cn/xining/118239/118263/118270/6853259d-2.html",
+      "branch": "青海省分行",
+      "home": "https://xining.pbc.gov.cn/",
+      "daily": false
+    },
+    {
+      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2025092316120963012/index.html",
+      "day": "2024-10-16",
+      "title": "中国人民银行新疆维吾尔自治区分行行政处罚信息公示（2024年10月16日）",
+      "kind": "notice",
+      "branch": "新疆维吾尔自治区分行",
+      "home": "https://wulumuqi.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2025092316120887349/index.html",
+      "day": "2024-10-15",
+      "title": "中国人民银行新疆维吾尔自治区分行行政处罚信息公示（2024年10月15日）",
+      "kind": "notice",
+      "branch": "新疆维吾尔自治区分行",
+      "home": "https://wulumuqi.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521354/2026102117410110253/index.html",
+      "day": "2026-10-21",
+      "title": "中国人民银行石河子市分行行政处罚决定信息公示表（石银罚决字〔2026〕1号）",
+      "kind": "notice",
+      "branch": "新疆维吾尔自治区分行",
+      "home": "https://wulumuqi.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521315/2026100816053564914/index.html",
+      "day": "2026-10-08",
+      "title": "中国人民银行克拉玛依市分行行政处罚决定信息公示表（克银罚决字〔2026〕2号）",
+      "kind": "notice",
+      "branch": "新疆维吾尔自治区分行",
+      "home": "https://wulumuqi.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521339/2026100816042852058/index.html",
+      "day": "2026-10-08",
+      "title": "中国人民银行喀什地区分行行政处罚决定信息公示表（喀银罚决字〔2026〕1-2号）",
+      "kind": "notice",
+      "branch": "新疆维吾尔自治区分行",
+      "home": "https://wulumuqi.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521321/2026092413172140891/index.html",
+      "day": "2026-09-24",
+      "title": "中国人民银行哈密市分行行政处罚决定信息公示表（哈银罚决字〔2026〕1号）",
+      "kind": "notice",
+      "branch": "新疆维吾尔自治区分行",
+      "home": "https://wulumuqi.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521318/2026082716461453999/index.html",
+      "day": "2026-08-27",
+      "title": "中国人民银行吐鲁番市分行行政处罚决定信息公示表（吐银罚决字〔2026〕1号）",
+      "kind": "notice",
+      "branch": "新疆维吾尔自治区分行",
+      "home": "https://wulumuqi.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521351/2026082511305755780/index.html",
+      "day": "2026-08-25",
+      "title": "中国人民银行阿勒泰地区分行行政处罚决定信息公示表（阿银罚决字〔2026〕3号）",
+      "kind": "notice",
+      "branch": "新疆维吾尔自治区分行",
+      "home": "https://wulumuqi.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521351/2026062520331284435/index.html",
+      "day": "2026-06-25",
+      "title": "中国人民银行阿勒泰地区分行行政处罚决定信息公示表（阿银罚决字〔2026〕2号）",
+      "kind": "notice",
+      "branch": "新疆维吾尔自治区分行",
+      "home": "https://wulumuqi.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521345/2026062520323052333/index.html",
+      "day": "2026-06-25",
+      "title": "中国人民银行伊犁哈萨克自治州分行行政处罚决定信息公示表（伊银罚决字〔2026〕2号）",
+      "kind": "notice",
+      "branch": "新疆维吾尔自治区分行",
+      "home": "https://wulumuqi.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521324/2026052511332586722/index.html",
+      "day": "2026-05-25",
+      "title": "中国人民银行昌吉回族自治州分行行政处罚决定信息公示表（昌银罚决字〔2026〕2号）",
+      "kind": "notice",
+      "branch": "新疆维吾尔自治区分行",
+      "home": "https://wulumuqi.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521333/2026040318041971351/index.html",
+      "day": "2026-04-03",
+      "title": "中国人民银行阿克苏地区分行行政处罚决定信息公示表（阿银罚决字〔2026〕1号）",
+      "kind": "notice",
+      "branch": "新疆维吾尔自治区分行",
+      "home": "https://wulumuqi.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "kind": "list",
+      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/bca324c2-2.html",
+      "branch": "新疆维吾尔自治区分行",
+      "home": "https://wulumuqi.pbc.gov.cn/",
+      "daily": false
+    },
+    {
+      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2025111422024699528/index.html",
+      "day": "2025-03-28",
+      "title": "中国人民银行深圳市分行行政处罚决定信息公示表（深人银罚〔2025〕5号-15号）",
+      "kind": "notice",
+      "branch": "深圳市分行",
+      "home": "https://shenzhen.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2025111422024640199/index.html",
+      "day": "2025-03-10",
+      "title": "中国人民银行深圳市分行行政处罚决定信息公示表（深人银罚〔2025〕2号、3号）",
+      "kind": "notice",
+      "branch": "深圳市分行",
+      "home": "https://shenzhen.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2025111422024692496/index.html",
+      "day": "2025-02-28",
+      "title": "中国人民银行深圳市分行行政处罚决定信息公示表（深人银罚〔2025〕1号）",
+      "kind": "notice",
+      "branch": "深圳市分行",
+      "home": "https://shenzhen.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2025111422023827845/index.html",
+      "day": "2024-09-30",
+      "title": "中国人民银行深圳市分行行政处罚公示表（2024年第28期）",
+      "kind": "notice",
+      "branch": "深圳市分行",
+      "home": "https://shenzhen.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2025111422023545381/index.html",
+      "day": "2024-01-30",
+      "title": "中国人民银行深圳市分行行政处罚公示表（2024年第5期）",
+      "kind": "notice",
+      "branch": "深圳市分行",
+      "home": "https://shenzhen.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2025111422023541957/index.html",
+      "day": "2024-01-05",
+      "title": "中国人民银行深圳市分行行政处罚公示表（2024年第3期）",
+      "kind": "notice",
+      "branch": "深圳市分行",
+      "home": "https://shenzhen.pbc.gov.cn/",
+      "refresh": false
+    },
+    {
+      "kind": "list",
+      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/15142-3.html",
+      "branch": "深圳市分行",
+      "home": "https://shenzhen.pbc.gov.cn/",
+      "daily": false
     }
   ],
   "done": {
@@ -6217,6 +5965,136 @@
       "branch": "青海省分行",
       "date": "2026-02-11",
       "rows": 1
+    },
+    "https://xining.pbc.gov.cn/xining/118239/118263/118270/5513658/2026021014462818226/index.html": {
+      "branch": "青海省分行",
+      "date": "2026-02-10",
+      "rows": 1
+    },
+    "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521152/2026051217235913422/index.html": {
+      "branch": "宁夏回族自治区分行",
+      "date": "2026-05-12",
+      "rows": 5
+    },
+    "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521152/2026011616484738431/index.html": {
+      "branch": "宁夏回族自治区分行",
+      "date": "2026-01-15",
+      "rows": 1
+    },
+    "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521155/2026042015581186034/index.html": {
+      "branch": "宁夏回族自治区分行",
+      "date": "2026-04-20",
+      "rows": 1
+    },
+    "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521158/2026040814161484631/index.html": {
+      "branch": "宁夏回族自治区分行",
+      "date": "2026-04-03",
+      "rows": 1
+    },
+    "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521155/5888147/index.html": {
+      "branch": "宁夏回族自治区分行",
+      "date": "2025-11-03",
+      "rows": 1
+    },
+    "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2026103018002399816/index.html": {
+      "branch": "深圳市分行",
+      "date": "2026-10-30",
+      "rows": 2
+    },
+    "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2026103017565371055/index.html": {
+      "branch": "深圳市分行",
+      "date": "2026-10-30",
+      "rows": 2
+    },
+    "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2026101509530997492/index.html": {
+      "branch": "深圳市分行",
+      "date": "2026-10-15",
+      "rows": 1
+    },
+    "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2026101017461010743/index.html": {
+      "branch": "深圳市分行",
+      "date": "2026-10-10",
+      "rows": 1
+    },
+    "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2026093017333142716/index.html": {
+      "branch": "深圳市分行",
+      "date": "2026-09-30",
+      "rows": 2
+    },
+    "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2026061517502832085/index.html": {
+      "branch": "深圳市分行",
+      "date": "2026-06-15",
+      "rows": 2
+    },
+    "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2026050918254149123/index.html": {
+      "branch": "深圳市分行",
+      "date": "2026-05-09",
+      "rows": 2
+    },
+    "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2026032018260823244/index.html": {
+      "branch": "深圳市分行",
+      "date": "2026-03-20",
+      "rows": 2
+    },
+    "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2026022817171252733/index.html": {
+      "branch": "深圳市分行",
+      "date": "2026-02-28",
+      "rows": 1
+    },
+    "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2026011618504147934/index.html": {
+      "branch": "深圳市分行",
+      "date": "2026-01-16",
+      "rows": 2
+    },
+    "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2025123117524034023/index.html": {
+      "branch": "深圳市分行",
+      "date": "2025-12-31",
+      "rows": 4
+    },
+    "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/5923705/index.html": {
+      "branch": "深圳市分行",
+      "date": "2025-12-05",
+      "rows": 1
+    },
+    "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/5916490/index.html": {
+      "branch": "深圳市分行",
+      "date": "2025-11-28",
+      "rows": 7
+    },
+    "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/5915044/index.html": {
+      "branch": "深圳市分行",
+      "date": "2025-11-27",
+      "rows": 8
+    },
+    "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2025111422024710979/index.html": {
+      "branch": "深圳市分行",
+      "date": "2025-10-23",
+      "rows": 9
+    },
+    "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2025111422024792127/index.html": {
+      "branch": "深圳市分行",
+      "date": "2025-10-11",
+      "rows": 2
+    },
+    "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2025111422024715427/index.html": {
+      "branch": "深圳市分行",
+      "date": "2025-09-30",
+      "rows": 3
+    },
+    "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2025111422024776295/index.html": {
+      "branch": "深圳市分行",
+      "date": "2025-09-23",
+      "rows": 3
+    },
+    "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2025111422024755210/index.html": {
+      "branch": "深圳市分行",
+      "date": "2025-06-20",
+      "rows": 2
+    },
+    "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/2025111422024791627/index.html": {
+      "branch": "深圳市分行",
+      "date": "2025-05-09",
+      "rows": 3
     }
   },
   "listed": {
@@ -6282,7 +6160,10 @@
     "https://guiyang.pbc.gov.cn/guiyang/113288/113306/113313/6cf9f205-2.html": "2026-11-23",
     "https://kunming.pbc.gov.cn/kunming/133736/133760/133767/cebe846a-2.html": "2026-11-23",
     "https://xian.pbc.gov.cn/xian/129428/129449/129458/23967-2.html": "2026-11-23",
-    "https://lanzhou.pbc.gov.cn/lanzhou/117067/117091/117098/9dda93d5-2.html": "2026-11-23"
+    "https://lanzhou.pbc.gov.cn/lanzhou/117067/117091/117098/9dda93d5-2.html": "2026-11-23",
+    "https://xining.pbc.gov.cn/xining/118239/118263/118270/31bd370b-2.html": "2026-11-23",
+    "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/14752-2.html": "2026-11-23",
+    "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/15142-2.html": "2026-11-23"
   },
   "failures": {
     "https://shanghai.pbc.gov.cn/fzhshanghai/113577/114832/114918/2026070916570660880/index.html": {
@@ -11029,6 +10910,357 @@
       },
       "error": "Unparsed attachment ['https://xining.pbc.gov.cn/xining/118239/118263/118270/5513661/2026092315411046527/2026092315404892116.pdf'][]",
       "last_attempt": "2026-11-23"
+    },
+    "https://xining.pbc.gov.cn/xining/118239/118263/118270/5513664/2026012710060527246/index.html": {
+      "task": {
+        "url": "https://xining.pbc.gov.cn/xining/118239/118263/118270/5513664/2026012710060527246/index.html",
+        "day": "2026-01-27",
+        "title": "中国人民银行海南州分行行政处罚决定信息公示表（南人银罚决字〔2026〕1号）",
+        "kind": "notice",
+        "branch": "青海省分行",
+        "home": "https://xining.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://xining.pbc.gov.cn/xining/118239/118263/118270/5513664/2026012710060527246/2026012710055212227.pdf'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://xining.pbc.gov.cn/xining/118239/118263/118270/5513670/2026011617243213713/index.html": {
+      "task": {
+        "url": "https://xining.pbc.gov.cn/xining/118239/118263/118270/5513670/2026011617243213713/index.html",
+        "day": "2026-01-16",
+        "title": "中国人民银行玉树州分行行政处罚决定信息公示表（玉树银罚决字〔2026〕1号）",
+        "kind": "notice",
+        "branch": "青海省分行",
+        "home": "https://xining.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://xining.pbc.gov.cn/xining/118239/118263/118270/5513670/2026011617243213713/2026011617235349354.pdf'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521152/5831912/index.html": {
+      "task": {
+        "url": "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521152/5831912/index.html",
+        "day": "2025-09-08",
+        "title": "中国人民银行宁夏回族自治区分行行政处罚决定信息公示表（宁银罚决字〔2025〕4-7号）",
+        "kind": "notice",
+        "branch": "宁夏回族自治区分行",
+        "home": "https://yinchuan.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521152/5831912/2026110315190359271.docx'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521152/5789625/index.html": {
+      "task": {
+        "url": "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521152/5789625/index.html",
+        "day": "2025-07-23",
+        "title": "中国人民银行宁夏回族自治区分行行政处罚决定信息公示表（宁银罚决字〔2025〕2-3号）",
+        "kind": "notice",
+        "branch": "宁夏回族自治区分行",
+        "home": "https://yinchuan.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521152/5789625/2026110315175598797.wps'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521152/5460553/index.html": {
+      "task": {
+        "url": "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521152/5460553/index.html",
+        "day": "2024-09-13",
+        "title": "中国人民银行宁夏回族自治区分行行政处罚决定信息公示表（宁银罚决字〔2024〕11-13号）",
+        "kind": "notice",
+        "branch": "宁夏回族自治区分行",
+        "home": "https://yinchuan.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521152/5460553/2026110315163211703.wps'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521152/5333455/index.html": {
+      "task": {
+        "url": "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521152/5333455/index.html",
+        "day": "2024-04-19",
+        "title": "中国人民银行宁夏回族自治区分行行政处罚决定信息公示表（宁银罚决字〔2024〕4-5号）",
+        "kind": "notice",
+        "branch": "宁夏回族自治区分行",
+        "home": "https://yinchuan.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521152/5333455/2026110315151996308.wps'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521152/5281727/index.html": {
+      "task": {
+        "url": "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521152/5281727/index.html",
+        "day": "2024-03-18",
+        "title": "中国人民银行宁夏回族自治区分行行政处罚决定信息公示表（宁银罚决字〔2024〕2-3号）",
+        "kind": "notice",
+        "branch": "宁夏回族自治区分行",
+        "home": "https://yinchuan.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/5521152/5281727/2026110315135711984.wps'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2026041722183737579/index.html": {
+      "task": {
+        "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2026041722183737579/index.html",
+        "day": "2026-04-17",
+        "title": "中国人民银行新疆维吾尔自治区分行行政处罚决定信息公示表（新银罚决字〔2026〕7-10号）",
+        "kind": "notice",
+        "branch": "新疆维吾尔自治区分行",
+        "home": "https://wulumuqi.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2026041722183737579/2026041722181213642.pdf'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2026031318330139869/index.html": {
+      "task": {
+        "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2026031318330139869/index.html",
+        "day": "2026-03-13",
+        "title": "中国人民银行新疆维吾尔自治区分行行政处罚决定信息公示表（新银罚决字〔2026〕6号）",
+        "kind": "notice",
+        "branch": "新疆维吾尔自治区分行",
+        "home": "https://wulumuqi.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2026031318330139869/2026031318320689966.wps'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2026022819341870364/index.html": {
+      "task": {
+        "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2026022819341870364/index.html",
+        "day": "2026-02-28",
+        "title": "中国人民银行新疆维吾尔自治区分行行政处罚决定信息公示表（新银罚决字〔2026〕3-5号）",
+        "kind": "notice",
+        "branch": "新疆维吾尔自治区分行",
+        "home": "https://wulumuqi.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2026022819341870364/2026022819335193354.wps'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2026012116375441233/index.html": {
+      "task": {
+        "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2026012116375441233/index.html",
+        "day": "2026-01-21",
+        "title": "中国人民银行新疆维吾尔自治区分行行政处罚决定信息公示表（新银罚决字〔2026〕1-2号）",
+        "kind": "notice",
+        "branch": "新疆维吾尔自治区分行",
+        "home": "https://wulumuqi.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2026012116375441233/2026012116373249693.wps'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/5859510/index.html": {
+      "task": {
+        "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/5859510/index.html",
+        "day": "2025-09-30",
+        "title": "中国人民银行新疆维吾尔自治区分行行政处罚决定信息公示表（新银罚决字〔2025〕13号）",
+        "kind": "notice",
+        "branch": "新疆维吾尔自治区分行",
+        "home": "https://wulumuqi.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/5859510/2025093015380628076.wps'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2025092316120910915/index.html": {
+      "task": {
+        "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2025092316120910915/index.html",
+        "day": "2025-07-28",
+        "title": "中国人民银行新疆维吾尔自治区分行行政处罚决定信息公示表（新银罚决字〔2025〕11-12号）",
+        "kind": "notice",
+        "branch": "新疆维吾尔自治区分行",
+        "home": "https://wulumuqi.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2025092316120910915/2025072811390835212.wps'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2025092316120925837/index.html": {
+      "task": {
+        "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2025092316120925837/index.html",
+        "day": "2025-06-11",
+        "title": "中国人民银行新疆维吾尔自治区分行行政处罚决定信息公示表（新银罚决字〔2025〕8-10号）",
+        "kind": "notice",
+        "branch": "新疆维吾尔自治区分行",
+        "home": "https://wulumuqi.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2025092316120925837/2025061117582399651.wps'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2025092316120920593/index.html": {
+      "task": {
+        "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2025092316120920593/index.html",
+        "day": "2025-05-09",
+        "title": "中国人民银行新疆维吾尔自治区分行行政处罚决定信息公示表（新银罚决字〔2025〕3-4号）",
+        "kind": "notice",
+        "branch": "新疆维吾尔自治区分行",
+        "home": "https://wulumuqi.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2025092316120920593/2025050918295845399.wps'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2025092316120988356/index.html": {
+      "task": {
+        "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2025092316120988356/index.html",
+        "day": "2025-03-06",
+        "title": "中国人民银行新疆维吾尔自治区分行行政处罚决定信息公示表（新银罚决字〔2025〕1-2号）",
+        "kind": "notice",
+        "branch": "新疆维吾尔自治区分行",
+        "home": "https://wulumuqi.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2025092316120988356/2025041818153751257.wps'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2025092316120963327/index.html": {
+      "task": {
+        "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2025092316120963327/index.html",
+        "day": "2024-12-27",
+        "title": "中国人民银行新疆维吾尔自治区分行行政处罚决定信息公示表（新银罚决字〔2024〕8号）",
+        "kind": "notice",
+        "branch": "新疆维吾尔自治区分行",
+        "home": "https://wulumuqi.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521433/2025092316120963327/2025041818161484594.wps'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521354/2026102117410110253/index.html": {
+      "task": {
+        "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521354/2026102117410110253/index.html",
+        "day": "2026-10-21",
+        "title": "中国人民银行石河子市分行行政处罚决定信息公示表（石银罚决字〔2026〕1号）",
+        "kind": "notice",
+        "branch": "新疆维吾尔自治区分行",
+        "home": "https://wulumuqi.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521354/2026102117410110253/2026102117401998468.pdf'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521315/2026100816053564914/index.html": {
+      "task": {
+        "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521315/2026100816053564914/index.html",
+        "day": "2026-10-08",
+        "title": "中国人民银行克拉玛依市分行行政处罚决定信息公示表（克银罚决字〔2026〕2号）",
+        "kind": "notice",
+        "branch": "新疆维吾尔自治区分行",
+        "home": "https://wulumuqi.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521315/2026100816053564914/2026100816050384232.pdf'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521339/2026100816042852058/index.html": {
+      "task": {
+        "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521339/2026100816042852058/index.html",
+        "day": "2026-10-08",
+        "title": "中国人民银行喀什地区分行行政处罚决定信息公示表（喀银罚决字〔2026〕1-2号）",
+        "kind": "notice",
+        "branch": "新疆维吾尔自治区分行",
+        "home": "https://wulumuqi.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521339/2026100816042852058/2026100816030284695.pdf'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521321/2026092413172140891/index.html": {
+      "task": {
+        "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521321/2026092413172140891/index.html",
+        "day": "2026-09-24",
+        "title": "中国人民银行哈密市分行行政处罚决定信息公示表（哈银罚决字〔2026〕1号）",
+        "kind": "notice",
+        "branch": "新疆维吾尔自治区分行",
+        "home": "https://wulumuqi.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521321/2026092413172140891/2026092413165376082.pdf'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521318/2026082716461453999/index.html": {
+      "task": {
+        "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521318/2026082716461453999/index.html",
+        "day": "2026-08-27",
+        "title": "中国人民银行吐鲁番市分行行政处罚决定信息公示表（吐银罚决字〔2026〕1号）",
+        "kind": "notice",
+        "branch": "新疆维吾尔自治区分行",
+        "home": "https://wulumuqi.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521318/2026082716461453999/2026082716454248300.pdf'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521351/2026082511305755780/index.html": {
+      "task": {
+        "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521351/2026082511305755780/index.html",
+        "day": "2026-08-25",
+        "title": "中国人民银行阿勒泰地区分行行政处罚决定信息公示表（阿银罚决字〔2026〕3号）",
+        "kind": "notice",
+        "branch": "新疆维吾尔自治区分行",
+        "home": "https://wulumuqi.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521351/2026082511305755780/2026082511303119614.pdf'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521351/2026062520331284435/index.html": {
+      "task": {
+        "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521351/2026062520331284435/index.html",
+        "day": "2026-06-25",
+        "title": "中国人民银行阿勒泰地区分行行政处罚决定信息公示表（阿银罚决字〔2026〕2号）",
+        "kind": "notice",
+        "branch": "新疆维吾尔自治区分行",
+        "home": "https://wulumuqi.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521351/2026062520331284435/2026062520325422325.pdf'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521345/2026062520323052333/index.html": {
+      "task": {
+        "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521345/2026062520323052333/index.html",
+        "day": "2026-06-25",
+        "title": "中国人民银行伊犁哈萨克自治州分行行政处罚决定信息公示表（伊银罚决字〔2026〕2号）",
+        "kind": "notice",
+        "branch": "新疆维吾尔自治区分行",
+        "home": "https://wulumuqi.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521345/2026062520323052333/2026062520321280204.pdf'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521324/2026052511332586722/index.html": {
+      "task": {
+        "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521324/2026052511332586722/index.html",
+        "day": "2026-05-25",
+        "title": "中国人民银行昌吉回族自治州分行行政处罚决定信息公示表（昌银罚决字〔2026〕2号）",
+        "kind": "notice",
+        "branch": "新疆维吾尔自治区分行",
+        "home": "https://wulumuqi.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521324/2026052511332586722/2026052511325794990.pdf'][]",
+      "last_attempt": "2026-11-23"
+    },
+    "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521333/2026040318041971351/index.html": {
+      "task": {
+        "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521333/2026040318041971351/index.html",
+        "day": "2026-04-03",
+        "title": "中国人民银行阿克苏地区分行行政处罚决定信息公示表（阿银罚决字〔2026〕1号）",
+        "kind": "notice",
+        "branch": "新疆维吾尔自治区分行",
+        "home": "https://wulumuqi.pbc.gov.cn/",
+        "refresh": false
+      },
+      "error": "Unparsed attachment ['https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/5521333/2026040318041971351/2026040318031087541.pdf'][]",
+      "last_attempt": "2026-11-23"
     }
   },
   "discovery_seen": {
@@ -11387,9 +11619,9 @@
       "directories": [
         "https://xining.pbc.gov.cn/xining/118239/118263/118270/index.html"
       ],
-      "parsedNotices": 2,
-      "pendingTasks": 5,
-      "failedTasks": 15,
+      "parsedNotices": 3,
+      "pendingTasks": 9,
+      "failedTasks": 17,
       "historyComplete": false
     },
     "宁夏回族自治区分行": {
@@ -11397,9 +11629,9 @@
       "directories": [
         "https://yinchuan.pbc.gov.cn/yinchuan/119983/120001/120008/index.html"
       ],
-      "parsedNotices": 0,
-      "pendingTasks": 11,
-      "failedTasks": 0,
+      "parsedNotices": 5,
+      "pendingTasks": 1,
+      "failedTasks": 5,
       "historyComplete": false
     },
     "新疆维吾尔自治区分行": {
@@ -11408,8 +11640,8 @@
         "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/index.html"
       ],
       "parsedNotices": 0,
-      "pendingTasks": 22,
-      "failedTasks": 0,
+      "pendingTasks": 14,
+      "failedTasks": 20,
       "historyComplete": false
     },
     "深圳市分行": {
@@ -11417,8 +11649,8 @@
       "directories": [
         "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/index.html"
       ],
-      "parsedNotices": 0,
-      "pendingTasks": 22,
+      "parsedNotices": 20,
+      "pendingTasks": 8,
       "failedTasks": 0,
       "historyComplete": false
     },
@@ -11463,9 +11695,9 @@
       "historyComplete": false
     }
   },
-  "updated_at": "2026-11-23T10:16:39+08:00",
+  "updated_at": "2026-11-23T11:46:39+08:00",
   "pause_reason": null,
-  "requestClock": 1795400198.9982116,
+  "requestClock": 1795405599.0292766,
   "pageFingerprints": {
     "77eafe10a2f9cd308f28d42fafb25556ac363d485149dfecae527603e7754ff5": {
       "url": "https://shenyang.pbc.gov.cn/shenyfh/108074/108127/108208/9b97ac7e-2.html",
@@ -11550,7 +11782,19 @@
     "be6bed3c6da2a727a575e35ffc67e77ccdb27efd323b710f8721461b386b8249": {
       "url": "https://lanzhou.pbc.gov.cn/lanzhou/117067/117091/117098/9dda93d5-2.html",
       "day": "2026-11-23"
+    },
+    "9d2d650826d656f488b59a2da436a8e6baa7376f6238fc14d7ebc3bad9eb2c4f": {
+      "url": "https://xining.pbc.gov.cn/xining/118239/118263/118270/31bd370b-2.html",
+      "day": "2026-11-23"
+    },
+    "2474f7b47e14983422b0cf1557a12dbc2f3afad8f46dd29427d3257b8ec7353a": {
+      "url": "https://wulumuqi.pbc.gov.cn/wulumuqi/121755/121777/121784/14752-2.html",
+      "day": "2026-11-23"
+    },
+    "5e1f59aaaa8d6cb81d28ca5c17ae74945f66d84be2d24577f2a452ae698fe9d4": {
+      "url": "https://shenzhen.pbc.gov.cn/shenzhen/122811/122833/122840/15142-2.html",
+      "day": "2026-11-23"
     }
   },
-  "completedTasks": 151
+  "completedTasks": 180
 }
