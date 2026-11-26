@@ -16822,22 +16822,6 @@
     "publishing_source": "宁波市分行"
   },
   {
-    "notice_title": "中国人民银行三明市分行行政处罚决定信息公示表（明银罚决字〔2026〕5号）",
-    "branch": "福建省分行",
-    "source_row_no": "1",
-    "party_name": "泰宁县农村信用合作联社",
-    "decision_no": "明银罚决字〔2026〕5号",
-    "violation_text": "1.违反金融统计规定，未按规定报送统计报表；2.违反账户管理规定；3.违反收单业务管理规定；4.违反网络安全管理规定；5.违反反假货币业务管理规定；6.未按规定开展客户尽职调查；7.未按规定报告可疑交易。",
-    "penalty_text": "警告，并处罚款49.2万元",
-    "decision_authority": "中国人民银行三明市分行",
-    "decision_date": "2026年11月19日",
-    "disclosure_period": "三年",
-    "doc_id": "https://fuzhou.pbc.gov.cn/fuzhou/126805/126823/126830/5508094/2026112318013654624/index.html",
-    "notice_url": "https://fuzhou.pbc.gov.cn/fuzhou/126805/126823/126830/5508094/2026112318013654624/index.html",
-    "published_date": "2026-11-23",
-    "publishing_source": "福建省分行"
-  },
-  {
     "notice_title": "中国人民银行潍坊市分行行政处罚决定信息公示表（潍银罚决字〔2026〕5号）",
     "branch": "山东省分行",
     "source_row_no": "1.0",
@@ -17099,5 +17083,21 @@
     "notice_url": "https://chongqing.pbc.gov.cn/chongqing/107680/107897/107909/5525107/2026112017272933505/index.html",
     "published_date": "2026-11-20",
     "publishing_source": "重庆市分行"
+  },
+  {
+    "notice_title": "中国人民银行三明市分行行政处罚决定信息公示表（明银罚决字〔2026〕5号）",
+    "branch": "福建省分行",
+    "source_row_no": "1",
+    "party_name": "泰宁县农村信用合作联社",
+    "decision_no": "明银罚决字〔2026〕5号",
+    "violation_text": "1.违反金融统计规定，未按规定报送统计报表；2.违反账户管理规定；3.违反收单业务管理规定；4.违反网络安全管理规定；5.违反反假货币业务管理规定；6.未按规定开展客户尽职调查；7.未按规定报告可疑交易。",
+    "penalty_text": "警告，并处罚款49.2万元",
+    "decision_authority": "中国人民银行三明市分行",
+    "decision_date": "2026年11月19日",
+    "disclosure_period": "三年",
+    "doc_id": "https://fuzhou.pbc.gov.cn/fuzhou/126805/126823/126830/5508094/2026112318013654624/index.html",
+    "notice_url": "https://fuzhou.pbc.gov.cn/fuzhou/126805/126823/126830/5508094/2026112318013654624/index.html",
+    "published_date": "2026-11-23",
+    "publishing_source": "福建省分行"
   }
 ]
